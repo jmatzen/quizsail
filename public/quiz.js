@@ -85,8 +85,8 @@ function show() {
         const currentItem = cur();
         
         E("question").html = `${currentItem.item.q}`;
-        E("choice_form").html = null;
-        E("result").html = null;
+        E("choice_form").html = "";
+        E("result").html = "";
 
         // shuffle choices
         shuffle(currentItem.item.c);
