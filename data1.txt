@@ -1,0 +1,1883 @@
+Select the deductive debugging process steps from the lists.
+ Use elimination process
+ Prove remaining hypothesis
+ Enumerate possible causes
+ Refine remaining hypothesis
+ Collect more data
+ Fix the error
+---
+Enumerate possible causes
+Use elimination process
+Refine remaining hypothesis
+Prove remaining hypothesis
+Fix the error
+Collect more data
+===
+Indicate if the following statements about module testing is true or false. Test cases are supplemented by applying black-box methods to the module's specification.
+ True
+ False
+---
+True
+===
+Indicate if the following statements about module testing is true or false. Module's logic is analyzed using the white-box methods.
+ True
+ False
+---
+True
+===
+The only rule in top-down testing is that when selecting the next module for testing, it must be eligible to be the next module, with at least one of the module's subordinate (calling) modules previously tested.
+ True
+ False
+---
+True
+===
+Which type of tester focuses exclusively on validating the interactions and behaviors that result in functionality?
+ Black-box tester
+ White-box tester
+ Gray-box tester
+ Usability tester
+---
+White-box tester
+===
+What is the best way to document and keep track of test cases?
+ A set of detailed text files
+ A detailed spreadsheet
+ A bug tracking system
+ A test case management system
+---
+A test case management system
+===
+Occurs when the number of received parameters are not equal to the number of sent arguments
+ Interface
+ Data reference
+ Computation
+ Data declaration
+ Input/Output
+---
+Interface
+===
+Requires the user to make changes in the program, which could lead to masking of errors, and so on
+ Automated tools
+ Scatter print statements
+ Storage dump
+---
+Scatter print statements
+===
+Which test requires the organization that produced the program to create the test cases?
+ Integration test
+ Installation test
+ System test
+ Function test
+---
+Installation test
+===
+Which statement matches the transaction section of the business layer testing area.
+ Tests to detect errors in knowledge collected from customers
+ Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verification's, and so on
+ Tests whether the application meets documented operational specifications
+---
+Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verification's, and so on
+===
+Which test case design technique is based on writing test cases around probable types of errors?
+ Identifying equivalence classes
+ Cause-effect graphing
+ Boundary value analysis
+ Error guessing
+---
+Error guessing
+===
+What is an advantage of incremental testing?
+ Labor costs are smaller
+ Provides opportunities for parallel activities
+ Programming errors are detected earlier
+ It uses less machine time
+---
+Programming errors are detected earlier
+===
+What must a black-box tester focus on?
+ Knowledge at the source code level
+ How each individual piece of the application works
+ Expected outputs of the program, but not every input
+ What a program is supposed to do and who it is for
+---
+What a program is supposed to do and who it is for
+===
+Which statement matches the Data validation section of the business layer testing area.
+ Tests to detect errors in knowledge collected from customers
+ Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verifications, and so on
+ Tests whether the application meets documented operational specifications
+---
+Tests to detect errors in knowledge collected from customers
+===
+______ is a test case design technique that produces test cases based on intuitive and expert knowledge of test team members for defining potential software errors and facilitating efficient test case design.
+ Cause-effect graphing
+ Logic coverage
+ Error guessing
+---
+Error guessing
+===
+Select the categories of the completion criteria.
+ Base completion on the use of specific test-case design methodologies
+ Stop after the scheduled time for testing expires.
+ Examine the curve of number of errors found per unit time during the test phase
+ Stop when the test cases are successful
+ State the completion requirements in positive terms
+---
+Base completion on the use of specific test-case design methodologies
+Examine the curve of number of errors found per unit time during the test phase
+State the completion requirements in positive terms
+===
+Which Agile methodology matches this statement:
+Adapts RUP in which user choose the practices, such as use cases or team programming that fits the project
+ Feature driven development
+ Velocity tracking
+ Essential unified process
+ Dynamic system development method
+---
+Essential unified process
+===
+Which of the following is a brute-force debugging technique?
+ Process of elimination
+ Studying error symptoms
+ Dumping memory locations
+ Backtracking
+---
+Dumping memory locations
+===
+Select the descriptions that as associated with Installation testing. (choose two)
+ It compares the initial requirements of the program to its end user current needs.
+ It checks test cases to ensure that compatible set of options have been selected.
+ It is performed by the program's customer or end user.
+ Its test cases are developed by the organization that produced the system.
+---
+It checks test cases to ensure that compatible set of options have been selected.
+
+Its test cases are developed by the organization that produced the system.
+===
+Which debugging method looks at a reverse execution of the program?
+ Debugging by backtracking
+ Debugging by deduction
+ Debugging by testing
+ Brute-force debugging
+---
+Debugging by backtracking
+===
+Involves execution of all the executable statements in the source code at least once
+ Multiple-Condition
+ Statement
+ Decision
+ Condition
+ Descision/condition
+---
+Statement
+===
+Code-level tests that are concerned with the interaction between objects are best created by the _________.
+ developer
+ black-box tester
+ project manager
+ white-box engineer
+---
+white-box engineer
+===
+Select the description that matches the testing challenge for an internet based application facing a Security challenge.
+ Includes protection of information such as customers' credit card from hackers
+ Includes cost related issues and tracking customer profiles
+ Includes internationalization issues such as currency conversion
+---
+Includes protection of information such as customers' credit card from hackers
+===
+What is the most important consideration when deciding on a bug base?
+ It is simple and intuitive so users can easily report bugs
+ The cost is within your budget
+ It makes use of spreadsheets for proper tracking
+ It connects with your test case management system
+---
+It is simple and intuitive so users can easily report bugs
+===
+Usability testing is also called user acceptance testing.
+ True
+ False
+---
+False
+===
+True or False: Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.
+ True
+ False
+---
+True
+===
+Select the statements that match the Extreme acceptance testing type (choose two)
+ All code modules must have primary tests before coding begins.
+ Customers creates test cases during the design/planning phases.
+ It determines whether the application meets its functional and usable requirements.
+ The primary tests must be defined and created before coding the module.
+---
+It determines whether the application meets its functional and usable requirements.
+
+Customers creates test cases during the design/planning phases.
+===
+Indicate if the given statements about error-locating principles is true or false.
+Talk about the problem with someone else to discover the solution.
+---
+True
+===
+Select the error-reporting techniques (choose three)
+ Fix the complete error, not just one of its symptom.
+ Code inspection is done by the project analyst after implementing an error correction.
+ Probability of fixes being correct must be made directly proportional to the size of the code.
+ Error corrections must be well tested in the original program.
+ Monitor all parts which are nearby to the place of detected error.
+---
+Fix the complete error, not just one of its symptom.
+Error corrections must be well tested in the original program.
+Monitor all parts which are nearby to the place of detected error.
+===
+Indicate if the given statements about agile testing is true or false.
+It relies on automated testing because the development cycles are long.
+ True
+ False
+---
+False
+===
+Videotaping a user test and using a think-aloud protocol can provide excellent data on software usability and user perceptions about the application.
+ True
+ False
+---
+True
+===
+Testing each module independently and then combining the modules to form the program is called nonincremental testing.
+ True
+ False
+---
+True
+===
+Select the correct description of the appropriate testing tiers for the business layer
+ Verifies that the data is stored correctly and accurately.
+ Verifies that graphics have the correct resolution and size.
+ Ensures that data is collected correctly.
+---
+Ensures that data is collected correctly.
+===
+True or False: A bug base is a system for keeping track of every bug logged in a database system.
+ True
+ False
+---
+True
+===
+Identify the testing processes that make up the Function test part of the development phase
+ Code: It produces the code for the required program.
+ Requirement: It specifies the cause of the program.
+ External specification: It defines the exact representation of the program to users.
+ System design: It lays down the design principles of the system.
+---
+External specification: It defines the exact representation of the program to users.
+===
+Comes when calculations among variables include inconsistent data
+ Interface
+ Data reference
+ Computation
+ Data declaration
+ Input/Output
+---
+Computation
+===
+During a code inspection the moderator narrates, statement by statement, the logic of the program.
+ True
+ False
+---
+False
+===
+Which area of an application is being tested when a tester confirms that all links point to valid files or websites?
+ Business
+ Browser
+ Data
+ Presentation
+---
+Presentation
+===
+Select the statements that match Top-down testing. (choose two)
+ Creates test conditions and concludes test results easily
+ Conducts testing from main module to sub module
+ Finds difficulty in test case representation in stubs, before the I/O function addition
+ Conducts testing from sub module to main module
+---
+Finds difficulty in test case representation in stubs, before the I/O function addition
+
+Conducts testing from main module to sub module
+===
+Indicate if given statement about presentation layer testing is true or false
+It consists of finding errors in the GUI, or front end, of an application.
+ True
+ False
+---
+True
+===
+Select the descriptions that as associated with Acceptance testing. (choose two)
+ It is performed by the program's customer or end user.
+ It compares the initial requirements of the program to its end user current needs.
+ Its test cases are developed by the organization that produced the system.
+ It checks test cases to ensure that compatible set of options have been selected.
+---
+It compares the initial requirements of the program to its end user current needs.
+
+It is performed by the program's customer or end user.
+===
+Which test will show that a program does not match its external specifications?
+ Function test
+ Module test
+ Acceptance test
+ System test
+---
+Function test
+===
+Which step in the software development process translates requirements into specific objectives?
+ External specifications
+ Requirements
+ Objectives
+ System design
+---
+Objectives
+===
+Arises if all the used files are not opened and closed after use
+ Interface
+ Data reference
+ Computation
+ Data declaration
+ Input/Output
+---
+Input/Output
+===
+Indicate if given statement about presentation layer testing is true or false
+It involves checking the human-interface element of a website.
+ True
+ False
+---
+True
+===
+Checks that each state in a decision in the program takes all possible outcomes at least once
+ Decision
+ Multiple-Condition
+ Descision/condition
+ Statement
+ Condition
+---
+Condition
+===
+Select the description that matches the e-commerce architecture tier for tier 3:
+ Provides the visual content to the end user
+ Focuses on storing and retrieving data from the data source
+ Runs the software to model user business processes
+---
+Focuses on storing and retrieving data from the data source
+===
+True or False: When the testing is focused on how the application behaves at a code level, a white-box tester should create the tests.
+ True
+ False
+---
+True
+===
+Indicate if the given statements about error-locating principles is true or false.
+Keep debugging tools on the first priority.
+True
+False
+---
+False
+===
+Select the possibilities of carrier's web proxy or transcoder.
+ Encryption of traffic for privacy and security
+ Data compression for better throughput
+ Access obstruction to certain high-bandwidth sites
+ HTML headers and other metadata exclusion from Web pages that an application might use
+ Transformation or transcode of content into WAP or HTTP
+ Transformation or transcode of content into FTP
+---
+Encryption of traffic for privacy and security
+ Data compression for better throughput
+ Access obstruction to certain high-bandwidth sites
+ HTML headers and other metadata exclusion from Web pages that an application might use
+ Transformation or transcode of content into WAP or HTTP
+===
+Evaluates each decision for all the combinations of conditions
+ Multiple-Condition
+ Decision
+ Statement
+ Descision/condition
+ Condition
+---
+Multiple-Condition
+===
+What key best practice brings the development process together in order to meet the deliverable deadline?
+ Not wasting time on trivial items that have no impact
+ Racing ahead with your eyes focused on the finish line
+ Having clearly defined goals for every milestone
+ Making hard decisions regarding the direction of development
+---
+Having clearly defined goals for every milestone
+===
+Indicate if the following statements about module testing is true or false. Only the module specifications are required while designing the module test cases.
+ True
+ False
+---
+False
+===
+What type of test compares the program to its initial requirements and the current needs of its end users?
+ Function test
+ Regression test
+ Unit test
+ Acceptance test
+---
+Acceptance test
+===
+Follows that every condition in a decision and every decision in the program takes all possible outcomes at least once
+ Statement
+ Descision/condition
+ Multiple-Condition
+ Condition
+ Decision
+---
+Descision/condition
+===
+What is an advantage to using an emulator when device testing?
+ It can test the responsiveness of an application
+ It can identify device-specific bugs
+ It is cost-effective
+ It can test the code base once
+---
+It is cost-effective
+===
+What is the key to successful higher-order testing?
+ Acceptance testing
+ Function testing that uncovers errors
+ Appropriate system testing
+ Consistent and well-planned testing
+---
+Consistent and well-planned testing
+===
+Usability testing involves actual users or customers of the product.
+ True
+ False
+---
+True
+===
+Which layer of an internet application houses data used by the application or collected from the end user?
+ Browser
+ Data
+ Business
+ Presentation
+---
+Data
+===
+True or False: The goal of automation is to completely eliminate the need for a human to participate in the testing process.
+ True
+ False
+---
+False
+===
+Which duty is a responsibility of the code inspection team moderator?
+ Ensuring that all errors found are fixed during the inspection
+ Selecting the team members
+ Assigning someone to schedule the inspection
+ Recording all errors found
+---
+Recording all errors found
+===
+True or False: A bug matrix is used to identify the issues that do not require a developer's attention.
+ True
+ False
+---
+False
+===
+Which test case methodology should be used for a specification that contains combinations of input conditions?
+ Boundary value analysis
+ Condition coverage
+ Cause-effect graphing
+ Error guessing
+---
+Cause-effect graphing
+===
+True or False: In white-box testing, the tester is not concerned about the internal behavior and structure of a program.
+ True
+ False
+---
+False
+===
+Select the description that matches the e-commerce architecture tier for tier 1:
+ Focuses on storing and retrieving data from the data source
+ Provides the visual content to the end user
+ Runs the software to model user business processes
+---
+Provides the visual content to the end user
+===
+Which type of test would reveal that the program as a whole either meets or doesn't meet its objectives?
+ Function test
+ System test
+ Acceptance test
+ Integration test
+---
+System test
+===
+Select the descriptions that match Desk Checking
+ Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs
+ Follows undisciplined process of testing and finding errors
+ Evaluates anonymous programs for their overall quality, maintainability, and so on
+ Selects a programmer to serve as the administrator of a process
+---
+Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs
+
+Follows undisciplined process of testing and finding errors
+===
+It provides the entry point into the application.
+ main()
+ primeCheck()
+ assertFalse()
+ checkArgs()
+---
+main()
+===
+Describe Black-box testing (pick two)
+ Requires programming and implementation knowledge
+ Exhaustive path testing is one of its type of testing technique
+ Exhaustive input testing is one of its type of testing technique
+ Internal structure or design implementation is not known to the tester
+---
+Internal structure or design implementation is not known to the tester
+
+Exhaustive input testing is one of its type of testing technique
+===
+The most important consideration in program testing is the design and creation of effective test cases.
+ True
+ False
+---
+True
+===
+Which technique is used to evaluate anonymous programs in terms of their overall quality, maintainability, extensibility, usability, and clarity?
+ Code walkthroughs
+ Peer ratings
+ Code inspections
+ Desk checking
+---
+Peer ratings
+===
+Select the functionalities associated with the business layer. (choose four)
+ User authentication
+ Data verification
+ Transaction processing
+ User authorizing
+ Application logging
+ Data validation
+---
+Transaction processing
+ User authorizing
+ Application logging
+ Data validation
+===
+Is the given statements about testing with emulator is true or false:
+Its underlying hardware might skew performance on real device.
+ True
+ False
+---
+True
+===
+The business layer models processes, such as user authentication and transactions.
+ True
+ False
+---
+True
+===
+Which step in the software development process defines the exact representation of the program to users?
+ External specifications
+ System design
+ Requirements
+ Program structure design
+---
+External specifications
+===
+What does it mean to raise the reliability of a program?
+ To demonstrate that errors are not present
+ To find and remove errors
+ To show that a program performs its intended functions
+ To establish confidence that a program does what it is supposed to do
+---
+To find and remove errors
+===
+If you want your application to run without any abnormal terminations, which bug type would be ranked most important to fix?
+ Performance
+ Incorrectly functioning with a workaround
+ Crash
+ Cosmetic
+---
+Crash
+===
+It checks the input value against a calculated list of numbers divisible only by itself and 1.
+ primeCheck()
+ assertFalse()
+ checkArgs()
+ main()
+---
+primeCheck()
+===
+Is the given statements about inspections and walkthroughs in software testing, true or false.
+They are code-oriented human testing methods.
+ True
+ False
+---
+True
+===
+Which black-box methodology focuses on finding a subset of all possible inputs with the highest probability of finding the most errors?
+ Equivalence partitioning
+ Identifying equivalence classes
+ Cause-effect graphing
+ Boundary value analysis
+---
+Equivalence partitioning
+===
+Select the statements that match the Backtracking testing method. (choose two)
+ It starts from the suspected site, and then traces in opposite direction in entire source code.
+ It is effective in case of small applications.
+ It provides information useful in locating a suspected error.
+---
+It starts from the suspected site, and then traces in opposite direction in entire source code.
+It is effective in case of small applications.
+===
+Select the description that matches the Usability test case.
+ Subjects the program to heavy loads of data
+ Checks if the program meets response and throughput requirements
+ Determines how well an end user can interact with the program
+ Ensures functionality to be implemented in the objectives
+---
+Determines how well an end user can interact with the program
+===
+Select the statements that match the testing approach for a real device. (choose two)
+ Supports multiple devices with a single unit
+ Tests responsiveness of the application
+ Skews performance on real device due to underlying hardware
+ Tests carriers' network responsiveness
+---
+Tests responsiveness of the application
+ 
+Tests carriers' network responsiveness
+===
+Select the correct description of the appropriate testing tier for the presentation layer
+ Ensures that data is collected correctly.
+ Verifies that the data is stored correctly and accurately.
+ Verifies that graphics have the correct resolution and size.
+---
+Verifies that graphics have the correct resolution and size.
+===
+Debugging by brute force is both efficient and successful.
+ True
+ False
+---
+False
+===
+Select the description that matches the testing challenge for an internet based application facing a Locales challenge.
+ Includes cost related issues and tracking customer profiles
+ Includes internationalization issues such as currency conversion
+ Includes protection of information such as customers' credit card from hackers
+---
+Includes internationalization issues such as currency conversion
+===
+Shows the program state at only one instant of time for error detection and for studying the program dynamics
+ Scatter print statements
+ Automated tools
+ Storage dump
+---
+Storage dump
+===
+What type of module testing includes strategies such as top-down and bottom-up?
+ Incremental integration
+ Coverage testing
+ Big-bang testing
+ Non-incremental testing
+---
+Incremental integration
+===
+Which form of testing involves everyone in the process through the design, implementation, and execution of the test plan?
+ Testing and retesting the code base
+ Continuous testing
+ Extreme program testing
+ Agile testing
+---
+Agile testing
+===
+Provides excellent data on software usability and user perceptions about the application
+ Think-aloud
+ Eye tracking
+---
+Think-aloud
+===
+Which test type will satisfy the final validation and verification criteria?
+ Systems Validation
+ Functional testing
+ Acceptance testing
+ Packaging and delivery
+---
+Acceptance testing
+===
+Select the correct black box testing type. Shows the connection between a given outcome and all issues that manipulate the outcome.
+ Boundary value analysis
+ Cause-effect graphing
+ Equivalence partitioning
+---
+Cause-effect graphing
+===
+Indicate if the given statements about error-locating principles is true or false.
+Involve a mental analysis of the information associated with the error's symptoms.
+ True
+ False
+---
+True
+===
+Select the statements that match the Extreme unit testing type (choose two)
+ All code modules must have primary tests before coding begins.
+ The primary tests must be defined and created before coding the module.
+ Customers creates test cases during the design/planning phases.
+ It determines whether the application meets its functional and usable requirements.
+---
+All code modules must have primary tests before coding begins.
+
+The primary tests must be defined and created before coding the module.
+===
+Is the given statements about system testing is true or false. It falls under the category of black box testing.
+ True
+ False
+---
+True
+===
+A testing best practice is for the _____________ to create a unit test.
+ developer
+ white-box engineer
+ black-box tester
+ project manager
+---
+developer
+===
+When is the appropriate time to include the people responsible for quality in the development cycle?
+ As early as possible in the cycle
+ When coding begins
+ When requirements are formulated
+ When formal testing begins
+---
+As early as possible in the cycle
+===
+Indicate if the following statement about Jakob Nielsen's usability research is true or false:
+It depicts that incurring extra cost and complexity of working with many testers for an application check is not required.
+ True
+ False
+---
+True
+===
+Which of the following is a key principle of testing?
+ Testing requires dependence on develoeprs
+ Complete testing is not possible
+ Formal exit criteria,must be defined
+ Testing does not need to be planned
+---
+Complete testing is not possible.
+===
+Which Agile methodology matches this statement: 
+Uses an iterative and incremental approach, with the goal of delivering software on time and 
+ Essential unified process
+ Dynamic system development method
+ Feature driven development
+ Velocity tracking
+---
+Dynamic system development method
+===
+Select the description that matches the Facility test case.
+ Subjects the program to heavy loads of data
+ Ensures functionality to be implemented in the objectives
+ Checks if the program meets response and throughput requirements
+ Determines how well an end user can interact with the program
+---
+Ensures functionality to be implemented in the objectives
+===
+Requirements translate the program user's needs and specify why the program is needed.
+ True
+ False
+---
+True
+===
+What is the benefit of building a discrete list of defects and ranking them in order of importance?
+ Helping to define the severity of each issue
+ Creating an opportunity to examine quality goals and how defects affect the milestone schedule
+ Allowing for performance issues to be identified and elevated to the top of the list
+ Giving the team the opportunity to voice their concerns and advocate for their own priorities
+---
+Giving the team the opportunity to voice their concerns and advocate for their own priorities
+===
+Sets breakpoints that causes suspension in the program so that the programmer can examine the current state of the program
+ Automated tools
+ Storage dump
+ Scatter print statements
+---
+Automated tools
+===
+True or False: System validation is an end-to-end process that ensures that the completed and integrated system will operate as needed in the environment for which it was intended.
+ True
+ False
+---
+True
+===
+Which area is being tested when we test the failover capabilities of web, application, and database servers?
+ Network architecture
+ Business rules
+ Performance
+ System reliability
+---
+System reliability
+===
+The data layer encapsulates data used by the application or that is collected from the end user.
+ True
+ False
+---
+True
+===
+Question 2 :True or False: Testing is the process of executing a program with the intent of finding errors.
+ True
+ False
+---
+True
+===
+Which of the following is a debugging principle?
+ Fix the symptom, not the error
+ Change the object code, not the source code
+ Where there is one bug, there is likely to be another
+ The likelihood of a fix being correct is 100%
+---
+Where there is one bug, there is likely to be another
+===
+Which human error detection process is considered relatively unproductive?
+ Code walkthroughs
+ Code inspections
+ Peer ratings
+ Desk checking
+---
+Desk checking
+===
+When verifying the business layer of an application, which test will blast the application with multiple logins and simulate transactions to the point of failure?
+ Performance testing
+ Response time testing
+ Data validation
+ Transactional testing
+---
+Performance testing
+===
+Is the following statement about mobile testing categories, true or false:
+Device interaction: Ensures that application does not consume too much memory
+ True
+ False
+---
+True
+===
+In addition to finding errors, what else would a black-box tester look for when testing a program?
+ Usability issues
+ Stability issues
+ Infrastructure issues
+ Data issues
+---
+Usability issues
+===
+Indicate if the given statements about agile testing is true or false.
+It works well with extreme programming methodology whereby developers create unit tests and then the software.
+ True
+ False
+---
+True
+===
+Select the descriptions that match Peer Ratings
+ Follows undisciplined process of testing and finding errors
+ Selects a programmer to serve as the administrator of a process
+ Evaluates anonymous programs for their overall quality, maintainability, and so on
+ Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs
+---
+Evaluates anonymous programs for their overall quality, maintainability, and so on
+
+Selects a programmer to serve as the administrator of a process
+===
+Select the description that matches the Performance test case.
+ Subjects the program to heavy loads of data
+ Ensures functionality to be implemented in the objectives
+ Determines how well an end user can interact with the program
+ Checks if the program meets response and throughput requirements
+---
+Checks if the program meets response and throughput requirements
+===
+Error analysis, focuses on judging the exact location of the error, the developer of code, the preventive measures taken to avoid those errors in future, and so on.
+ True
+ False
+---
+True
+===
+True or False: A bug model is based on historical data and planned activities and predicts how many bugs will be found during the project.
+ True
+ False
+---
+False
+===
+Independently testing each internet application layer allows the tester to more easily identify bugs and errors.
+ True
+ False
+---
+True
+===
+True or False: A bug model predicts how many bugs you should be tracking at any given time.
+ True
+ False
+---
+True
+===
+A system test should be performed by the programmer and the organization responsible for developing the program.
+ True
+ False
+---
+False
+===
+Which approach gathers information and comments that can be counted and analyzed across the spectrum of testers?
+ Test user selection
+ User questionnaire
+ Remote user testing
+ Think-aloud process
+---
+User questionnaire
+===
+Which two core disciplines intersect with business goals during black-box testing?
+ Quality assurance and product management
+ Quality assurance and development
+ Quality assurance and Business management
+---
+Quality assurance and product management
+===
+______ focuses on testing smaller units of the program first, rather than initially testing the whole program.
+ Unit testing
+ Module testing
+---
+Module testing
+===
+Describe White-box testing
+ Requires programming and implementation knowledge
+ Exhaustive path testing is one of its type of testing technique
+ Exhaustive input testing is one of its type of testing technique
+ Internal structure or design implementation is not known to the tester
+---
+Exhaustive path testing is one of its type of testing technique
+
+Requires programming and implementation knowledge
+===
+Is the following statement about the specifications for a debugging command, true or false. Lowercase letters represent operand values that are to be substituted.
+ True
+ False
+---
+True
+===
+Which type of testing combines one module with a set of previously tested modules before it is tested?
+ Non-incremental testing
+ Logic testing
+ Incremental testing
+ Big-bang testing
+---
+Incremental testing
+===
+Which testing challenge category is concerned with overcoming location-based obstacles?
+ Usability
+ Carrier network infrastructure
+ Mobile device diversity
+ Scripting
+---
+Carrier network infrastructure
+===
+The presentation layer provides the user interface (or graphical user interface whichever is applicable
+ True
+ False
+---
+True
+===
+Is the given statements about system testing is true or false. It is a process of testing the functions of the complete system or program.
+ True
+ False
+---
+False
+===
+Select the statements that match Bottom-up testing. (choose two)
+ Creates test conditions and concludes test results easily
+ Finds difficulty in test case representation in stubs, before the I/O function addition
+ Conducts testing from sub module to main module
+ Conducts testing from main module to sub module
+---
+Conducts testing from sub module to main module
+
+Creates test conditions and concludes test results easily
+===
+Select the description that matches the e-commerce architecture tier for tier 2:
+ Provides the visual content to the end user
+ Runs the software to model user business processes
+ Focuses on storing and retrieving data from the data source
+---
+Runs the software to model user business processes
+===
+Debugging is a two-step process that begins with determination of the nature and location of the suspected error and then fixing it.
+ True
+ False
+---
+True
+===
+Which agile methodology is an iterative and incremental project management approach that supports many other agile methodologies?
+ Extreme Programming
+ Agile Modeling
+ Open Unified Process
+ Scrum
+---
+Scrum
+===
+It checks whether the parameter supplied causes the method to return an incorrect Boolean value.
+ assertFalse()
+ main()
+ primeCheck()
+ checkArgs()
+---
+assertFalse()
+===
+Indicate if the given statements about agile testing is true or false.
+It engages the customer as early as possible and throughout the development cycle.
+ True
+ False
+---
+True
+===
+Diversity devices: Contains many web browsers, run-time versions of Java or other languages, and so on
+ True
+ False
+---
+True
+===
+Which test category verifies that the application responds appropriately to a weak signal?
+ Device interaction
+ Network infrastructure
+ Install/uninstall
+ Key mappings
+---
+Network infrastructure
+===
+Indicate if the given statements about error-locating principles is true or false.
+Turn your attention to something else if you're trying from a very long time to solve a problem but failing continuously.
+True
+False
+---
+True
+===
+Select the components of a test case.
+ A description of data processing information
+ A description of the correct output of the program for that set of input data
+ A description of the input data to the program
+ A description of the type of testing technique used
+---
+A description of the correct output of the program for that set of input data
+
+A description of the input data to the program
+===
+What is being verified when testing the business tier?
+ The backend data entry and management routines
+ That recovery can be done using current backups
+ That transactions are completed properly
+ That graphics are the correct size and resolution
+---
+That transactions are completed properly
+===
+Each test-case design methodology is a particular set of useful test cases, and each one by itself is a thorough set of test cases.
+ True
+ False
+---
+False
+===
+Which logic coverage test will test all possible combinations of condition outcomes in each decision and all points of entry at least once?
+ Decision coverage
+ Condition coverage
+ Statement coverage
+ Multiple-condition coverage
+---
+Multiple-condition coverage
+===
+Occurs when a variable has an unset or uninitialized value
+ Interface
+ Data reference
+ Computation
+ Data declaration
+ Input/Output
+---
+Data reference
+===
+What testing types would you conduct if you wanted to make sure (a) the website still performs and functions appropriately with the new code in place, and (b) the system can handle the additional user traffic and page loading needs?
+ Unit testing
+ System integration
+ Acceptance testing
+ Regression and performance testing
+---
+Regression and performance testing
+===
+Is the given statements about testing with emulator is true or false:
+It is efficient in identifying the nuances and bugs of each device.
+ True
+ False
+---
+False
+===
+Software development is the process of moving from the conceptual to the concrete.
+ True
+ False
+---
+True
+===
+In a walkthrough the majority of program testing is conducted by the author of the program.
+ True
+ False
+---
+False
+===
+Which category on the inspection error checklist checks if files are explicitly declared and their attributes are correct?
+ Data reference errors
+ Control flow errors
+ Interface errors
+ Input/Output errors
+---
+Input/Output errors
+===
+What can a developer employ to identify and resolve code quality issues?
+ Unit testing
+ Peer reviews
+ Code-level tools
+ Bug tracking systems
+---
+Code-level tools
+===
+True or False: A close working partnership between IT and QA can result in greater efficiencies of process.
+ True
+ False
+---
+True
+===
+Installation and maintenance: Comprises of patching, upgrading, and so on
+ True
+ False
+---
+True
+===
+Select the correct black box testing type. Tests extreme ends or boundaries between partitions of the input values.
+ Boundary value analysis
+ Cause-effect graphing
+ Equivalence partitioning
+---
+Boundary value analysis
+===
+Indicate if the following statement about Jakob Nielsen's usability research is true or false:
+It cautions that the precise number of testers depends only on economic considerations by the user.
+ True
+ False
+---
+False
+===
+What does agile testing rely on in order to facilitate the timely feedback needed for rapid development?
+ Automated testing
+ Requirement changes
+ Small teams of developers
+ Extreme Programming
+---
+Automated testing
+===
+_____ testing involves testing random users for a software with a general target market.
+ Agile
+ Hallway intercept
+ Remote usability
+---
+Hallway intercept
+===
+True or False: Process improvement helps software development build and retain product and service quality.
+ True
+ False
+---
+True
+===
+What is the main consideration for a usability test?
+ The program meets all functionality requirements
+ The program performs according to its specifications
+ The program has no reported issues
+ The program passes all module testing
+---
+The program performs according to its specifications
+===
+Select the description that matches the testing challenge for an internet based application facing a business environment challenge.
+ Includes protection of information such as customers' credit card from hackers
+ Includes internationalization issues such as currency conversion
+ Includes cost related issues and tracking customer profiles
+---
+Includes cost related issues and tracking customer profiles
+===
+Is the following statement true or false.
+Network infrastructure: Verifies that the application responds appropriately to weak signals
+ True
+ False
+---
+True
+===
+Which agile methodology includes the concept of collective ownership of the code?
+ Extreme Programming
+ Agile testing
+ Scrum
+ Open Unified Process
+---
+Extreme Programming
+===
+What is a visual definition of how you will prioritize bugs as they are discovered?
+ A PowerPoint presentastion
+ A list of all bugs
+ A matrix of severity versus stakeholder concerns
+ A matrix of impacts versus severity
+---
+A matrix of impacts versus severity
+===
+In a mobile environment, which term is used to describe something that has the capability to run a network-based application over a cellular or satellite data link?
+ Input device
+ Mobile application
+ Device constraint
+ Mobile device
+---
+Mobile device
+===
+Select the descriptions that match Incremental testing
+ Less machine time is involved (choose two)
+ Incorrect assumption error among modules is detected earlier
+ Every new module is first combined with already tested module sets
+ Modules are tested independently and then combined to form a program
+---
+Incorrect assumption error among modules is detected earlier
+
+Every new module is first combined with already tested module sets
+===
+Select the expected participants of a walkthrough team.
+ Programming-language expert
+ Highly experienced programmer
+ Project quality analyst
+ Person who will eventually maintain the program
+ New programmer
+ Someone from a different project
+---
+Programming-language expert
+ Highly experienced programmer
+ Person who will eventually maintain the program
+ New programmer
+ Someone from a different project
+===
+Who should create automated unit tests?
+ QA Engineer
+ Automation tester
+ White-box tester
+ Program developer
+---
+Program developer
+===
+Is the given statements about system testing is true or false. It involves testing of the user's experience with the application.
+ True
+ False
+---
+True
+===
+States creation of enough test cases that each branch direction must be traversed at least once
+ Descision/condition
+ Multiple-Condition
+ Decision
+ Statement
+ Condition
+---
+Decision
+===
+It asserts that the input value is a positive integer.
+ checkArgs()
+ primeCheck()
+ assertFalse()
+ main()
+---
+checkArgs()
+===
+Select the descriptions that match the Inspection error detection agenda (choose two)
+ Focuses on quality improvement rather than attacking the programmer
+ Investigates program with respect to checklist of historically common programming errors
+ Focuses on error discovery, not error correction
+ Recommends that the inspection results must be kept confidential
+---
+Focuses on error discovery, not error correction
+
+Investigates program with respect to checklist of historically common programming errors
+===
+Select the drawbacks of the brute-force scattering method.
+ It produces a massive amount of data to be analyzed.
+ It encourages the user to think about the problem.
+ It is feasible on operating systems and process control programs.
+ It requires the user to change the program which can introduce new errors.
+ It increases the cost when used in large programs.
+ It is based on a hit-or-miss technique.
+---
+It produces a massive amount of data to be analyzed.
+ It requires the user to change the program which can introduce new errors.
+ It increases the cost when used in large programs.
+ It is based on a hit-or-miss technique.
+===
+Reflects the thought processes of an observer by analyzing the time an observer pauses on certain visual elements
+ Eye tracking
+ Think-aloud
+---
+Eye tracking
+===
+Which type of testing includes the rule: "All code modules must have unit tests before coding begins"?
+ Agile testing
+ Unit testing
+ Open Unified Process
+ Extreme unit testing
+---
+Extreme unit testing
+===
+How is a solid IT-QA relationship fundamental to business success?
+ It provides a usability perspective for the business to understand
+ It will help deliver compliant business-enabling systems
+ It can lower cost by fixing issues early in the process
+ It finds and fixes bugs before systems are delivered
+---
+It will help deliver compliant business-enabling systems
+===
+Which Agile methodology matches this statement:
+Attempts to measure the rate at which the development process is moving
+ Essential unified process
+ Feature driven development
+ Velocity tracking
+ Dynamic system development method
+---
+Velocity tracking
+===
+Which role records all errors found in a code walkthrough?
+ Programmer
+ tester
+ Moderator
+ Secretary
+---
+Secretary
+===
+Is the following statement true or false.
+Exit: Confirms that the application meets design specifications when the user initiates a shutdown of device
+True
+False
+---
+True
+===
+Connectivity: Includes device provisioning, network latency, service reliability, and so on
+ True
+ False
+---
+True
+===
+Select the duties of a moderator
+ Lead the session.
+ Ensure that the errors are subsequently corrected.
+ Distribute materials for the inspection session.
+ Record all errors found.
+ Schedule the inspection session.
+ Make changes in the session.
+---
+Lead the session.
+ Ensure that the errors are subsequently corrected.
+ Distribute materials for the inspection session.
+ Record all errors found.
+ Schedule the inspection session.
+===
+_____ testing tests the interactive software parts for reasonable selection and user feedback.
+ Component
+ Usability
+ Module
+---
+Component
+===
+Is the following question about inspections and walkthroughs in software testing, true or false.
+They are effective in detecting high-level design errors.
+---
+False
+===
+What is the intent of test automation?
+ To optimize your process and make testing more efficient
+ To find as many defects as possible
+ To automatically record issues to be fixed
+ To test as many pieces of functionality as possible
+---
+To optimize your process and make testing more efficient
+===
+What is an advantage of bottom-up testing?
+ Skeletal programs allow demonstrations
+ Major flaws occur toward the top of the program
+ Driver modules are produced
+ Observation of test results is easier
+---
+Observation of test results is easier
+===
+Module testing is a process of testing the individual subprograms, subroutines, classes, or procedures in a program.
+ True
+ False
+---
+True
+===
+What makes a test run successful?
+ A test that discovers a new error
+ A test that did not find any errors
+ A test that demonstrates all functionality of the program
+ A test that causes the program to produce the correct result
+---
+A test that discovers a new error
+===
+Is the following question about inspections and walkthroughs in software testing, true or false.
+They are code-oriented human testing methods.
+ True
+ False
+---
+True
+===
+Device constraints: Includes screen, data cache sizes, memory limit, and so on
+ True
+ False
+---
+True
+===
+What can be achieved with a process improvement initiative based on the CMMI?
+ A sense of when a project is done
+ An approach to monitoring employees
+ A measurable business result
+ A way to evaluate customers
+---
+A measurable business result
+===
+Selecting random users—persons who are not familiar with the program's specification, or perhaps even the industry or market for which it is intended—can uncover errors or user interface problems that might not be found by experts.
+ True
+ False
+---
+True
+===
+Is the following statement about the specifications for a debugging command, true or false. Underlined operands represent the values used when the operand is omitted.
+ True
+ False
+---
+True
+===
+True or False: Bugs that are found and fixed early in the process will cost more to fix when compared to finding them later and fixing all the bugs at once.
+ True
+ False
+---
+False
+===
+When verifying an internet application, testing browser compatibility is a significant challenge.
+ True
+ False
+---
+True
+===
+Is the given statements about testing with emulator is true or false:
+It allows inexpensive and quick functional testing of an application. 
+ True
+ False
+---
+True
+===
+Is the following question about inspections and walkthroughs in software testing, true or false.
+They are an improvement over the older desk-checking process.
+ True
+ False
+---
+True
+===
+Identify the testing processes that make up the Integration test part of the development phase
+ System design: It lays down the design principles of the system.
+ Requirement: It specifies the cause of the program.
+ Code: It produces the code for the required program.
+ External specification: It defines the exact representation of the program to users.
+---
+System design: It lays down the design principles of the system.
+===
+Select the descriptions that match the Human error detection agenda (choose two)
+ Focuses on quality improvement rather than attacking the programmer
+ Investigates program with respect to checklist of historically common programming errors
+ Focuses on error discovery, not error correction
+ Recommends that the inspection results must be kept confidential
+---
+Recommends that the inspection results must be kept confidential
+
+Focuses on quality improvement rather than attacking the programmer
+===
+Select the description that matches the Volume test case.
+ Subjects the program to heavy loads of data
+ Ensures functionality to be implemented in the objectives
+ Checks if the program meets response and throughput requirements
+ Determines how well an end user can interact with the program
+---
+Subjects the program to heavy loads of data
+===
+Is the given statements about system testing is true or false. It focuses on translation errors made during the designing of external specification.
+ True
+ False
+---
+True
+===
+What plays a major role in whether users accept or reject an application?
+ Transactions that roll back correctly
+ Fonts, colors, and graphics
+ Database operations that meet performance goals
+ Consistent and user-friendly operations
+---
+Fonts, colors, and graphics
+===
+Which element of a bug record will provide the programmer with a visual representation of the problem?
+ A description of expected versus actual results
+ The steps to recreate the problem
+ A screenshot
+ A brief and accurate description
+---
+A screenshot
+===
+Indicate if the following statement about Jakob Nielsen's usability research is true or false:
+It states that it is impossible to detect all of the usability errors in the application.
+True
+False
+---
+True
+===
+Which agile method is being used when the programmer designs an application to pass the unit tests, therefore increasing the probability that it will meet specifications?
+ Extreme unit testing
+ Open Unified Process
+ Scrum
+ Extreme Programming
+---
+Extreme Programming
+===
+Indicate if given statement about presentation layer testing is true or false
+It comprises of two major areas, namely content testing and user environment.
+ True
+ False
+---
+False
+===
+Select the correct black box testing type. Divides the input domain of a program into a finite number of classes and then identifies the test cases
+ Equivalence partitioning
+ Cause-effect graphing
+ Boundary value analysis
+---
+Equivalence partitioning
+===
+When testing a mobile application on a real device, manual testing is unavoidable.
+ True
+ False
+---
+True
+===
+True or False: Studies have shown that defects found and fixed in the requirements phase carry the highest cost.
+ True
+ False
+---
+False
+===
+Question :What information on the bug record establishes why the result was flagged as a problem?
+ What was expected vs. what actually happened
+ The browser/operating system being used
+ Steps to take to repeat the problem
+ The problem description
+---
+What was expected vs. what actually happened
+===
+Which type of review is considered a walkthrough?
+ Progress review
+ Management review
+ Peer review
+ Milestone review
+---
+Peer review
+===
+The most effective method of debugging involves a mental process.
+ True
+ False
+---
+True
+===
+Which Agile methodology matches this statement:
+Uses industry best practices, such as regular builds, domain object modeling, and feature teams
+ Feature driven development
+ Essential unified process
+ Velocity tracking
+ Dynamic system development method
+---
+Feature driven development
+===
+Arises when a variable is not assigned with correct length or data type
+ Interface
+ Data reference
+ Computation
+ Data declaration
+ Input/Output
+---
+Data declaration
+===
+What does the specification for a module typically define?
+ Input/Output parameters
+ Logic coverage
+ Multi-condition criterion
+ Coverage criterion
+---
+Input/Output parameters
+===
+Ensures the highest level of software efficiency in the user input data
+ Think-aloud
+ Eye tracking
+---
+Eye tracking
+===
+What type of test is a module test?
+ Functionality
+ White-box
+ Regression
+ Black-box
+---
+White-box
+===
+Identify the testing processes that make up the Installation test part of the development phase
+ External specification: It defines the exact representation of the program to users.
+ System design: It lays down the design principles of the system.
+ Requirement: It specifies the cause of the program.
+ Code: It produces the code for the required program.
+---
+Code: It produces the code for the required program.
+===
+Which software testing principle states that a programmer may subconsciously avoid finding errors for fear of retribution from peers, a supervisor, a client, or the owner of the program or system being developed?
+ Any testing process should include a thorough inspection of the results of each test.
+ Do not plan a testing effort under the tacit assumption that no errors will be found.
+ A programmer should avoid attempting to test his or her own program.
+ A programming organization should not test its own programs.
+---
+A programmer should avoid attempting to test his or her own program.
+===
+Is the following statement about the specifications for a debugging command, true or false. Capital letters represent operands operations.
+ True
+ False
+---
+False
+===
+Based on the work of Jakob Nielsen, how many testers will collectively find 83 percent of errors during a usability test?
+ 5
+ 2
+ 1
+ 10
+---
+5
+===
+Cause-effect graphing is a systematic method of generating test cases representing an ad hoc set of conditions.
+ True
+ False
+---
+False
+===
+Indicate if given statement about presentation layer testing is true or false
+It tests the website architecture to find navigational and structural errors.
+ True
+ False
+---
+True
+===
+Which debugging method moves from the particulars of a situation to the larger picture?
+ Error-locating principles
+ Debugging by induction
+ Debugging by deduction
+ Brute-force debugging
+---
+Debugging by induction
+===
+Indicate if the given statements about agile testing is true or false.
+It involves everyone in the process through design, implementation, and execution of the test plans.
+ True
+ False
+---
+True
+===
+Select the correct description of the appropriate testing tiers for the data layer
+ Verifies that graphics have the correct resolution and size.
+ Verifies that the data is stored correctly and accurately.
+ Ensures that data is collected correctly.
+---
+Verifies that the data is stored correctly and accurately.
+===
+Involves users speaking out their ideas and observations while they are performing the assigned software testing tasks
+ Think-aloud
+ Eye tracking
+---
+Think-aloud
+===
+Why is a code inspection more effective than a desk-checking process?
+ Because it is effective in finding high-level design errors
+ Because it finds difficult, obscure, and tricky errors
+ Because the author of the program is personally checking the code
+ Because people other than the author are involved in the process
+---
+Because people other than the author are involved in the process
+===
+User-based testing requires the user to know the inner workings of a program.
+ True
+ False
+---
+False
+===
+Is the following statement about the specifications for a debugging command, true or false. Brackets represent alternative optional operands.
+ True
+ False
+---
+True
+===
+Select the descriptions that match Non-incremental testing (choose two)
+ Every new module is first combined with already tested module sets
+ Incorrect assumption error among modules is detected earlier
+ Less machine time is involved
+ Modules are tested independently and then combined to form a program
+---
+Less machine time is involved
+
+Modules are tested independently and then combined to form a program
+===
+Is the following question about inspections and walkthroughs in software testing, true or false.
+They involve a team of people reading or visually inspecting a program.
+True
+False
+---
+True
+===
+Is the following statement about mobile testing categories, true or false: Low memory: Ensures application stability in low storage situation
+ True
+ False
+---
+True
+===
+Select the steps in the inductive debugging process
+ Devise a hypothesis
+ Study their relationships
+ Locate the pertinent data
+ Prove the hypothesis
+ Organize the data
+ Fix the error
+---
+Locate the pertinent data
+Organize the data
+Study their relationships
+Devise a hypothesis
+Prove the hypothesis
+Fix the error
+===
+Identify the testing processes that make up the Acceptance test part of the development phase
+ External specification: It defines the exact representation of the program to users.
+ Requirement: It specifies the cause of the program.
+ System design: It lays down the design principles of the system.
+ Code: It produces the code for the required program.
+---
+Requirement: It specifies the cause of the program.
+===
+Usability testing is a black-box testing techniques.
+ True
+ False
+---
+True
+===
+Acceptance testing is the process of comparing the program to its initial requirements and the current needs of its end users
+ True
+ False
+---
+True
+===
+When is a good time to start automation testing?
+ When you begin coding, so that the automation tests can be done ahead of time
+ At the end of the project, right before the user starts acceptance testing
+ When you are confident that you do not want anything to change in the code
+ When the scheduled milestone for automation testing is reached
+---
+When you are confident that you do not want anything to change in the code
+===
+How is quality defined in Extreme Programming?
+ Testing the code base once
+ Implementation of complicated designs
+ Good communication between developers and testers
+ Meeting design specifications and customer expectations
+---
+Meeting design specifications and customer expectations
+===
+True or False: Providing clearly defined goals for each step in the development cycle is a quality best practice.
+ True
+ False
+---
+True
+===
+Select the statements that match the testing approach for an emulator. (choose two)
+ Tests carriers' network responsiveness
+ Skews performance on real device due to underlying hardware
+ Supports multiple devices with a single unit
+ Tests responsiveness of the application
+---
+Skews performance on real device due to underlying hardware
+
+Supports multiple devices with a single unit
+===
+Which statement matches the performance section of the business layer testing area.
+ Tests whether the application meets documented operational specifications
+ Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verifications, and so on
+ Tests to detect errors in knowledge collected from customers
+---
+Tests whether the application meets documented operational specifications
+===
+Select the targets of extreme programming. (choose four)
+ Implementation of simple designs
+ Seek project team feedback
+ Communication between developers and testers
+ Continuous testing of the code base
+ Communication between developers and customers
+ Accommodate specification changes
+---
+Implementation of simple designs
+ Continuous testing of the code base
+ Communication between developers and customers
+ Accommodate specification changes
+===
+Select the statements that match the Testing debugging method. (choose one)
+ It starts from the suspected site, and then traces in opposite direction in entire source code.
+ It is effective in case of small applications.
+ It provides information useful in locating a suspected error.
+---
+It provides information useful in locating a suspected error.
+===
+Indicate if the given statement about exhaustive path testing is true or false.
+It states that all the possible paths of control flow are tested through the program.
+---
+True
+===
+Indicate if the given statement about exhaustive path testing is true or false.
+It does not guarantee that a program matches its specification.
+---
+True
+===
+Indicate if the given statement about exhaustive path testing is true or false.
+It detects the absence of necessary paths within a program, if found missing.
+---
+False
+===
+Indicate if the given statement about exhaustive path testing is true or false.
+It is inferior to exhaustive input testing.
+---
+True
+===
+Indicate if the given statement about usability testing is true or false.
+It is a black-box testing technique.
+---
+True
+===
+Indicate if the given statement about usability testing is true or false.
+It involves actual users or customers of the product.
+---
+True
+===
+Indicate if the given statement about usability testing is true or false.
+It is also called user acceptance testing.
+---
+False
+===
