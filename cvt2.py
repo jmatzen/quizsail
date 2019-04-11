@@ -25,7 +25,8 @@ with open('data1.txt','r') as f:
                     'a': answers
                 })
             else: 
-                answers.append(line.strip())
+                if len(line.strip())>0:
+                    answers.append(line.strip())
     print(json.dumps(questions, indent=3))
 
 

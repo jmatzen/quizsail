@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>quiz</title>
+        <script src='/quiz.js'></script>
+        <script type="text/javascript">
+            window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+            </script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            * {font-family: 'Roboto', sans-serif; font-size: large;}
+            #question {
+                padding: 40px;
+                padding-left: 100px;
+            }
+            #choices {
+                padding-left: 150px;
+            }
+            #submit,#content {
+                padding: 10px;
+                
+            }
+            .input { padding: 5px; }
+        </style>
+    </head>
+    <body onload="start()">
+        <div id="question"></div>
+        <div id="choices">
+            <form id="choice_form">
+                
+            </form>
+            <div id="result"></div>
+        </div>
+
+        <div id="stats"></div>
+        <div id="content"></div>
+
+    </body>
+</html>
