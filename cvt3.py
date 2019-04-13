@@ -19,7 +19,7 @@ with open('prea.txt','r') as f:
             item['c'] = []
         elif line.startswith(' '):
             if line[1]=='*':
-                item['a'] = line[4:]
+                item['a'] = [line[4:]]
                 item['c'].append(line[4:])
             else:
                 item['c'].append(line[3:])

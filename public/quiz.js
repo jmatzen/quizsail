@@ -54,15 +54,19 @@ function start() {
 }
 
 function show() {
-    if (state.working.length < MAX_WORKING && !state.unseen.empty()) {
-        let randomUnseen = Math.floor(Math.random() * state.unseen.length);
-        let item = state.unseen.splice(randomUnseen, 1)[0];
-        state.working.push(item);
+    if (state.working.length==0||cur().ref.count>0) {
+        if (state.working.length < MAX_WORKING && !state.unseen.empty()) {
+            let randomUnseen = Math.floor(Math.random() * state.unseen.length);
+            let item = state.unseen.splice(randomUnseen, 1)[0];
+            state.working.push(item);
+        }
     }
 
     saveState(()=>{
             
-        E("stats").text = `${state.complete.length} / ${state.working.length} / ${state.unseen.length}`
+        E("stats").html = `mastered: ${state.complete.length} <BR>`
+            + `in-flight:  ${state.working.length}<BR>`
+            + `unseen: ${state.unseen.length}`;
         inputs = {};
         labels = {};
 
@@ -206,9 +210,10 @@ function submitAnswer() {
     }
     ++currentItem.ref.tries;
     if (correct===true) {
-        if (currentItem.ref.tries===1) {
-            currentItem.ref.count=3;
-        } else {
+        // if (currentItem.ref.tries===1) {
+        //     currentItem.ref.count=3;
+        // } else
+         {
             currentItem.ref.count+=1;
         }
         if (currentItem.ref.count>=3) {
