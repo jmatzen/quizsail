@@ -5,12 +5,22 @@ let labels = {};
 var state = null;
 var content = null;
 
+const source=getParam('src') || 'c857'
+
 const MAX_WORKING = 10;
 
 function start() {
     console.log("starting!", getParam('session'));
 
-    fetch('/c857.json')
+    let session = getParam('session')
+
+    if (session==null) {
+        session = makeid(128);
+        document.location=document.location+`&session=${session}`;
+        return;
+    }
+
+    fetch(`/${source}.json`)
         .then((res)=>res.json())
         .then(json=>{
             content = json;
@@ -29,14 +39,16 @@ function start() {
                 for (let  i = 0; i != content.length; ++i) {
                     state.unseen.push({index: i, count: 0, tries: 0});
                 }
-                saveState();
+                show();
                 return;
             }
             return res.json();
         })
         .then(json=>{
-            state=json;
-            show();
+            if (json) {
+                state=json;
+                show();    
+            }
         });
 
 }
@@ -200,7 +212,7 @@ function submitAnswer() {
             currentItem.ref.count+=1;
         }
         if (currentItem.ref.count>=3) {
-            state.complete.push(currentItem);
+            state.complete.push(currentItem.ref);
             state.working.pop();
         }
     } else {
@@ -301,3 +313,13 @@ function getParam(name){
         }
     });
  }
+
+ function makeid(length) {
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  
+    for (var i = 0; i < length; i++)
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+  
+    return text;
+  }
