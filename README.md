@@ -2,7 +2,7 @@
 
 Test Prep Engine
 
-### QuizQuizer contains a sample set of data comprising of a 240+ item set questions for WGU C857 Software QA.
+### QuizPump contains a sample set of data comprising of a 240+ item set questions for WGU C857 Software QA.
 
 The test prep engine uses a technique called *assumed competency*.  This technique assumes that if you answer the question correctly the first time that you already know the answer. Because of this, it's running on sort of an honor system, so if the user is not sure what the answer is they should not enter any answer at all instead of guessing.
 
