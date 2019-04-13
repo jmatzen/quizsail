@@ -21,15 +21,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-* Clone this repo, run index.js with node.
+* Clone this repo, run ```npm start```.
 
 ```
-$ node index.js
+$ npm start
 ```
 
 Then, open your browser and enter
 ```
-http://localhost:3000/?session=YOUR_SESSION_ID
+http://localhost:3000/
 ```
 
 The session ID can be any string.  Internally it is hashed (with MD5, which while not cryptographically secure is fine for content hashing where security is not an issue and performance is a higher priority) and a file is stored with the hased value in hex encoding.
