@@ -315,7 +315,7 @@ function getParam(name){
 
  function saveState(callback) {
     const session = getParam('session');
-    fetch(`/state/${session}`, {
+    fetch(`state/${session}`, {
         method: 'POST',
         cache: 'no-cache',
         headers: { 'content-type': 'application/json'},
