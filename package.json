@@ -14,7 +14,8 @@
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
