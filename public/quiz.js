@@ -5,7 +5,8 @@ let labels = {};
 var state = null;
 var content = null;
 
-const source=getParam('src') || 'c857'
+const source=getParam('src') || 'c857';
+const allowQuickComplete = parseInt(getParam('quick')) || 1;
 
 const MAX_WORKING = 10;
 
@@ -54,13 +55,24 @@ function start() {
 }
 
 function show() {
-    if (state.working.length==0||cur().ref.count>0) {
+    // if the working set is at max, grab a question fro the working set
+    if (state.working.length==MAX_WORKING) {
+        const nextid = Math.floor(Math.random()*state.working.length/2);
+        const nextitem = state.working.splice(nextid, 1);
+        state.working.push(nextitem[0]);
+    
+    }
+    // else grab a question from the unseen set
+    // only if there is not working set or the current item as been tried
+    else if (state.working.length==0||cur().ref.tries>0) {
         if (state.working.length < MAX_WORKING && !state.unseen.empty()) {
             let randomUnseen = Math.floor(Math.random() * state.unseen.length);
             let item = state.unseen.splice(randomUnseen, 1)[0];
             state.working.push(item);
         }
     }
+    
+
 
     saveState(()=>{
             
@@ -210,9 +222,9 @@ function submitAnswer() {
     }
     ++currentItem.ref.tries;
     if (correct===true) {
-        // if (currentItem.ref.tries===1) {
-        //     currentItem.ref.count=3;
-        // } else
+        if (allowQuickComplete===1 && currentItem.ref.tries===1) {
+            currentItem.ref.count=3;
+        } else
          {
             currentItem.ref.count+=1;
         }
@@ -223,9 +235,6 @@ function submitAnswer() {
     } else {
         currentItem.ref.count = 0;
     }
-    const nextid = Math.floor(Math.random()*state.working.length/2);
-    const nextitem = state.working.splice(nextid, 1);
-    state.working.push(nextitem[0]);
 }
 
 class Element {
