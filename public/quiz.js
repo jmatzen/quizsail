@@ -21,12 +21,12 @@ function start() {
         return;
     }
 
-    fetch(`/${source}.json`)
+    fetch(`${source}.json`)
         .then((res)=>res.json())
         .then(json=>{
             content = json;
             const session = getParam('session');
-            return fetch(`/state/${session}`);
+            return fetch(`state/${session}`);
         })
         .then((res)=>{
             console.log(res.status);
