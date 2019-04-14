@@ -14,6 +14,11 @@ QuizPimp's competency system works by holding a certain number of questions from
 
 These instructions will get you a copy of the project up and running on your local machine.
 
+You can run a live version here:
+```
+https://www.quizpimp.com/?
+```
+
 ### Prerequisites
 
 * node
@@ -29,7 +34,12 @@ $ npm start
 
 Then, open your browser and enter
 ```
-http://localhost:3000/
+http://localhost:3000/?
+```
+
+To enable assumed competency mode, use the *quick* parameter:
+```
+http://localhost:3000/?quick=1
 ```
 
 The session ID can be any string.  Internally it is hashed (with MD5, which while not cryptographically secure is fine for content hashing where security is not an issue and performance is a higher priority) and a file is stored with the hased value in hex encoding.
