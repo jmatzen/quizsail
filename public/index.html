@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>QuizSail</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <style>
-           * {font-family: 'Roboto', sans-serif; font-size: large;}
-        </style>
-        <script>
-            const start = ()=>{
-                const src = document.getElementById("quiz").value;
-                const quick = document.getElementById("fastmode").checked ? 1 : 0;
-                const url = `quiz-engine.html?src=${src}&quick=${quick}`;
-                window.location = url;
-            }
-        </script>
-    </head>
-    <body>
-        <div>
-                Thanks for visiting QuizSail.
-                <P>
-                    Feel free to contribute or submit issues: 
-                    <a href="https://github.com/jmatzen/quizsail">github</a>
-                </P>
-        </div>
-        <div>
-                <form>
-                        <select id="quiz">
-                            <option value="c857">C857 248 Questions</option>
-                        </select>
-                        <P>
-                                <input type="checkbox" id="fastmode"/> Fast Mode (don't ask question again if correct answer first time)
-                        </P>
-                        <P>
-                                <input type="button" value="Start" onclick="start()"/>
-                        </P>
-                    </form>
-        </div>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizSail</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Roboto',
+        sans-serif;
+        font-size: large;
+      }
+       html {
+        height: 100%;
+      }
+      body {
+        min-height: 100%;
+        padding: 5vh 5vw;
+      }
+      form {
+        background-color: rgba(238, 238, 238, 0.2);
+        border: 1px dotted #eee;
+        margin: 0 auto;
+        max-width: 80vw;
+        padding: 5vh 5vw;
+        text-align: center;
+      }
+      input[type="button"] {
+        background-color: lightgreen;
+        cursor: pointer;
+        display: inherit;
+        margin: 0 auto;
+        padding: 2vh 10vw;
+        margin-top: 5vh;
+      }
+      input[type="button"]:hover {
+        background-color: green;
+        filter: brightness(150%);
+      }
+    </style>
+    <script>
+      const start = ()=>{
+        const src = document.getElementById("quiz").value;
+        const quick = document.getElementById("fastmode").checked ? 1 : 0;
+        const url = `quiz-engine.html?src=${src}&quick=${quick}`;
+        window.location = url;
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Thanks for visiting QuizSail.</h1>
+      <p>
+        Feel free to contribute or submit issues: 
+        <a href="https://github.com/jmatzen/quizsail" target="_blank">github</a>
+      </p>
+    </div>
+    <div>
+      <form>
+        <select id="quiz">
+          <option value="c857">C857 248 Questions</option>
+        </select>
+        <p>
+          <input type="checkbox" id="fastmode"/> Fast Mode (don't ask question again if correct answer first time)
+        </p>
+        <p>
+          <input type="button" value="Start" onclick="start()"/>
+        </p>
+      </form>
+    </div>
+  </body>
 </html>
