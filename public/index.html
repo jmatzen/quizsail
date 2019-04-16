@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>quiz</title>
-        <script src='quiz.js'></script>
-        <script type="text/javascript">
-            window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
-            </script>
+        <title>QuizPimp</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <style>
-            * {font-family: 'Roboto', sans-serif; font-size: large;}
-            #question {
-                padding: 40px;
-                padding-left: 100px;
-            }
-            #choices {
-                padding-left: 150px;
-            }
-            #submit,#content {
-                padding: 10px;
-                
-            }
-            .input { padding: 5px; }
+           * {font-family: 'Roboto', sans-serif; font-size: large;}
         </style>
+        <script>
+            const start = ()=>{
+                const src = document.getElementById("quiz").value;
+                const quick = document.getElementById("fastmode").checked ? 1 : 0;
+                const url = `quiz-engine.html?src=${src}&quick=${quick}`;
+                window.location = url;
+            }
+        </script>
     </head>
-    <body onload="start()">
-        <div id="question"></div>
-        <div id="choices">
-            <form id="choice_form">
-                
-            </form>
-            <div id="result"></div>
+    <body>
+        <div>
+                Thanks for visiting QuizPimp.
+                <P>
+                    Feel free to contribute or submit issues: 
+                    <a href="https://github.com/jmatzen/quizpimp">github</a>
+                </P>
         </div>
-
-        <div id="stats"></div>
-        <div id="content"></div>
-
+        <div>
+                <form>
+                        <select id="quiz">
+                            <option value="c857">C857 248 Questions</option>
+                        </select>
+                        <P>
+                                <input type="checkbox" id="fastmode"/> Fast Mode (don't ask question again if correct answer first time)
+                        </P>
+                        <P>
+                                <input type="button" value="Start" onclick="start()"/>
+                        </P>
+                    </form>
+        </div>
     </body>
 </html>
