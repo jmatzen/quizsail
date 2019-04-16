@@ -1,8 +1,8 @@
-# QuizPimp
+# QuizSail
 
 Test Prep Engine
 
-### QuizPimp contains a sample set of data comprising of a 240+ item set questions for WGU C857 Software QA.
+### QuizSail contains a sample set of data comprising of a 240+ item set questions for WGU C857 Software QA.
 
 The test prep engine uses a technique called *assumed competency*.  This technique assumes that if you answer the question correctly the first time that you already know the answer. Because of this, it's running on sort of an honor system, so if the user is not sure what the answer is they should not enter any answer at all instead of guessing.
 
@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You can run a live version here:
 ```
-https://www.quizpimp.com/?
+https://www.quizsail.com/?
 ```
 
 ### Prerequisites
@@ -37,12 +37,13 @@ Then, open your browser and enter
 http://localhost:3000/?
 ```
 
-To enable assumed competency mode, use the *quick* parameter:
-```
-http://localhost:3000/?quick=1
-```
+## Deployment Notes
 
-The session ID can be any string.  Internally it is hashed (with MD5, which while not cryptographically secure is fine for content hashing where security is not an issue and performance is a higher priority) and a file is stored with the hased value in hex encoding.
+```
+ docker volume create quizsail
+ docker build -t quizsail .
+ docker run --mount 'type=volume,src=quizsail,dist=/usr/src/app/data' --restart=always -i -p 49000:3000 -d quizsail
+```
 
 ## Contributing
 
