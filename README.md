@@ -53,6 +53,7 @@ Use pull requests.
 ## Authors
 
 * **John Matzen** - *Initial work* - [jmatzen](https://github.com/jmatzen)
+* LS - *Some CSS and HTML* - [SkillAllHumans](https://github.com/SkillAllHumans)
 
 
 ## License
