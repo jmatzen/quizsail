@@ -42,7 +42,7 @@ http://localhost:3000/?
 ```
  docker volume create quizsail
  docker build -t quizsail .
- docker run --mount 'type=volume,src=quizsail,dist=/usr/src/app/data' --restart=always -i -p 49000:3000 -d quizsail
+ docker run --mount 'type=volume,src=quizsail,dst=/usr/src/app/data' --restart=always -i -p 49000:3000 -d quizsail
 ```
 
 ## Contributing
