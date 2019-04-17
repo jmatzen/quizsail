@@ -28,7 +28,6 @@ These instructions will get you a copy of the project up and running on your loc
 ## Deployment Notes
 
 ```
- docker volume create quizsail
  docker build -t quizsail .
  docker run --mount 'type=volume,src=quizsail,dst=/usr/src/app/data' --restart=always -i -p 49000:3000 -d quizsail
 ```
