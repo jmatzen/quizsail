@@ -1,4 +1,4 @@
-
+// declare variables
 let inputs = [];
 let labels = {};
 
@@ -55,7 +55,7 @@ function start() {
 }
 
 function show() {
-    // if the working set is at max, grab a question fro the working set
+    // if the working set is at max, grab a question from the working set
     if (state.working.length==MAX_WORKING) {
         const nextid = Math.floor(Math.random()*state.working.length/2);
         const nextitem = state.working.splice(nextid, 1);
@@ -63,7 +63,7 @@ function show() {
     
     }
     // else grab a question from the unseen set
-    // only if there is not working set or the current item as been tried
+    // only if there is no working set or the current item as been tried
     else if (state.working.length==0||cur().ref.tries>0) {
         if (state.working.length < MAX_WORKING && !state.unseen.empty()) {
             let randomUnseen = Math.floor(Math.random() * state.unseen.length);
@@ -182,21 +182,21 @@ function submitAnswer() {
         console.log(inputs.value.toUpperCase());
         if (inputs.value.toUpperCase()!==currentItem.item.a[0].toUpperCase()) {
             correct = false;
-            inputs.e.style.backgroundColor = 'red';
+            inputs.e.style.backgroundColor = 'rgba(128, 128, 128, 0.7)';
         } else {
             inputs.e.style.backgroundColor = '#009f00';            
         }
     } else {
-        // first, make sure all of the correct were checked true
+        // first, make sure all of the correct answers were checked true
         answers.forEach((val,i)=>{
             if (inputs[val].checked===false) {
                 correct = false;
                 labels[val].e.style.color = '#009f00';
             } else {
-                labels[val].e.style.color = 'red';
+                labels[val].e.style.color = 'rgba(128, 128, 128, 0.7)';
             }
         });
-        // second make sure none of the checked answers are incorrect
+        // second, make sure none of the checked answers are incorrect
         console.log(answers);
         for (i in inputs) {
             console.log(i, inputs[i].checked, answers.includes(i));
@@ -205,7 +205,7 @@ function submitAnswer() {
                     labels[i].e.style.color = '#009f00';                
                 } else {
                     correct = false;
-                    labels[i].e.style.color = 'red';
+                    labels[i].e.style.color = 'rgba(128, 128, 128, 0.7)';
                         
                 }
             } else {
@@ -215,7 +215,10 @@ function submitAnswer() {
 
     }
     console.log(`answer is ${correct}`)
-    E("result").text = correct ? "CORRECT!" : `WRONG! The correct answer is ${answers}`;
+    E("result").text = correct ? "CORRECT!" : `Wrong. The correct answer is ${answers}`;
+    var newClass = correct ? "correct" : "incorrect";
+    E("result").e.addClass(newClass);
+
     E("submitbtn").attr("onclick", 'show()').value = "Next Question";
     if (!('tries' in currentItem.ref)) {
         currentItem.ref.tries = 0;
