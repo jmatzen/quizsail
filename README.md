@@ -1,6 +1,6 @@
 # QuizSail
 
-Test Prep Engine
+Test Prep Engine—Run a live version [here](https://www.quizsail.com/).
 
 ### QuizSail contains a sample set of data comprising of a 240+ item set questions for WGU C857 Software QA.
 
@@ -14,28 +14,16 @@ QuizSail's competency system works by holding a certain number of questions from
 
 These instructions will get you a copy of the project up and running on your local machine.
 
-You can run a live version here:
-```
-https://www.quizsail.com/?
-```
-
 ### Prerequisites
 
 * node
 
 
-### Installing
+### Installing and Running
 
-* Clone this repo, run ```npm start```.
-
-```
-$ npm start
-```
-
-Then, open your browser and enter
-```
-http://localhost:3000/?
-```
+* Clone this repo.
+* Run ```npm start```.
+* Open your browser and enter ```http://localhost:3000/?```
 
 ## Deployment Notes
 
@@ -53,9 +41,9 @@ Use pull requests.
 ## Authors
 
 * **John Matzen** - *Initial work* - [jmatzen](https://github.com/jmatzen)
-* LS - *Some CSS and HTML* - [SkillAllHumans](https://github.com/SkillAllHumans)
+* L S - *Some CSS, HTML, JS* - [SkillAllHumans](https://github.com/SkillAllHumans)
 
 
 ## License
 
-This project is licensed under CC BY-NC-SA 4.0 - see  [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/) file for details
+This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
