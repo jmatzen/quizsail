@@ -1,0 +1,5728 @@
+Operating system routines that directly support application programs as they run are generally:
+ resident
+ transient
+ resilient
+ dynamic
+---
+resident
+===
+Each physical device attached to an MS-DOS system is described in a special file called a(n):
+ interrupt vector
+ FAT
+ block routine
+ device driver
+---
+device driver
+===
+To access the services of operating system, the interface is provided by the:
+ System calls
+ API
+ Library
+ Assembly instructions
+---
+System calls
+===
+Which one of the following is not true?
+ kernel is the program that constitutes the central core of the operating system
+ kernel is the first part of operating system to load into memory during booting
+ kernel is made of various modules which can not be loaded in running operating system
+ kernel remains in the memory during the entire computer session
+---
+kernel is made of various modules which can not be loaded in running operating system
+===
+Which one of the following error will be handle by the operating system?
+ power failure
+ lack of paper in printer
+ connection failure in the network
+ all of the mentioned
+---
+all of the mentioned
+===
+By operating system, the resource management can be done via:
+ time division multiplexing
+ space division multiplexing
+ both time and space division multiplexing
+ none of the mentioned
+---
+both time and space division multiplexing
+===
+If a process fails, most operating system write the error information to a:
+ log file
+ another running process
+ new file
+ none of the mentioned
+---
+log file
+===
+In operating system, each process has its own:
+ address space and global variables
+ open files
+ pending alarms, signals and signal handlers
+ all of the mentioned
+---
+all of the mentioned
+===
+In Unix, Which system call creates the new process?
+ fork
+ create
+ new
+ none of the mentioned
+---
+fork
+===
+A process can be terminated due to:
+ normal exit
+ fatal error
+ killed by another process
+ all of the mentioned
+---
+all of the mentioned
+===
+What is the ready state of a process?
+ when process is scheduled to run after some execution
+ when process is unable to run until some task has been completed
+ when process is using the CPU
+ none of the mentioned
+---
+when process is scheduled to run after some execution
+===
+What is interprocess communication?
+ communication within the process
+ communication between two process
+ communication between two threads of same process
+ none of the mentioned
+---
+communication between two process
+===
+A set of processes is deadlock if:
+ each process is blocked and will remain so forever
+ each process is terminated
+ all processes are trying to kill each other
+ none of the mentioned
+---
+each process is blocked and will remain so forever
+===
+A process stack does not contain:
+ Function parameters
+ Local variables
+ Return addresses
+ PID of child process
+---
+PID of child process
+===
+Which system call returns the process identifier of a terminated child?
+ wait
+ exit
+ fork
+ get
+---
+wait
+===
+The address of the next instruction to be executed by the current process is provided by the:
+ CPU registers
+ Program counter
+ Process stack
+ Pipe
+---
+Program counter
+===
+A Process Control Block(PCB) does not contain which of the following:
+ Code
+ Stack
+ Bootstrap program
+ Data
+---
+Bootstrap program
+===
+The number of processes completed per unit time is known as:
+ Output
+ Throughput
+ Efficiency
+ Capacity
+---
+Throughput
+===
+The state of a process is defined by:
+ the final activity of the process
+ the activity just executed by the process
+ the activity to next be executed by the process
+ the current activity of the process
+---
+the current activity of the process
+===
+Which of the following is not the state of a process?
+ New
+ Old
+ Waiting
+ Running
+---
+Old
+===
+The Process Control Block is:
+ Process type variable
+ Data Structure
+ A secondary storage section
+ A Block in memory
+---
+Data Structure
+===
+The entry of all the PCBs of the current processes is in:
+ Process Register
+ Program Counter
+ Process Table
+ Process Unit
+---
+Process Table
+===
+The degree of multiprogramming is:
+ the number of processes executed per unit time
+ the number of processes in the ready queue
+ the number of processes in the I/O queue
+ the number of processes in memory
+---
+the number of processes in memory
+===
+A single thread of control allows the process to perform:
+ only one task at a time
+ multiple tasks at a time
+ only two tasks at a time
+ all of the mentioned
+---
+only one task at a time
+===
+The objective of multiprogramming is to:
+ Have some process running at all times
+ Have multiple programs waiting in a queue ready to run
+ To minimize CPU utilization
+ None of the mentioned
+---
+Have some process running at all times
+===
+Which of the following do not belong to queues for processes?
+ Job Queue
+ PCB queue
+ Device Queue
+ Ready Queue
+---
+PCB queue
+===
+When the process issues an I/O request:
+ It is placed in an I/O queue
+ It is placed in a waiting queue
+ It is placed in the ready queue
+ It is placed in the Job queue
+---
+It is placed in an I/O queue
+===
+When a process terminates:
+ It is removed from all queues
+ It is removed from all, but the job queue
+ Its process control block is de-allocated
+ Its process control block is never de-allocated
+---
+It is removed from all queues
+===
+What is a long-term scheduler?
+ It selects which process has to be brought into the ready queue
+ It selects which process has to be executed next and allocates CPU
+ It selects which process to remove from memory by swapping
+ None of the mentioned
+---
+It selects which process has to be brought into the ready queue
+===
+What is a medium-term scheduler?
+ It selects which process has to be brought into the ready queue
+ It selects which process has to be executed next and allocates CPU
+ It selects which process to remove from memory by swapping
+ None of the mentioned
+---
+It selects which process to remove from memory by swapping
+===
+What is a short-term scheduler?
+ It selects which process has to be brought into the ready queue
+ It selects which process has to be executed next and allocates CPU
+ It selects which process to remove from memory by swapping
+ None of the mentioned
+---
+It selects which process has to be executed next and allocates CPU
+===
+The primary distinction between the short term scheduler and the long term scheduler is:
+ The length of their queues
+ The type of processes they schedule
+ The frequency of their execution
+ None of the mentioned
+---
+The frequency of their execution
+===
+The only state transition that is initiated by the user process itself is:
+ block
+ wakeup
+ dispatch
+ none of the mentioned
+---
+block
+===
+In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the:
+ Blocked state
+ Ready state
+ Suspended state
+ Terminated state
+---
+Ready state
+===
+In a multiprogramming environment:
+ the processor executes more than one process at a time
+ the programs are developed by more than one person
+ more than one process resides in the memory
+ a single user can execute many programs at the same time
+---
+more than one process resides in the memory
+===
+Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the:
+ Running state
+ Ready state
+ Suspended state
+ Terminated state
+---
+Ready state
+===
+The context of a process in the PCB of a process does not contain:
+ the value of the CPU registers
+ the process state
+ memory-management information
+ context switch time
+---
+context switch time
+===
+Which of the following need not necessarily be saved on a context switch between processes?
+ General purpose registers
+ Translation lookaside buffer
+ Program counter
+ All of the mentioned
+---
+Translation lookaside buffer
+===
+Which of the following does not interrupt a running process?
+ A device
+ Timer
+ Scheduler process
+ Power failure
+---
+Scheduler process
+===
+Which process can be affected by other processes executing in the system?
+ cooperating process
+ child process
+ parent process
+ init process
+---
+cooperating process
+===
+When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called:
+ dynamic condition
+ race condition
+ essential condition
+ critical condition
+---
+race condition
+===
+If a process is executing in its critical section, then no other processes can be executing in their critical section. This condition is called:
+ mutual exclusion
+ critical exclusion
+ synchronous exclusion
+ asynchronous exclusion
+---
+mutual exclusion
+===
+Which one of the following is a synchronization tool?
+ thread
+ pipe
+ semaphore
+ socket
+---
+semaphore
+===
+A semaphore is a shared integer variable:
+ that can not drop below zero
+ that can not be more than zero
+ that can not drop below one
+ that can not be more than one
+---
+that can not drop below zero
+===
+Mutual exclusion can be provided by the:
+ mutex locks
+ binary semaphores
+ both mutex locks and binary semaphores
+ none of the mentioned
+---
+both mutex locks and binary semaphores
+===
+When high priority task is indirectly preempted by medium priority task effectively inverting the relative priority of the two tasks, the scenario is called
+ priority inversion
+ priority removal
+ priority exchange
+ priority modification
+---
+priority inversion
+===
+Process synchronization can be done on:
+ hardware level
+ software level
+ both hardware and software level
+ none of the mentioned
+---
+both hardware and software level
+===
+To enable a process to wait within the monitor:
+ a condition variable must be declared as condition
+ condition variables must be used as boolean objects
+ semaphore must be used
+ all of the mentioned
+---
+a condition variable must be declared as condition
+===
+Restricting the child process to a subset of the parent’s resources prevents any process from:
+ overloading the system by using a lot of secondary storage
+ under-loading the system by very less CPU utilization
+ overloading the system by creating a lot of sub-processes
+ crashing the system by utilizing multiple resources
+---
+overloading the system by creating a lot of sub-processes
+===
+A parent process calling --?-- system call will be suspended until children processes terminate.
+ wait
+ fork
+ exit
+ exec
+---
+wait
+===
+Cascading termination refers to termination of all child processes before the parent terminates:
+ Normally
+ Abnormally
+ Normally or abnormally
+ None of the mentioned
+---
+Normally
+===
+In UNIX, each process is identified by its:
+ Process Control Block
+ Device Queue
+ Process Identifier
+ None of the the mentioned
+---
+Process Identifier
+===
+In UNIX, the return value for the fork system call is --?-- for the child process and --?-- for the parent process.
+ A Negative integer, Zero
+ Zero, A Negative integer
+ Zero, A nonzero integer
+ A nonzero integer, Zero
+---
+Zero, A nonzero integer
+===
+The child process can:
+ be a duplicate of the parent process
+ never be a duplicate of the parent process
+ cannot have another program loaded into it
+ never have another program loaded into it
+---
+be a duplicate of the parent process
+===
+The child process completes execution,but the parent keeps executing, then the child process is known as:
+ Orphan
+ Zombie
+ Body
+ Dead
+---
+Zombie
+===
+Inter process communication:
+ allows processes to communicate and synchronize their actions when using the same address space
+ allows processes to communicate and synchronize their actions without using the same address space
+ allows the processes to only synchronize their actions without communication
+ none of the mentioned
+---
+allows processes to communicate and synchronize their actions without using the same address space
+===
+Message passing system allows processes to:
+ communicate with one another without resorting to shared data
+ communicate with one another by resorting to shared data
+ share data
+ name the recipient or sender of the message
+---
+communicate with one another without resorting to shared data
+===
+An IPC facility provides at least two operations:
+ write & delete message
+ delete & receive message
+ send & delete message
+ receive & send message
+---
+receive & send message
+===
+Messages sent by a process:
+ have to be of a fixed size
+ have to be a variable size
+ can be fixed or variable sized
+ None of the mentioned
+---
+can be fixed or variable sized
+===
+In the non blocking send:
+ the sending process keeps sending until the message is received
+ the sending process sends the message and resumes operation
+ the sending process keeps sending until it receives a message
+ none of the mentioned
+---
+the sending process sends the message and resumes operation
+===
+In the Zero capacity queue:
+ the queue can store at least one message
+ the sender blocks until the receiver receives the message
+ the sender keeps sending and the messages don’t wait in the queue
+ none of the mentioned
+---
+the sender blocks until the receiver receives the message
+===
+The Zero Capacity queue:
+ is referred to as a message system with buffering
+ is referred to as a message system with no buffering
+ is referred to as a link
+ none of the mentioned
+---
+is referred to as a message system with no buffering
+===
+Bounded capacity and Unbounded capacity queues are referred to as:
+ Programmed buffering
+ Automatic buffering
+ User defined buffering
+ No buffering
+---
+Automatic buffering
+===
+Remote Procedure Calls are used:
+ for communication between two processes remotely different from each other on the same system
+ for communication between two processes on the same system
+ for communication between two processes on separate systems
+ None of the mentioned
+---
+for communication between two processes on separate systems
+===
+To differentiate the many network services a system supports --?-- are used.
+ Variables
+ Sockets
+ Ports
+ Service names
+---
+Ports
+===
+RPC provides a(an) --?-- on the client side, a separate one for each remote procedure.
+ stub
+ identifier
+ name
+ process identifier
+---
+stub
+===
+The stub provided by an RPC:
+ transmits the message to the server where the server side stub receives the message and invokes procedure on the server side
+ packs the parameters into a form transmittable over the network
+ locates the port on the server
+ all of the mentioned
+---
+all of the mentioned
+===
+To resolve the problem of data representation on different systems RPCs define:
+ machine dependent representation of data
+ machine representation of data
+ machine-independent representation of data
+ none of the mentioned
+---
+machine-independent representation of data
+===
+A process that is based on IPC mechanism which executes on different systems and can communicate with other processes using message based communication, is called ________
+ Local Procedure Call
+ Inter Process Communication
+ Remote Procedure Call
+ Remote Machine Invocation
+---
+Remote Procedure Call
+===
+The initial program that is run when the computer is powered up is called:
+ boot program
+ bootloader
+ initializer
+ bootstrap program
+---
+bootstrap program
+===
+How does the software trigger an interrupt?
+ Sending signals to CPU through bus
+ Executing a special operation called system call
+ Executing a special program called system program
+ Executing a special program calle interrupt trigger program
+---
+Executing a special operation called system call
+===
+What is a trap/exception?
+ hardware generated interrupt caused by an error
+ software generated interrupt caused by an error
+ user generated interrupt caused by an error
+ none of the mentioned
+---
+software generated interrupt caused by an error
+===
+An interrupt vector:
+ is an address that is indexed to an interrupt handler
+ is a unique device number that is indexed by an address
+ is a unique identity given to an interrupt
+ none of the mentioned
+---
+is an address that is indexed to an interrupt handler
+===
+DMA is used for:
+ High speed devices(disks and communications network)
+ Low speed devices
+ Utilizing CPU cycles
+ All of the mentioned
+---
+High speed devices(disks and communications network)
+===
+In a memory mapped input/output:
+ the CPU uses polling to watch the control bit constantly, looping to see if device is ready
+ the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+ the CPU receives an interrupt when the device is ready for the next byte
+ the CPU runs a user written code and does accordingly
+---
+the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+===
+In a programmed input/output(PIO):
+ the CPU uses polling to watch the control bit constantly, looping to see if device is ready
+ the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+ the CPU receives an interrupt when the device is ready for the next byte
+ the CPU runs a user written code and does accordingly
+---
+the CPU uses polling to watch the control bit constantly, looping to see if device is ready
+===
+In an interrupt driven input/output:
+ the CPU uses polling to watch the control bit constantly, looping to see if device is ready
+ the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+ the CPU receives an interrupt when the device is ready for the next byte
+ the CPU runs a user written code and does accordingly
+---
+the CPU receives an interrupt when the device is ready for the next byte
+===
+In the layered approach of Operating Systems:
+ Bottom Layer(0) is the User interface
+ Highest Layer(N) is the User interface
+ Bottom Layer(N) is the hardware
+ Highest Layer(N) is the hardware
+---
+Highest Layer(N) is the User interface
+===
+How does the Hardware trigger an interrupt?
+ Sending signals to CPU through system bus
+ Executing a special program called interrupt program
+ Executing a special program called system program
+ Executing a special operation called system call
+---
+Sending signals to CPU through system bus
+===
+Which operation is performed by an interrupt handler?
+ Saving the current state of the system
+ Loading the interrupt handling code and executing it
+ Once done handling, bringing back the system to the original state it was before the interrupt occurred
+ All of the mentioned
+---
+All of the mentioned
+===
+Which module gives control of the CPU to the process selected by the short-term scheduler?
+ dispatcher
+ interrupt
+ scheduler
+ none of the mentioned
+---
+dispatcher
+===
+The processes that are residing in main memory and are ready and waiting to execute are kept on a list called:
+ job queue
+ ready queue
+ execution queue
+ process queue
+---
+ready queue
+===
+The interval from the time of submission of a process to the time of completion is termed as:
+ waiting time
+ turnaround time
+ response time
+ throughput
+---
+turnaround time
+===
+In priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of:
+ all process
+ currently running process
+ parent process
+ init process
+---
+currently running process
+===
+Time quantum is defined in:
+ shortest job scheduling algorithm
+ round robin scheduling algorithm
+ priority scheduling algorithm
+ multilevel queue scheduling algorithm
+---
+round robin scheduling algorithm
+===
+Which one of the following can not be scheduled by the kernel?
+ kernel level thread
+ user level thread
+ process
+ none of the mentioned
+---
+user level thread
+===
+CPU scheduling is the basis of:
+ multiprocessor systems
+ multiprogramming operating systems
+ larger memory sized systems
+ none of the mentioned
+---
+multiprogramming operating systems
+===
+The two steps of a process execution are:
+ I/O & OS Burst
+ CPU & I/O Burst
+ Memory & I/O Burst
+ OS & Memory Burst
+---
+CPU & I/O Burst
+===
+An I/O bound program will typically have:
+ a few very short CPU bursts
+ many very short I/O bursts
+ many very short CPU bursts
+ a few very short I/O bursts
+---
+many very short CPU bursts
+===
+A process is selected from the --?-- queue by the --?-- scheduler, to be executed.
+ blocked, short term
+ wait, long term
+ ready, short term
+ ready, long term
+---
+ready, short term
+===
+In the following cases non – preemptive scheduling occurs:
+ When a process switches from the running state to the ready state
+ When a process goes from the running state to the waiting state
+ When a process switches from the waiting state to the ready state
+ All of the mentioned
+---
+When a process goes from the running state to the waiting state
+===
+The switching of the CPU from one process or thread to another is called:
+ process switch
+ task switch
+ context switch
+ all of the mentioned
+---
+all of the mentioned
+===
+Dispatch latency is:
+ the speed of dispatching a process from running to the ready state
+ the time of dispatching a process from running to ready state and keeping the CPU idle
+ the time to stop one process and start running another one
+ none of the mentioned
+---
+the time to stop one process and start running another one
+===
+Scheduling is done so as to:
+ increase CPU utilization
+ decrease CPU utilization
+ keep the CPU more idle
+ None of the mentioned
+---
+increase CPU utilization
+===
+Scheduling is done so as to:
+ increase the throughput
+ decrease the throughput
+ increase the duration of a specific amount of work
+ None of the mentioned
+---
+increase the throughput
+===
+Turnaround time is:
+ the total waiting time for a process to finish execution
+ the total time spent in the ready queue
+ the total time spent in the running queue
+ the total time from the completion till the submission of a process
+---
+the total time from the completion till the submission of a process
+===
+Scheduling is done so as to:
+ increase the turnaround time
+ decrease the turnaround time
+ keep the turnaround time same
+ there is no relation between scheduling and turnaround time
+---
+decrease the turnaround time
+===
+Waiting time is:
+ the total time in the blocked and waiting queues
+ the total time spent in the ready queue
+ the total time spent in the running queue
+ the total time from the completion till the submission of a process
+---
+the total time spent in the ready queue
+===
+Scheduling is done so as to:
+ increase the waiting time
+ keep the waiting time the same
+ decrease the waiting time
+ none of the mentioned
+---
+decrease the waiting time
+===
+Response time is:
+ the total time taken from the submission time till the completion time
+ the total time taken from the submission time till the first response is produced
+ the total time taken from submission time till the response is output
+ none of the mentioned
+---
+the total time taken from the submission time till the first response is produced
+===
+Round robin scheduling falls under the category of:
+ Non preemptive scheduling
+ Preemptive scheduling
+ All of the mentioned
+ None of the mentioned
+---
+Preemptive scheduling
+===
+With round robin scheduling algorithm in a time shared system:
+ using very large time slices converts it into First come First served scheduling algorithm
+ using very small time slices converts it into First come First served scheduling algorithm
+ using extremely small time slices increases performance
+ using very small time slices converts it into Shortest Job First algorithm
+---
+using very large time slices converts it into First come First served scheduling algorithm
+===
+The portion of the process scheduler in an operating system that dispatches processes is concerned with:
+ assigning ready processes to CPU
+ assigning ready processes to waiting queue
+ assigning running processes to blocked queue
+ all of the mentioned
+---
+assigning ready processes to CPU
+===
+The strategy of making processes that are logically runnable to be temporarily suspended is called:
+ Non preemptive scheduling
+ Preemptive scheduling
+ Shortest job first
+ First come First served
+---
+Preemptive scheduling
+===
+Scheduling is:
+ allowing a job to use the processor
+ making proper use of processor
+ all of the mentioned
+ none of the mentioned
+---
+allowing a job to use the processor
+===
+Which of the following algorithms tends to minimize the process flow time?
+ First come First served
+ Shortest Job First
+ Earliest Deadline First
+ Longest Job First
+---
+Shortest Job First
+===
+Under multiprogramming, turnaround time for short jobs is usually --?-- and that for long jobs is slightly --?-- 
+ Lengthened; Shortened
+ Shortened; Lengthened
+ Shortened; Shortened
+ Shortened; Unchanged
+---
+Shortened; Lengthened
+===
+The real difficulty with SJF in short term scheduling is:
+ it is too good an algorithm
+ knowing the length of the next CPU request
+ it is too complex to understand
+ none of the mentioned
+---
+knowing the length of the next CPU request
+===
+The FCFS algorithm is particularly troublesome for:
+ time sharing systems
+ multiprogramming systems
+ multiprocessor systems
+ operating systems
+---
+multiprogramming systems
+===
+An SJF algorithm is simply a priority algorithm where the priority is:
+ the predicted next CPU burst
+ the inverse of the predicted next CPU burst
+ the current CPU burst
+ anything the user wants
+---
+the predicted next CPU burst
+===
+One of the disadvantages of the priority scheduling algorithm is that:
+ it schedules in a very complex manner
+ its scheduling takes up a lot of time
+ it can lead to some low priority process waiting indefinitely for the CPU
+ none of the mentioned
+---
+it can lead to some low priority process waiting indefinitely for the CPU
+===
+‘Aging’ is:
+ keeping track of cache contents
+ keeping track of what pages are currently residing in memory
+ keeping track of how many times a given page is referenced
+ increasing the priority of jobs to ensure termination in a finite time
+---
+increasing the priority of jobs to ensure termination in a finite time
+===
+A solution to the problem of indefinite blockage of low – priority processes is:
+ Starvation
+ Wait queue
+ Ready queue
+ Aging
+---
+Aging
+===
+Which of the following scheduling algorithms gives minimum average waiting time?
+ FCFS
+ SJF
+ Round – robin
+ Priority
+---
+SJF
+===
+Concurrent access to shared data may result in:
+ data consistency
+ data insecurity
+ data inconsistency
+ none of the mentioned
+---
+data inconsistency
+===
+A situation where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which access takes place is called:
+ data consistency
+ race condition
+ aging
+ starvation
+---
+race condition
+===
+The segment of code in which the process may change common variables, update tables, write into files is known as:
+ program
+ critical section
+ non – critical section
+ synchronizing
+---
+critical section
+===
+The following three conditions must be satisfied to solve the critical section problem:
+ Mutual Exclusion
+ Progress
+ Bounded Waiting
+ All of the mentioned
+---
+All of the mentioned
+===
+Mutual exclusion implies that:
+ if a process is executing in its critical section, then no other process must be executing in their critical sections
+ if a process is executing in its critical section, then other processes must be executing in their critical sections
+ if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution
+ none of the mentioned
+---
+if a process is executing in its critical section, then no other process must be executing in their critical sections
+===
+Bounded waiting implies that there exists a bound on the number of times a process is allowed to enter its critical section:
+ after a process has made a request to enter its critical section and before the request is granted
+ when another process is in its critical section
+ before a process has made a request to enter its critical section
+ none of the mentioned
+---
+after a process has made a request to enter its critical section and before the request is granted
+===
+In the bakery algorithm to solve the critical section problem:
+ each process is put into a queue and picked up in an ordered manner
+ each process receives a number (may or may not be unique) and the one with the lowest number is served next
+ each process gets a unique number and the one with the highest number is served next
+ each process gets a unique number and the one with the lowest number is served next
+---
+each process receives a number (may or may not be unique) and the one with the lowest number is served next
+===
+Semaphore is a/an --?-- to solve the critical section problem.
+ hardware for a system
+ special program for a system
+ integer variable
+ none of the mentioned
+---
+integer variable
+===
+The two atomic operations permissible on semaphores are:
+ wait
+ stop
+ hold
+ none of the mentioned
+---
+wait
+===
+Spinlocks are:
+ CPU cycles wasting locks over critical sections of programs
+ Locks that avoid time wastage in context switches
+ Locks that work better on multiprocessor systems
+ All of the mentioned
+---
+All of the mentioned
+===
+The main disadvantage of spinlocks is that:
+ they are not sufficient for many process
+ they require busy waiting
+ they are unreliable sometimes
+ they are too complex for programmers
+---
+they require busy waiting
+===
+The wait operation of the semaphore basically works on the basic --?-- system call.
+ stop()
+ block()
+ hold()
+ wait()
+---
+block()
+===
+The signal operation of the semaphore basically works on the basic --?-- system call.
+ continue()
+ wakeup()
+ getup()
+ start()
+---
+wakeup()
+===
+If the semaphore value is negative:
+ its magnitude is the number of processes waiting on that semaphore
+ it is invalid
+ no operation can be further performed on it until the signal operation is performed on it
+ none of the mentioned
+---
+its magnitude is the number of processes waiting on that semaphore
+===
+The code that changes the value of the semaphore is:
+ remainder section code
+ non – critical section code
+ critical section code
+ none of the mentioned
+---
+critical section code
+===
+What will happen if a non-recursive mutex is locked more than once?
+ Starvation
+ Deadlock
+ Aging
+ Signaling
+---
+Deadlock
+===
+A semaphore:
+ is a binary mutex
+ must be accessed from only one process
+ can be accessed from multiple processes
+ none of the mentioned
+---
+can be accessed from multiple processes
+===
+The two kinds of semaphores are:
+ mutex & counting
+ binary & counting
+ counting & decimal
+ decimal & binary
+---
+binary & counting
+===
+A mutex:
+ is a binary mutex
+ must be accessed from only one process
+ can be accessed from multiple processes
+ None of the mentioned
+---
+must be accessed from only one process
+===
+Semaphores are mostly used to implement:
+ System calls
+ IPC mechanisms
+ System protection
+ None of the mentioned
+---
+IPC mechanisms
+===
+Spinlocks are intended to provide --?-- only.
+ Mutual Exclusion
+ Bounded Waiting
+ Aging
+ Progress
+---
+Bounded Waiting
+===
+The bounded buffer problem is also known as:
+ Readers – Writers problem
+ Dining – Philosophers problem
+ Producer – Consumer problem
+ None of the mentioned
+---
+Producer – Consumer problem
+===
+In the bounded buffer problem, there are the empty and full semaphores that:
+ count the number of empty and full buffers
+ count the number of empty and full memory spaces
+ count the number of empty and full queues
+ none of the mentioned
+---
+count the number of empty and full buffers
+===
+A deadlock free solution to the dining philosophers problem:
+ necessarily eliminates the possibility of starvation
+ does not necessarily eliminate the possibility of starvation
+ eliminates any possibility of any kind of problem further
+ none of the mentioned
+---
+does not necessarily eliminate the possibility of starvation
+===
+In this situation:
+ a deadlock will occur
+ processes will starve to enter critical section
+ several processes maybe executing in their critical section
+ all of the mentioned
+---
+several processes maybe executing in their critical section
+===
+A monitor is a type of:
+ semaphore
+ low level synchronization construct
+ high level synchronization construct
+ none of the mentioned
+---
+high level synchronization construct
+===
+A monitor is characterized by:
+ a set of programmer defined operators
+ an identifier
+ the number of variables in it
+ all of the mentioned
+---
+a set of programmer defined operators
+===
+The monitor construct ensures that:
+ only one process can be active at a time within the monitor
+ n number of processes can be active at a time within the monitor (n being greater than 1)
+ the queue has only one process in it at a time
+ all of the mentioned
+---
+only one process can be active at a time within the monitor
+===
+The operations that can be invoked on a condition variable are:
+ wait & signal
+ hold & wait
+ signal & hold
+ continue & signal
+---
+wait & signal
+===
+The process invoking the wait operation is:
+ suspended until another process invokes the signal operation
+ waiting for another process to complete before it can itself call the signal operation
+ stopped until the next process in the queue finishes execution
+ none of the mentioned
+---
+suspended until another process invokes the signal operation
+===
+If no process is suspended, the signal operation:
+ puts the system into a deadlock state
+ suspends some default process’ execution
+ nothing happens
+ the output is unpredictable
+---
+nothing happens
+===
+A collection of instructions that performs a single logical function is called:
+ transaction
+ operation
+ function
+ all of the mentioned
+---
+transaction
+===
+A terminated transaction that has completed its execution successfully is --?-- otherwise it is --?-- 
+ committed, destroyed
+ aborted, destroyed
+ committed, aborted
+ none of the mentioned
+---
+committed, aborted
+===
+The state of the data accessed by an aborted transaction must be restored to what it was just before the transaction started executing. This restoration is known as ________ of transaction.
+ safety
+ protection
+ roll – back
+ revert – back
+---
+roll – back
+===
+Write ahead logging is a way:
+ to ensure atomicity
+ to keep data consistent
+ that records data on stable storage
+ all of the mentioned
+---
+all of the mentioned
+===
+An actual update is not allowed to a data item:
+ before the corresponding log record is written out to stable storage
+ after the corresponding log record is written out to stable storage
+ until the whole log record has been checked for inconsistencies
+ all of the mentioned
+---
+before the corresponding log record is written out to stable storage
+===
+The undo and redo operations must be --?-- to guarantee correct behaviour, even if a failure occurs during recovery process.
+ idempotent
+ easy
+ protected
+ all of the mentioned
+---
+idempotent
+===
+The system periodically performs checkpoints that consists of the following operation(s):
+ Putting all the log records currently in main memory onto stable storage
+ putting all modified data residing in main memory onto stable storage
+ putting a log record onto stable storage
+ all of the mentioned
+---
+all of the mentioned
+===
+The two phase locking protocol consists of:
+ growing & shrinking phase
+ shrinking & creation phase
+ creation & growing phase
+ destruction & creation phase
+---
+growing & shrinking phase
+===
+The growing phase is a phase in which:
+ A transaction may obtain locks, but does not release any
+ A transaction may obtain locks, and releases a few or all of them
+ A transaction may release locks, but does not obtain any new locks
+ A transaction may release locks, and does obtain new locks
+---
+A transaction may obtain locks, but does not release any
+===
+The shrinking phase is a phase in which:
+ A transaction may obtain locks, but does not release any
+ A transaction may obtain locks, and releases a few or all of them
+ A transaction may release locks, but does not obtain any new locks
+ A transaction may release locks, and does obtain new locks
+---
+A transaction may release locks, but does not obtain any new locks
+===
+A system is in the safe state if:
+ the system can allocate resources to each process in some order and still avoid a deadlock
+ there exist a safe sequence
+ all of the mentioned
+ none of the mentioned
+---
+the system can allocate resources to each process in some order and still avoid a deadlock
+===
+The circular wait condition can be prevented by:
+ defining a linear ordering of resource types
+ using thread
+ using pipes
+ all of the mentioned
+---
+defining a linear ordering of resource types
+===
+Which one of the following is the deadlock avoidance algorithm?
+ banker’s algorithm
+ round-robin algorithm
+ elevator algorithm
+ karn’s algorithm
+---
+banker’s algorithm
+===
+What is the drawback of banker’s algorithm?
+ in advance processes rarely know that how much resource they will need
+ the number of processes changes as time progresses
+ resource once available can disappear
+ all of the mentioned
+---
+all of the mentioned
+===
+For effective operating system, when to check for deadlock?
+ every time a resource request is made
+ at fixed time intervals
+ every time a resource request is made at fixed time intervals
+ none of the mentioned
+---
+every time a resource request is made at fixed time intervals
+===
+A problem encountered in multitasking when a process is perpetually denied necessary resources is called:
+ deadlock
+ starvation
+ inversion
+ aging
+---
+starvation
+===
+Which one of the following is a visual ( mathematical ) way to determine the deadlock occurrence?
+ resource allocation graph
+ starvation graph
+ inversion graph
+ none of the mentioned
+---
+resource allocation graph
+===
+To avoid deadlock:
+ there must be a fixed number of resources to allocate
+ resource allocation must be done only once
+ all deadlocked processes must be aborted
+ inversion technique can be used
+---
+there must be a fixed number of resources to allocate
+===
+The request and release of resources are:
+ command line statements
+ interrupts
+ system calls
+ special programs
+---
+system calls
+===
+Multithreaded programs are:
+ lesser prone to deadlocks
+ more prone to deadlocks
+ not at all prone to deadlocks
+ none of the mentioned
+---
+more prone to deadlocks
+===
+For a deadlock to arise, which of the following conditions must hold simultaneously?
+ Mutual exclusion
+ No preemption
+ Hold and wait
+ All of the mentioned
+---
+All of the mentioned
+===
+For Mutual exclusion to prevail in the system:
+ at least one resource must be held in a non sharable mode
+ the processor must be a uniprocessor rather than a multiprocessor
+ there must be at least one resource in a sharable mode
+ all of the mentioned
+---
+at least one resource must be held in a non sharable mode
+===
+For a Hold and wait condition to prevail:
+ A process must be not be holding a resource, but waiting for one to be freed, and then request to acquire it
+ A process must be holding at least one resource and waiting to acquire additional resources that are being held by other processes
+ A process must hold at least one resource and not be waiting to acquire additional resources
+ None of the mentioned
+---
+A process must be holding at least one resource and waiting to acquire additional resources that are being held by other processes
+===
+Deadlock prevention is a set of methods:
+ to ensure that at least one of the necessary conditions cannot hold
+ to ensure that all of the necessary conditions do not hold
+ to decide if the requested resources for a process have to be given or not
+ to recover from a deadlock
+---
+to ensure that at least one of the necessary conditions cannot hold
+===
+For non sharable resources like a printer, mutual exclusion:
+ must exist
+ must not exist
+ may exist
+ none of the mentioned
+---
+must exist
+===
+For sharable resources, mutual exclusion:
+ is required
+ is not required
+ may be or may not be required
+ none of the mentioned
+---
+is not required
+===
+To ensure that the hold and wait condition never occurs in the system, it must be ensured that:
+ whenever a resource is requested by a process, it is not holding any other resources
+ each process must request and be allocated all its resources before it begins its execution
+ a process can request resources only when it has none
+ all of the mentioned
+---
+all of the mentioned
+===
+The disadvantage of a process being allocated all its resources before beginning its execution is:
+ Low CPU utilization
+ Low resource utilization
+ Very high resource utilization
+ None of the mentioned
+---
+Low resource utilization
+===
+To ensure no preemption, if a process is holding some resources and requests another resource that cannot be immediately allocated to it:
+ then the process waits for the resources be allocated to it
+ the process keeps sending requests until the resource is allocated to it
+ the process resumes execution without the resource being allocated to it
+ then all resources currently being held are preempted
+---
+then all resources currently being held are preempted
+===
+One way to ensure that the circular wait condition never holds is to:
+ impose a total ordering of all resource types and to determine whether one precedes another in the ordering
+ to never let a process acquire resources that are held by other processes
+ to let a process wait for only one resource at a time
+ all of the mentioned
+---
+impose a total ordering of all resource types and to determine whether one precedes another in the ordering
+===
+Given a priori information about the --?-- number of resources of each type that maybe requested for each process, it is possible to construct an algorithm that ensures that the system will never enter a deadlock state.
+ minimum
+ average
+ maximum
+ approximate
+---
+maximum
+===
+A deadlock avoidance algorithm dynamically examines the --?-- to ensure that a circular wait condition can never exist.
+ resource allocation state
+ system storage state
+ operating system
+ resources
+---
+resource allocation state
+===
+A state is safe, if:
+ the system does not crash due to deadlock occurrence
+ the system can allocate resources to each process in some order and still avoid a deadlock
+ the state keeps the system protected and safe
+ all of the mentioned
+---
+the system can allocate resources to each process in some order and still avoid a deadlock
+===
+If no cycle exists in the resource allocation graph:
+ then the system will not be in a safe state
+ then the system will be in a safe state
+ all of the mentioned
+ none of the mentioned
+---
+then the system will be in a safe state
+===
+The resource allocation graph is not applicable to a resource allocation system:
+ with multiple instances of each resource type
+ with a single instance of each resource type
+ single & multiple instance of each resource type
+ none of the mentioned
+---
+with multiple instances of each resource type
+===
+The wait-for graph is a deadlock detection algorithm that is applicable when:
+ all resources have a single instance
+ all resources have multiple instances
+ all resources have a single 7 multiple instance
+ all of the mentioned
+---
+all resources have a single instance
+===
+The disadvantage of invoking the detection algorithm for every request is:
+ overhead of the detection algorithm due to consumption of memory
+ excessive time consumed in the request to be allocated memory
+ considerable overhead in computation time
+ all of the mentioned
+---
+considerable overhead in computation time
+===
+Every time a request for allocation cannot be granted immediately, the detection algorithm is invoked. This will help identify:
+ the set of processes that have been deadlocked
+ the set of processes in the deadlock queue
+ the specific process that caused the deadlock
+ all of the mentioned
+---
+the set of processes that have been deadlocked
+===
+A deadlock can be broken by:
+ abort one or more processes to break the circular wait
+ abort all the process in the system 
+ preempt all resources from all processes
+ none of the mentioned
+---
+abort one or more processes to break the circular wait
+===
+The two ways of aborting processes and eliminating deadlocks are:
+ Abort all deadlocked processes
+ Abort all processes
+ Abort one process at a time until the deadlock cycle is eliminated
+ All of the mentioned
+---
+Abort one process at a time until the deadlock cycle is eliminated
+===
+Those processes should be aborted on occurrence of a deadlock, the termination of which:
+ is more time consuming
+ incurs minimum cost
+ safety is not hampered
+ all of the mentioned
+---
+incurs minimum cost
+===
+Cost factors of process termination include:
+ Number of resources the deadlock process is not holding
+ CPU utilization at the time of deadlock
+ Amount of time a deadlocked process has thus far consumed during its execution
+ All of the mentioned
+---
+Amount of time a deadlocked process has thus far consumed during its execution
+===
+If we preempt a resource from a process, the process cannot continue with its normal execution and it must be:
+ aborted
+ rolled back
+ terminated
+ queued
+---
+rolled back
+===
+To --?-- to a safe state, the system needs to keep more information about the states of processes.
+ abort the process
+ roll back the process
+ queue the process
+ none of the mentioned
+---
+roll back the process
+===
+If the resources are always preempted from the same process, --?-- can occur.
+ deadlock
+ system crash
+ aging
+ starvation
+---
+starvation
+===
+The solution to starvation is:
+ the number of rollbacks must be included in the cost factor
+ the number of resources must be included in resource preemption
+ resource preemption be done instead
+ all of the mentioned
+---
+the number of rollbacks must be included in the cost factor
+===
+Address Binding is:
+ going to an address in memory
+ locating an address with the help of another address
+ binding two addresses together to form a new address in a different memory space
+ a mapping from one address space to another
+---
+a mapping from one address space to another
+===
+Binding of instructions and data to memory addresses can be done at:
+ Compile time
+ Load time
+ Execution time
+ All of the mentioned
+---
+All of the mentioned
+===
+If the process can be moved during its execution from one memory segment to another, then binding must be:
+ delayed until run time
+ preponed to compile time
+ preponed to load time
+ none of the mentioned
+---
+delayed until run time
+===
+Dynamic loading is:
+ loading multiple routines dynamically
+ loading a routine only when it is called
+ loading multiple routines randomly
+ none of the mentioned
+---
+loading a routine only when it is called
+===
+The advantage of dynamic loading is that:
+ A used routine is used multiple times
+ An unused routine is never loaded
+ CPU utilization increases
+ All of the mentioned
+---
+An unused routine is never loaded
+===
+The idea of overlays is to:
+ data that are needed at any given time
+ enable a process to be larger than the amount of memory allocated to it
+ keep in memory only those instructions
+ all of the mentioned
+---
+all of the mentioned
+===
+The --?-- swaps processes in and out of the memory.
+ Memory manager
+ CPU
+ CPU manager
+ User
+---
+Memory manager
+===
+If binding is done at assembly or load time, then the process --?-- be moved to different locations after being swapped out and in again.
+ can
+ must
+ can never
+ may
+---
+can never
+===
+In a system that does not support swapping:
+ the compiler normally binds symbolic addresses (variables) to relocatable addresses
+ the compiler normally binds symbolic addresses to physical addresses
+ the loader binds relocatable addresses to physical addresses
+ binding of symbolic addresses to physical addresses normally takes place during execution
+---
+the compiler normally binds symbolic addresses (variables) to relocatable addresses
+===
+Which of the following is TRUE?
+ Overlays are used to increase the size of physical memory
+ Overlays are used to increase the logical address space
+ When overlays are used, the size of a process is not limited to the size of the physical memory
+ Overlays are used whenever the physical address space is smaller than the logical address space
+---
+When overlays are used, the size of a process is not limited to the size of the physical memory
+===
+The run time mapping from virtual to physical addresses is done by a hardware device called the:
+ Virtual to physical mapper
+ Memory management unit
+ Memory mapping unit
+ None of the mentioned
+---
+Memory management unit
+===
+The base register is also known as the:
+ basic register
+ regular register
+ relocation register
+ delocation register
+---
+relocation register
+===
+The size of a process is limited to the size of:
+ physical memory
+ external storage
+ secondary storage
+ none of the mentioned
+---
+physical memory
+===
+If execution time binding is being used, then a process --?-- be swapped to a different memory space.
+ has to be
+ can never
+ must
+ may
+---
+may
+===
+Swapping requires a:
+ motherboard
+ keyboard
+ monitor
+ backing store
+---
+backing store
+===
+The backing store is generally a:
+ fast disk
+ disk large enough to accommodate copies of all memory images for all users
+ disk to provide direct access to the memory images
+ all of the mentioned
+---
+all of the mentioned
+===
+The --?-- consists of all processes whose memory images are in the backing store or in memory and are ready to run.
+ wait queue
+ ready queue
+ cpu
+ secondary storage
+---
+ready queue
+===
+The --?-- time in a swap out of a running process and swap in of a new process into the memory is very high.
+ context – switch
+ waiting
+ execution
+ all of the mentioned
+---
+context – switch
+===
+The major part of swap time is --?-- time.
+ waiting
+ transfer
+ execution
+ none of the mentioned
+---
+transfer
+===
+Swapping --?-- be done when a process has pending I/O, or has to execute I/O operations only into operating system buffers.
+ must
+ can
+ must never
+ maybe
+---
+must never
+===
+Swap space is allocated:
+ as a chunk of disk
+ separate from a file system
+ into a file system
+ all of the mentioned
+---
+as a chunk of disk
+===
+CPU fetches the instruction from memory according to the value of:
+ program counter
+ status register
+ instruction register
+ program status word
+---
+program counter
+===
+A memory buffer used to accommodate a speed differential is called:
+ stack pointer
+ cache
+ accumulator
+ disk buffer
+---
+cache
+===
+Which one of the following is the address generated by CPU?
+ physical address
+ absolute address
+ logical address
+ none of the mentioned
+---
+logical address
+===
+Run time mapping from virtual to physical address is done by:
+ Memory management unit
+ CPU
+ PCI
+ None of the mentioned
+---
+Memory management unit
+===
+Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called:
+ fragmentation
+ paging
+ mapping
+ none of the mentioned
+---
+paging
+===
+The address of a page table in memory is pointed by:
+ stack pointer
+ page table base register
+ page register
+ program counter
+---
+page table base register
+===
+The page table contains:
+ base address of each page in physical memory
+ page offset
+ page size
+ none of the mentioned
+---
+base address of each page in physical memory
+===
+What is compaction?
+ a technique for overcoming internal fragmentation
+ a paging technique
+ a technique for overcoming external fragmentation
+ a technique for overcoming fatal error
+---
+a technique for overcoming external fragmentation
+===
+Operating System maintains the page table for:
+ each process
+ each thread
+ each instruction
+ each address
+---
+each process
+===
+The main memory accommodates:
+ operating system
+ cpu
+ user processes
+ all of the mentioned
+---
+operating system
+===
+In contiguous memory allocation:
+ each process is contained in a single contiguous section of memory
+ all processes are contained in a single contiguous section of memory
+ the memory space is contiguous
+ none of the mentioned
+---
+each process is contained in a single contiguous section of memory
+===
+The relocation register helps in:
+ providing more address space to processes
+ a different address space to processes
+ protecting the address spaces of processes
+ none of the mentioned
+---
+protecting the address spaces of processes
+===
+With relocation and limit registers, each logical address must be --?-- the limit register.
+ less than
+ equal to
+ greater than
+ none of the mentioned
+---
+less than
+===
+The operating system and the other processes are protected from being modified by an already running process because:
+ they are in different memory spaces
+ they are in different logical addresses
+ they have a protection algorithm
+ every address generated by the CPU is being checked against the relocation and limit registers
+---
+every address generated by the CPU is being checked against the relocation and limit registers
+===
+Transient operating system code is code that:
+ is not easily accessible
+ comes and goes as needed
+ stays in the memory always
+ never enters the memory space
+---
+comes and goes as needed
+===
+Using transient code, --?-- the size of the operating system during program execution.
+ increases
+ decreases
+ changes
+ maintains
+---
+changes
+===
+When memory is divided into several fixed sized partitions, each partition may contain:
+ exactly one process
+ at least one process
+ multiple processes at once
+ none of the mentioned
+---
+exactly one process
+===
+In fixed size partition, the degree of multiprogramming is bounded by:
+ the number of partitions
+ the CPU utilization
+ the memory size
+ all of the mentioned
+---
+the number of partitions
+===
+In internal fragmentation, memory is internal to a partition and:
+ is being used
+ is not being used
+ is always used
+ none of the mentioned
+---
+is not being used
+===
+A solution to the problem of external fragmentation is:
+ compaction
+ larger memory space
+ smaller memory space
+ none of the mentioned
+---
+compaction
+===
+Another solution to the problem of external fragmentation problem is to:
+ permit the logical address space of a process to be noncontiguous
+ permit smaller processes to be allocated memory at last
+ permit larger processes to be allocated memory at last
+ all of the mentioned
+---
+permit the logical address space of a process to be noncontiguous
+===
+If relocation is static and is done at assembly or load time, compaction:
+ cannot be done
+ must be done
+ must not be done
+ can be done
+---
+cannot be done
+===
+The disadvantage of moving all process to one end of memory and all holes to the other direction, producing one large hole of available memory is:
+ the cost incurred
+ the memory used
+ the CPU used
+ all of the mentioned
+---
+the cost incurred
+===
+--?-- is generally faster than --?-- and --?-- 
+ first fit, best fit, worst fit
+ best fit, first fit, worst fit
+ worst fit, best fit, first fit
+ none of the mentioned
+---
+first fit, best fit, worst fit
+===
+External fragmentation exists when:
+ enough total memory exists to satisfy a request but it is not contiguous
+ the total memory is insufficient to satisfy a request
+ a request cannot be satisfied even when the total memory is free
+ none of the mentioned
+---
+enough total memory exists to satisfy a request but it is not contiguous
+===
+External fragmentation will not occur when:
+ first fit is used
+ best fit is used
+ worst fit is used
+ no matter which algorithm is used, it will always occur
+---
+no matter which algorithm is used, it will always occur
+===
+Sometimes the overhead of keeping track of a hole might be:
+ larger than the memory
+ larger than the hole itself
+ very small
+ all of the mentioned
+---
+larger than the hole itself
+===
+When the memory allocated to a process is slightly larger than the process, then:
+ internal fragmentation occurs
+ external fragmentation occurs
+ both internal and external fragmentation occurs
+ neither internal nor external fragmentation occurs
+---
+internal fragmentation occurs
+===
+Physical memory is broken into fixed-sized blocks called:
+ frames
+ pages
+ backing store
+ none of the mentioned
+---
+frames
+===
+Logical memory is broken into blocks of the same size called:
+ frames
+ pages
+ backing store
+ none of the mentioned
+---
+pages
+===
+Every address generated by the CPU is divided into two parts:
+ frame bit & page number
+ page number & page offset
+ page offset & frame bit
+ frame offset & page offset
+---
+page number & page offset
+===
+The --?-- is used as an index into the page table.
+ frame bit
+ page number
+ page offset
+ frame offset
+---
+page number
+===
+The --?-- table contains the base address of each page in physical memory.
+ process
+ memory
+ page
+ frame
+---
+page
+===
+With paging there is no --?-- fragmentation.
+ internal
+ external
+ either type of
+ none of the mentioned
+---
+external
+===
+Paging increases the --?-- time.
+ waiting
+ execution
+ context – switch
+ all of the mentioned
+---
+context – switch
+===
+Smaller page tables are implemented as a set of:
+ queues
+ stacks
+ counters
+ registers
+---
+registers
+===
+The page table registers should be built with:
+ very low speed logic
+ very high speed logic
+ a large memory space
+ none of the mentioned
+---
+very high speed logic
+===
+For larger page tables, they are kept in main memory and a --?-- points to the page table.
+ page table base register
+ page table base pointer
+ page table register pointer
+ page table base
+---
+page table base register
+===
+For every process there is a:
+ page table
+ copy of page table
+ pointer to page table
+ all of the mentioned
+---
+page table
+===
+Time taken in memory access through PTBR is:
+ extended by a factor of 3
+ extended by a factor of 2
+ slowed by a factor of 3
+ slowed by a factor of 2
+---
+slowed by a factor of 2
+===
+Each entry in a Translation lookaside buffer (TLB) consists of:
+ key
+ value
+ bit value
+ constant
+---
+key
+===
+If a page number is not found in the TLB, then it is known as a:
+ TLB miss
+ Buffer miss
+ TLB hit
+ All of the mentioned
+---
+TLB miss
+===
+An --?-- uniquely identifies processes and is used to provide address space protection for that process.
+ address space locator
+ address space identifier
+ address process identifier
+ None of the mentioned
+---
+address space identifier
+===
+The percentage of times a page number is found in the TLB is known as:
+ miss ratio
+ hit ratio
+ miss percent
+ None of the mentioned
+---
+hit ratio
+===
+Memory protection in a paged environment is accomplished by:
+ protection algorithm with each page
+ restricted access rights to users
+ restriction on page visibility
+ protection bit with each page
+---
+protection bit with each page
+===
+When the valid – invalid bit is set to valid, it means that the associated page:
+ is in the TLB
+ has data in it
+ is in the process’s logical address space
+ is the system’s physical address space
+---
+is in the process’s logical address space
+===
+Illegal addresses are trapped using the --?-- bit.
+ error
+ protection
+ valid – invalid
+ access
+---
+valid – invalid
+===
+When there is a large logical address space, the best way of paging would be:
+ not to page
+ a two level paging algorithm
+ the page table itself
+ all of the mentioned
+---
+a two level paging algorithm
+===
+To obtain better memory utilization, dynamic loading is used. With dynamic loading, a routine is not loaded until it is called. For implementing dynamic loading:
+ special support from hardware is required
+ special support from operating system is essential
+ special support from both hardware and operating system is essential
+ user programs can implement dynamic loading without any special support from hardware or operating system
+---
+user programs can implement dynamic loading without any special support from hardware or operating system
+===
+In paged memory systems, if the page size is increased, then the internal fragmentation generally:
+ becomes less
+ becomes more
+ remains constant
+ none of the mentioned
+---
+becomes more
+===
+In segmentation, each address is specified by:
+ a segment number & offset
+ an offset & value
+ a value & segment number
+ a key & value
+---
+a segment number & offset
+===
+In paging the user provides only --?-- which is partitioned by the hardware into --?-- and --?--
+ one address, page number, offset
+ one offset, page number, address
+ page number, offset, address
+ none of the mentioned
+---
+one address, page number, offset
+===
+Each entry in a segment table has a:
+ segment base
+ segment peak
+ segment value
+ none of the mentioned
+---
+segment base
+===
+The segment base contains the:
+ starting logical address of the process
+ starting physical address of the segment in memory
+ segment length
+ none of the mentioned
+---
+starting physical address of the segment in memory
+===
+The segment limit contains the:
+ starting logical address of the process
+ starting physical address of the segment in memory
+ segment length
+ none of the mentioned
+---
+segment length
+===
+The offset ‘d’ of the logical address must be:
+ greater than segment limit
+ between 0 and segment limit
+ between 0 and the segment number
+ greater than the segment number
+---
+between 0 and segment limit
+===
+If the offset is legal:
+ it is used as a physical memory address itself
+ it is subtracted from the segment base to produce the physical memory address
+ it is added to the segment base to produce the physical memory address
+ none of the mentioned
+---
+it is used as a physical memory address itself
+===
+When the entries in the segment tables of two different processes point to the same physical location:
+ the segments are invalid
+ the processes get blocked
+ segments are shared
+ all of the mentioned
+---
+segments are shared
+===
+The protection bit is 0/1 based on:
+ write only
+ read only
+ read – write
+ none of the mentioned
+---
+read – write
+===
+A multilevel page table is preferred in comparison to a single level page table for translating virtual address to physical address because:
+ it reduces the memory access time to read or write a memory location
+ it helps to reduce the size of page table needed to implement the virtual address space of a process
+ it is required by the translation lookaside buffer
+ it helps to reduce the number of page faults in page replacement algorithms
+---
+it helps to reduce the size of page table needed to implement the virtual address space of a process
+===
+If one or more devices use a common set of wires to communicate with the computer system, the connection is called:
+ CPU
+ Monitor
+ Wirefull
+ Bus
+---
+Bus
+===
+A --?-- is a set of wires and a rigidly defined protocol that specifies a set of messages that can be sent on the wires.
+ port
+ node
+ bus
+ none of the mentioned
+---
+bus
+===
+When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a _________
+ port
+ daisy chain
+ bus
+ cable
+---
+daisy chain
+===
+The --?-- present a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system.
+ Devices
+ Buses
+ Device drivers
+ I/O systems
+---
+Device drivers
+===
+A --?-- is a collection of electronics that can operate a port, a bus, or a device.
+ controller
+ driver
+ host
+ bus
+---
+controller
+===
+An I/O port typically consists of four registers status, control, --?-- and --?-- registers.
+ system in, system out
+ data in, data out
+ flow in, flow out
+ input, output
+---
+data in, data out
+===
+The hardware mechanism that allows a device to notify the CPU is called:
+ polling
+ interrupt
+ driver
+ controlling
+---
+interrupt
+===
+The CPU hardware has a wire called --?-- that the CPU senses after executing every instruction.
+ interrupt request line
+ interrupt bus
+ interrupt receive line
+ interrupt sense line
+---
+interrupt request line
+===
+The --?-- determines the cause of the interrupt, performs the necessary processing and executes a return from the interrupt instruction to return the CPU to the execution state prior to the interrupt.
+ interrupt request line
+ device driver
+ interrupt handler
+ all of the mentioned
+---
+interrupt handler
+===
+In general the two interrupt request lines are:
+ maskable & non maskable interrupts
+ blocked & non maskable interrupts
+ maskable & blocked interrupts
+ none of the mentioned
+---
+maskable & non maskable interrupts
+===
+The --?-- are reserved for events such as unrecoverable memory errors.
+ non maskable interrupts
+ blocked interrupts
+ maskable interrupts
+ none of the mentioned
+---
+non maskable interrupts
+===
+The --?-- can be turned off by the CPU before the execution of critical instruction sequences that must not be interrupted.
+ nonmaskable interrupt
+ blocked interrupt
+ maskable interrupt
+ none of the mentioned
+---
+maskable interrupt
+===
+The --?-- can be turned off by the CPU before the execution of critical instruction sequences that must not be interrupted.
+ nonmaskable interrupt
+ blocked interrupt
+ maskable interrupt
+ none of the mentioned
+---
+maskable interrupt
+===
+The --?-- is used by device controllers to request service.
+ nonmaskable interrupt
+ blocked interrupt
+ maskable interrupt
+ none of the mentioned
+---
+maskable interrupt
+===
+The interrupt vector contains:
+ the interrupts
+ the memory addresses of specialized interrupt handlers
+ the identifiers of interrupts
+ the device addresses
+---
+the memory addresses of specialized interrupt handlers
+===
+Division by zero, accessing a protected or non existent memory address, or attempting to execute a privileged instruction from user mode are all categorized as:
+ errors
+ exceptions
+ interrupt handlers
+ all of the mentioned
+---
+exceptions
+===
+For large data transfers, --?-- is used.
+ dma
+ programmed I/O
+ controller register
+ none of the mentioned
+---
+dma
+===
+A character stream device transfers:
+ bytes one by one
+ block of bytes as a unit
+ with unpredictable response times
+ none of the mentioned
+---
+bytes one by one
+===
+A block device transfers:
+ bytes one by one
+ block of bytes as a unit
+ with unpredictable response times
+ none of the mentioned
+---
+block of bytes as a unit
+===
+A dedicated device is:
+ opposite to a sharable device
+ same as a sharable device
+ can be used concurrently by several processes
+ none of the mentioned
+---
+opposite to a sharable device
+===
+In polling:
+ busy – wait cycles wait for I/O from device
+ interrupt handler receives interrupts
+ interrupt-request line is triggered by I/O device
+ all of the mentioned
+---
+busy – wait cycles wait for I/O from device
+===
+A non blocking system call:
+ halts the execution of the application for an extended time
+ does not halt the execution of the application
+ does not block the interrupts
+ none of the mentioned
+---
+does not halt the execution of the application
+===
+An asynchronous call:
+ returns immediately, without waiting for the I/O to complete
+ does not return immediately and waits for the I/O to complete
+ consumes a lot of time
+ is too slow
+---
+returns immediately, without waiting for the I/O to complete
+===
+Buffering is done to:
+ cope with device speed mismatch
+ cope with device transfer size mismatch
+ maintain copy semantics
+ all of the mentioned
+---
+all of the mentioned
+===
+Caching is --?-- spooling.
+ same as
+ not the same as
+ all of the mentioned
+ none of the mentioned
+---
+not the same as
+===
+Caching:
+ holds a copy of the data
+ is fast memory
+ holds the only copy of the data
+ holds output for a device
+---
+holds a copy of the data
+===
+Spooling:
+ holds a copy of the data
+ is fast memory
+ holds the only copy of the data
+ holds output for a device
+---
+holds the only copy of the data
+===
+The --?-- keeps state information about the use of I/O components.
+ CPU
+ OS
+ kernel
+ shell
+---
+kernel
+===
+The kernel data structures include:
+ process table
+ open file table
+ close file table
+ all of the mentioned
+---
+open file table
+===
+Windows NT uses a --?-- implementation for I/O
+ message – passing
+ draft – passing
+ secondary memory
+ cache
+---
+message – passing
+===
+A --?-- is a full duplex connection between a device driver and a user level process.
+ Bus
+ I/O operation
+ Stream
+ Flow
+---
+Stream
+===
+I/O is a --?-- in system performance.
+ major factor
+ minor factor
+ does not matter
+ none of the mentioned
+---
+major factor
+===
+If the number of cycles spent busy – waiting is not excessive, then:
+ interrupt driven I/O is more efficient than programmed I/O
+ programmed I/O is more efficient than interrupt driven I/O
+ both programmed and interrupt driven I/O are equally efficient
+ none of the mentioned
+---
+programmed I/O is more efficient than interrupt driven I/O
+===
+In real time operating system:
+ all processes have the same priority
+ a task must be serviced by its deadline period
+ process scheduling can be done only once
+ kernel is not required
+---
+a task must be serviced by its deadline period
+===
+For real time operating systems, interrupt latency should be:
+ minimal
+ maximum
+ zero
+ dependent on the scheduling
+---
+minimal
+===
+The problem of priority inversion can be solved by:
+ priority inheritance protocol
+ priority inversion protocol
+ both priority inheritance and inversion protocol
+ none of the mentioned
+---
+priority inheritance protocol
+===
+Time duration required for scheduling dispatcher to stop one process and start another is known as:
+ process latency
+ dispatch latency
+ execution latency
+ interrupt latency
+---
+dispatch latency
+===
+Time required to synchronous switch from the context of one thread to the context of another thread is called:
+ threads fly-back time
+ jitter
+ context switch time
+ none of the mentioned
+---
+context switch time
+===
+The disadvantage of real addressing mode is:
+ there is a lot of cost involved
+ time consumption overhead
+ absence of memory protection between processes
+ restricted access to memory locations by processes
+---
+absence of memory protection between processes
+===
+Preemptive, priority based scheduling guarantees:
+ hard real time functionality
+ soft real time functionality
+ protection of memory
+ none of the mentioned
+---
+soft real time functionality
+===
+Real time systems must have:
+ preemptive kernels
+ non preemptive kernels
+ preemptive kernels or non preemptive kernels
+ neither preemptive nor non preemptive kernels
+---
+preemptive kernels
+===
+Event latency is:
+ the amount of time an event takes to occur from when the system started
+ the amount of time from the event occurrence till the system stops
+ the amount of time from event occurrence till the event crashes
+ the amount of time that elapses from when an event occurs to when it is serviced.
+---
+the amount of time that elapses from when an event occurs to when it is serviced.
+===
+Interrupt latency refers to the period of time:
+ from the occurrence of an event to the arrival of an interrupt
+ from the occurrence of an event to the servicing of an interrupt
+ from arrival of an interrupt to the start of the interrupt service routine
+ none of the mentioned
+---
+from arrival of an interrupt to the start of the interrupt service routine
+===
+Real time systems need to --?-- the interrupt latency.
+ minimize
+ maximize
+ not bother about
+ none of the mentioned
+---
+minimize
+===
+The amount of time required for the scheduling dispatcher to stop one process and start another is known as:
+ event latency
+ interrupt latency
+ dispatch latency
+ context switch
+---
+dispatch latency
+===
+The most effective technique to keep dispatch latency low is to:
+ provide non preemptive kernels
+ provide preemptive kernels
+ make it user programmed
+ run less number of processes at a time
+---
+provide preemptive kernels
+===
+In a safety critical system, incorrect operation:
+ does not affect much
+ causes minor problems
+ causes major and serious problems
+ none of the mentioned
+---
+causes major and serious problems
+===
+In a --?-- real time system, it is guaranteed that critical real time tasks will be completed within their deadlines.
+ soft
+ hard
+ critical
+ none of the mentioned
+---
+hard
+===
+Some of the properties of real time systems include:
+ single purpose
+ inexpensively mass produced
+ small size
+ all of the mentioned
+---
+all of the mentioned
+===
+The amount of memory in a real time system is generally:
+ less compared to PCs
+ high compared to PCs
+ same as in PCs
+ they do not have any memory
+---
+less compared to PCs
+===
+The priority of a real time task:
+ must degrade over time
+ must not degrade over time
+ may degrade over time
+ none of the mentioned
+---
+must not degrade over time
+===
+Memory management units:
+ increase the cost of the system
+ increase the power consumption of the system
+ increase the time required to complete an operation
+ all of the mentioned
+---
+all of the mentioned
+===
+The technique in which the CPU generates physical addresses directly is known as:
+ relocation register method
+ real addressing
+ virtual addressing
+ none of the mentioned
+---
+real addressing
+===
+The scheduler admits a process using:
+ two phase locking protocol
+ admission control algorithm
+ busy wait polling
+ none of the mentioned
+---
+busy wait polling
+===
+An admission control scheme assigns a --?-- to each type of resource.
+ processor
+ memory location
+ resource manager
+ all of the mentioned
+---
+resource manager
+===
+The priority of a process will --?-- if the scheduler assigns it a static priority.
+ change
+ remain unchanged
+ depends on the operating system
+ none of the mentioned
+---
+remain unchanged
+===
+As disks have relatively low transfer rates and relatively high latency rates, disk schedulers must reduce latency times to:
+ ensure high bandwidth
+ ensure low bandwidth
+ make sure data is transferred
+ reduce data transfer speeds
+---
+ensure high bandwidth
+===
+Multimedia systems require --?-- scheduling to ensure critical tasks will be serviced within timing deadlines.
+ soft real time
+ hard real time
+ normal
+ none of the mentioned
+---
+hard real time
+===
+What are common security threats?
+ File Shredding
+ File sharing and permission
+ File integrity
+ File shredding and integrity
+---
+File sharing and permission
+===
+From the following, which is not a common file permission?
+ Write
+ Execute
+ Stop
+ Read
+---
+Stop
+===
+Which of the following is a good practice?
+ Give full permission for remote transferring
+ Grant read only permission
+ Grant limited permission to specified account
+ Give both read and write permission but not execute
+---
+Grant limited permission to specified account
+===
+What is not a good practice for user administration?
+ Isolating a system after a compromise
+ Perform random auditing procedures
+ Granting privileges on a per host basis
+ Using telnet and FTP for remote access
+---
+Using telnet and FTP for remote access
+===
+Which of the following is least secure method of authentication?
+ Key card
+ fingerprint
+ retina pattern
+ Password
+---
+Password
+===
+What is characteristics of Authorization?
+ RADIUS and RSA
+ 3 way handshaking with syn and fin
+ Multilayered protection for securing resources
+ Deals with privileges and rights
+---
+Deals with privileges and rights
+===
+What is breach of integrity?
+ This type of violation involves unauthorized reading of data
+ This violation involves unauthorized modification of data
+ This violation involves unauthorized destruction of data
+ This violation involves unauthorized use of resources
+---
+This violation involves unauthorized modification of data
+===
+What is breach of confidentiality?
+ This type of violation involves unauthorized reading of data
+ This violation involves unauthorized modification of data
+ This violation involves unauthorized destruction of data
+ This violation involves unauthorized use of resources
+---
+This type of violation involves unauthorized reading of data
+===
+What is theft of service?
+ This type of violation involves unauthorized reading of data
+ This violation involves unauthorized modification of data
+ This violation involves unauthorized destruction of data
+ This violation involves unauthorized use of resources
+---
+This violation involves unauthorized use of resources
+===
+What is breach of availability?
+ This type of violation involves unauthorized reading of data
+ This violation involves unauthorized modification of data
+ This violation involves unauthorized destruction of data
+ This violation involves unauthorized use of resources
+---
+This violation involves unauthorized destruction of data
+===
+What is Trojan horse?
+ It is a useful way to encrypt password
+ It is a user which steals valuable information
+ It is a rogue program which tricks users
+ It’s a brute force attack algorithm
+---
+It is a rogue program which tricks users
+===
+What is trap door?
+ It is trap door in WarGames
+ It is a hole in software left by designer
+ It is a Trojan horse
+ It is a virus which traps and locks user terminal
+---
+It is a hole in software left by designer
+===
+Which mechanism is used by worm process?
+ Trap door
+ Fake process
+ Spawn Process
+ VAX process
+---
+Spawn Process
+===
+What is port scanning?
+ It is a software used to scan system for attack
+ It is a software application designed to probe a server or host for open ports
+ It is software used to scan system for introducing attacks by brute force
+ None of the mentioned
+---
+It is a software application designed to probe a server or host for open ports
+===
+What are zombie systems?
+ Are specific system which are designed to attack by manufacturer
+ They are network of known hacking group
+ These systems are previously compromised, independent systems
+ None of the mentioned
+---
+These systems are previously compromised, independent systems
+===
+What is used to protect network from outside internet access?
+ A trusted antivirus
+ 24 hours scanning for virus
+ Firewall to separate trusted and untrusted network
+ Deny users access to websites which can potentially cause security leak
+---
+Firewall to separate trusted and untrusted network
+===
+What is best practice in firewall domain environment?
+ Create two domain trusted and untrusted domain
+ Create strong policy in firewall to support different types of users
+ Create a Demilitarized zone
+ Create two DMZ zones with one untrusted domain
+---
+Create a Demilitarized zone
+===
+Which direction access cannot happen using DMZ zone by default?
+ Company computer to DMZ
+ Internet to DMZ
+ Internet to company computer
+ Company computer to internet
+---
+Internet to company computer
+===
+What are two features of a tripwire file system?
+ It is a tool to monitor file systems
+ It is used to automatically take corrective action
+ It is used to secure UNIX system
+ None of the mentioned
+---
+It is a tool to monitor file systems
+===
+What is known as sandbox?
+ It is a program which can be molded to do desired task
+ It is program that is controlled or emulated section of OS
+ It is a special mode of antivirus
+ None of the mentioned
+---
+It is program that is controlled or emulated section of OS
+===
+What are the different ways to intrude?
+ Buffer overflows
+ Unexpected combinations and unhandled input
+ Race conditions
+ All of the mentioned
+---
+All of the mentioned
+===
+What are drawbacks of the host based IDS?
+ Unselective logging of messages may increase the audit burdens
+ Selective logging runs the risk of missed attacks
+ They are very fast to detect
+ They have to be programmed for new patterns
+---
+Unselective logging of messages may increase the audit burdens
+===
+Which one of the following is not a secondary storage?
+ Magnetic disks
+ Magnetic tapes
+ RAM
+ None of the mentioned
+---
+RAM
+===
+The time for the disk arm to move the heads to the cylinder containing the desired sector is called:
+ disk time
+ seek time
+ arm time
+ sector time
+---
+seek time
+===
+Which algorithm of disk scheduling selects the request with the least seek time from the current head positions?
+ SSTF scheduling
+ FCFS scheduling
+ SCAN scheduling
+ LOOK scheduling
+---
+SSTF scheduling
+===
+A swap space can reside in:
+ Separate disk partition
+ RAM
+ Cache
+ None of the mentioned
+---
+Separate disk partition
+===
+RAID level 1 refers to:
+ disk arrays with striping
+ disk mirroring
+ both disk arrays with striping and disk mirroring
+ none of the mentioned
+---
+disk mirroring
+===
+When we write something on the disk, which one of the following can not happen?
+ successful completion
+ partial failure
+ total failure
+ none of the mentioned
+---
+none of the mentioned
+===
+During recovery from a failure:
+ each pair of physical block is examined
+ specified pair of physical block is examined
+ first pair of physical block is examined
+ none of the mentioned
+---
+each pair of physical block is examined
+===
+The replacement of a bad block generally is not totally automatic because:
+ data in bad block can not be replaced
+ data in bad block is usually lost
+ bad block does not contain any data
+ none of the mentioned
+---
+data in bad block is usually lost
+===
+The first process launched by the linux kernel is:
+ init process
+ zombie process
+ batch process
+ boot process
+---
+init process
+===
+Standard set of functions through which interacts with kernel is defined by:
+ system libraries
+ kernel code
+ compilers
+ utility programs
+---
+system libraries
+===
+Which one of the following is not shared by threads?
+ program counter
+ stack
+ both program counter and stack
+ none of the mentioned
+---
+both program counter and stack
+===
+A process can be:
+ single threaded
+ multithreaded
+ both single threaded and multithreaded
+ none of the mentioned
+---
+both single threaded and multithreaded
+===
+If one thread opens a file with read privileges then:
+ other threads in the another process can also read from that file
+ other threads in the same process can also read from that file
+ any other thread can not read from that file
+ all of the mentioned
+---
+other threads in the same process can also read from that file
+===
+The time required to create a new thread in an existing process is:
+ greater than the time required to create a new process
+ less than the time required to create a new process
+ equal to the time required to create a new process
+ none of the mentioned
+---
+less than the time required to create a new process
+===
+When the event for which a thread is blocked occurs:
+ thread moves to the ready queue
+ thread remains blocked
+ thread completes
+ a new thread is provided
+---
+thread moves to the ready queue
+===
+Termination of the process terminates:
+ first thread of the process
+ first two threads of the process
+ all threads within the process
+ no thread within the process
+---
+all threads within the process
+===
+Which one of the following is not a valid state of a thread?
+ running
+ parsing
+ ready
+ blocked
+---
+parsing
+===
+The register context and stacks of a thread are deallocated when the thread:
+ terminates
+ blocks
+ unblocks
+ spawns
+---
+terminates
+===
+A thread is also called:
+ Light Weight Process(LWP)
+ Heavy Weight Process(HWP)
+ Process
+ None of the mentioned
+---
+Light Weight Process(LWP)
+===
+A thread shares its resources(like data section, code section, open files, signals) with:
+ other process similar to the one that the thread belongs to
+ other threads that belong to similar processes
+ other threads that belong to the same process
+ all of the mentioned
+---
+other threads that belong to the same process
+===
+A heavy weight process:
+ has multiple threads of execution
+ has a single thread of execution
+ can have multiple or a single thread for execution
+ none of the mentioned
+---
+has a single thread of execution
+===
+A process having multiple threads of control implies:
+ it can do more than one task at a time
+ it can do only one task at a time, but much faster
+ it has to use only one thread per process
+ none of the mentioned
+---
+it can do more than one task at a time
+===
+Multithreading an interactive program will increase responsiveness to the user by:
+ continuing to run even if a part of it is blocked
+ waiting for one part to finish before the other begins
+ asking the user to decide the order of multithreading
+ none of the mentioned
+---
+continuing to run even if a part of it is blocked
+===
+Resource sharing helps:
+ share the memory and resources of the process to which the threads belong
+ an application have several different threads of activity all within the same address space
+ reduce the address space that a process could potentially use
+ all of the mentioned
+---
+all of the mentioned
+===
+Multithreading on a multi – CPU machine:
+ decreases concurrency
+ increases concurrency
+ doesn’t affect the concurrency
+ can increase or decrease the concurrency
+---
+increases concurrency
+===
+The kernel is --?-- of user threads.
+ a part of
+ the creator of
+ unaware of
+ aware of
+---
+unaware of
+===
+If the kernel is single threaded, then any user level thread performing a blocking system call will:
+ cause the entire process to run along with the other threads
+ cause the thread to block with the other threads running
+ cause the entire process to block even if the other threads are available to run
+ none of the mentioned
+---
+cause the entire process to block even if the other threads are available to run
+===
+Because the kernel thread management is done by the Operating System itself:
+ kernel threads are faster to create than user threads
+ kernel threads are slower to create than user threads
+ kernel threads are easier to manage as well as create then user threads
+ none of the mentioned
+---
+kernel threads are slower to create than user threads
+===
+If a kernel thread performs a blocking system call:
+ the kernel can schedule another thread in the application for execution
+ the kernel cannot schedule another thread in the same application for execution
+ the kernel must schedule another thread of a different application for execution
+ the kernel must schedule another thread of the same application on a different processor
+---
+the kernel can schedule another thread in the application for execution
+===
+Which of the following is FALSE?
+ Context switch time is longer for kernel level threads than for user level threads
+ User level threads do not need any hardware support
+ Related kernel level threads can be scheduled on different processors in a multiprocessor system
+ Blocking one kernel level thread blocks all other related threads
+---
+Blocking one kernel level thread blocks all other related threads
+===
+In the Many to One model, if a thread makes a blocking system call:
+ the entire process will be blocked
+ a part of the process will stay blocked, with the rest running
+ the entire process will run
+ none of the mentioned
+---
+the entire process will be blocked
+===
+In the Many to One model, multiple threads are unable to run in parallel on multiprocessors because:
+ only one thread can access the kernel at a time
+ many user threads have access to just one kernel thread
+ there is only one kernel thread
+ none of the mentioned
+---
+only one thread can access the kernel at a time
+===
+The One to One model allows:
+ increased concurrency
+ decreased concurrency
+ increased or decreased concurrency
+ concurrency equivalent to other models
+---
+increased concurrency
+===
+In the One to One model when a thread makes a blocking system call:
+ other threads are strictly prohibited from running
+ other threads are allowed to run
+ other threads only from other processes are allowed to run
+ none of the mentioned
+---
+other threads are allowed to run
+===
+Which of the following is the drawback of the One to One Model?
+ increased concurrency provided by this model
+ decreased concurrency provided by this model
+ creating so many threads at once can crash the system
+ creating a user thread requires creating the corresponding kernel thread
+---
+creating a user thread requires creating the corresponding kernel thread
+===
+When is the Many to One model at an advantage?
+ When the program does not need multithreading
+ When the program has to be multi-threaded
+ When there is a single processor
+ None of the mentioned
+---
+When the program does not need multithreading
+===
+In the Many to Many model true concurrency cannot be gained because:
+ the kernel can schedule only one thread at a time
+ there are too many threads to handle
+ it is hard to map threads with each other
+ none of the mentioned
+---
+the kernel can schedule only one thread at a time
+===
+In the Many to Many model when a thread performs a blocking system call:
+ other threads are strictly prohibited from running
+ other threads are allowed to run
+ other threads only from other processes are allowed to run
+ none of the mentioned
+---
+other threads are allowed to run
+===
+Which of the following system calls does not return control to the calling point, on termination?
+ fork
+ exec
+ ioctl
+ longjmp
+---
+exec
+===
+Which of the following system calls transforms executable binary file into a process?
+ fork
+ exec
+ ioctl
+ longjmp
+---
+exec
+===
+Which of the following calls never returns an error?
+ getpid
+ fork
+ ioctl
+ open
+---
+getpid
+===
+A fork system call will fail if:
+ the previously executed statement is also a fork call
+ the limit on the maximum number of processes in the system would be executed
+ the limit on the minimum number of processes that can be under execution by a single user would be executed
+ all of the mentioned
+---
+the limit on the maximum number of processes in the system would be executed
+===
+If a thread invokes the exec system call:
+ only the exec executes as a separate process.
+ the program specified in the parameter to exec will replace the entire process
+ the exec is ignored as it is invoked by a thread.
+ none of the mentioned
+---
+the program specified in the parameter to exec will replace the entire process
+===
+If exec is called immediately after forking:
+ the program specified in the parameter to exec will replace the entire process
+ all the threads will be duplicated
+ all the threads may be duplicated
+ none of the mentioned
+---
+the program specified in the parameter to exec will replace the entire process
+===
+If a process does not call exec after forking:
+ the program specified in the parameter to exec will replace the entire process
+ all the threads should be duplicated
+ all the threads should not be duplicated
+ none of the mentioned
+---
+all the threads should be duplicated
+===
+Thread cancellation is:
+ the task of destroying the thread once its work is done
+ the task of removing a thread once its work is done
+ the task of terminating a thread before it has completed
+ none of the mentioned
+---
+the task of terminating a thread before it has completed
+===
+When a web page is loading, and the user presses a button on the browser to stop loading the page:
+ the thread loading the page continues with the loading
+ the thread loading the page does not stop, but continues with another task
+ the thread loading the page is paused
+ the thread loading the page is cancelled
+---
+the thread loading the page is cancelled
+===
+When one thread immediately terminates the target thread, it is called:
+ Asynchronous cancellation
+ Systematic cancellation
+ Sudden Termination
+ Deferred cancellation
+---
+Asynchronous cancellation
+===
+When the target thread periodically checks if it should terminate and terminates itself in an orderly manner, it is called:
+ Asynchronous cancellation
+ Systematic cancellation
+ Sudden Termination
+ Deferred cancellation
+---
+Deferred cancellation
+===
+Cancelling a thread asynchronously:
+ frees all the resources properly
+ may not free each resource
+ spoils the process execution
+ none of the mentioned
+---
+may not free each resource
+===
+Cancellation point is the point where:
+ the thread can be cancelled – safely or otherwise doesn’t matter
+ the thread can be cancelled safely
+ the whole process can be cancelled safely
+ none of the mentioned
+---
+the thread can be cancelled safely
+===
+If multiple threads are concurrently searching through a database and one thread returns the result then the remaining threads must be:
+ continued
+ cancelled
+ protected
+ none of the mentioned
+---
+cancelled
+===
+Signals that occur at the same time, are presented to the process:
+ one at a time, in a particular order
+ one at a time, in no particular order
+ all at a time
+ none of the mentioned
+---
+one at a time, in no particular order
+===
+Which of the following is not TRUE:
+ Processes may send each other signals
+ Kernel may send signals internally
+ a field is updated in the signal table when the signal is sent
+ each signal is maintained by a single bit
+---
+a field is updated in the signal table when the signal is sent
+===
+Signals of a given type:
+ are queued
+ are all sent as one
+ cannot be queued
+ none of the mentioned
+---
+are all sent as one
+===
+The way/s in which a process responds to a signal are:
+ ignoring the signal
+ handling the signal
+ performing some default action
+ all of the mentioned
+---
+all of the mentioned
+===
+Signals are identified by:
+ signal identifiers
+ signal handlers
+ signal actions
+ none of the mentioned
+---
+signal identifiers
+===
+When a process blocks the receipt of certain signals:
+ The signals are delivered
+ The signals are not delivered
+ The signals are received until they are unblocked
+ The signals are received by the process once they are delivered
+---
+The signals are delivered
+===
+The --?-- maintains pending and blocked bit vectors in context of each process.
+ CPU
+ Memory
+ Process
+ Kernel
+---
+Kernel
+===
+The usefulness of signals as a general inter process communication mechanism is limited because:
+ they do not work between processes
+ they are user generated
+ they cannot carry information directly
+ none of the mentioned
+---
+they cannot carry information directly
+===
+The usual effect of abnormal termination of a program is:
+ core dump file generation
+ system crash
+ program switch
+ signal destruction
+---
+core dump file generation
+===
+In most cases, if a process is sent a signal while it is executing a system call:
+ the system call will continue execution and the signal will be ignored completely
+ the system call is interrupted by the signal, and the signal handler comes in
+ the signal has no effect until the system call completes
+ none of the mentioned
+---
+the signal has no effect until the system call completes
+===
+A process can never be sure that a signal it has sent:
+ has which identifier
+ has not been lost
+ has been sent
+ all of the mentioned
+---
+has not been lost
+===
+In UNIX, the --?-- system call is used to send a signal.
+ sig
+ send
+ kill
+ sigsend
+---
+kill
+===
+Thread pools are useful when:
+ when we need to limit the number of threads running in the application at the same time
+ when we need to limit the number of threads running in the application as a whole
+ when we need to arrange the ordering of threads
+ none of the mentioned
+---
+when we need to limit the number of threads running in the application at the same time
+===
+Instead of starting a new thread for every task to execute concurrently, the task can be passed to a:
+ process
+ thread pool
+ thread queue
+ none of the mentioned
+---
+thread pool
+===
+Each connection arriving at multi threaded servers via network is generally:
+ is directly put into the blocking queue
+ is wrapped as a task and passed on to a thread pool
+ is kept in a normal queue and then sent to the blocking queue from where it is dequeued
+ none of the mentioned
+---
+is wrapped as a task and passed on to a thread pool
+===
+The idea behind thread pools is:
+ a number of threads are created at process startup and placed in a pool where they sit and wait for work
+ when a process begins, a pool of threads is chosen from the many existing and each thread is allotted equal amount of work
+ all threads in a pool distribute the task equally among themselves
+ none of the mentioned
+---
+a number of threads are created at process startup and placed in a pool where they sit and wait for work
+===
+If the thread pool contains no available thread:
+ the server runs a new process
+ the server goes to another thread pool
+ the server demands for a new pool creation
+ the server waits until one becomes free
+---
+the server waits until one becomes free
+===
+Thread pools help in:
+ servicing multiple requests using one thread
+ servicing a single request using multiple threads from the pool
+ faster servicing of requests with an existing thread rather than waiting to create a new thread
+ none of the mentioned
+---
+faster servicing of requests with an existing thread rather than waiting to create a new thread
+===
+Thread pools limit the number of threads that exist at any one point, hence:
+ not letting the system resources like CPU time and memory exhaust
+ helping a limited number of processes at a time
+ not serving all requests and ignoring many
+ none of the mentioned
+---
+not letting the system resources like CPU time and memory exhaust
+===
+The number of the threads in the pool can be decided on factors such as:
+ number of CPUs in the system
+ amount of physical memory
+ expected number of concurrent client requests
+ all of the mentioned
+---
+all of the mentioned
+===
+Because of virtual memory, the memory can be shared among:
+ processes
+ threads
+ instructions
+ none of the mentioned
+---
+processes
+===
+_____ is the concept in which a process is copied into main memory from the secondary memory according to the requirement.
+ Paging
+ Demand paging
+ Segmentation
+ Swapping
+---
+Demand paging
+===
+The pager concerns with the:
+ individual page of a process
+ entire process
+ entire thread
+ first page of a process
+---
+individual page of a process
+===
+Swap space exists in:
+ primary memory
+ secondary memory
+ cpu
+ none of the mentioned
+---
+secondary memory
+===
+When a program tries to access a page that is mapped in address space but not loaded in physical memory, then:
+ segmentation fault occurs
+ fatal error occurs
+ page fault occurs
+ no error occurs
+---
+page fault occurs
+===
+Effective access time is directly proportional to:
+ page-fault rate
+ hit ratio
+ memory access time
+ none of the mentioned
+---
+page-fault rate
+===
+In FIFO page replacement algorithm, when a page must be replaced:
+ oldest page is chosen
+ newest page is chosen
+ random page is chosen
+ none of the mentioned
+---
+oldest page is chosen
+===
+A process is thrashing if:
+ it is spending more time paging than executing
+ it is spending less time paging than executing
+ page fault occurs
+ swapping can not take place
+---
+it is spending more time paging than executing
+===
+Working set model for page replacement is based on the assumption of:
+ modularity
+ locality
+ globalization
+ random access
+---
+locality
+===
+Virtual memory allows:
+ execution of a process that may not be completely in memory
+ a program to be smaller than the physical memory
+ a program to be larger than the secondary storage
+ execution of a process without being in physical memory
+---
+execution of a process that may not be completely in memory
+===
+The instruction being executed, must be in:
+ physical memory
+ logical memory
+ physical & logical memory
+ none of the mentioned
+---
+physical memory
+===
+Error handler codes, to handle unusual errors are:
+ almost never executed
+ executed very often
+ executed periodically
+ none of the mentioned
+---
+almost never executed
+===
+The ability to execute a program that is only partially in memory has benefits like:
+ The amount of physical memory cannot put a constraint on the program
+ Programs for an extremely large virtual space can be created
+ Throughput increases
+ All of the mentioned
+---
+All of the mentioned
+===
+In virtual memory. the programmer --?-- of overlays.
+ has to take care
+ does not have to take care
+ all of the mentioned
+ none of the mentioned
+---
+does not have to take care
+===
+Virtual memory is normally implemented by:
+ demand paging
+ buses
+ virtualization
+ all of the mentioned
+---
+demand paging
+===
+Segment replacement algorithms are more complex than page replacement algorithms because:
+ Segments are better than pages
+ Pages are better than segments
+ Segments have variable sizes
+ Segments have fixed sizes
+---
+Segments have variable sizes
+===
+A swapper manipulates --?-- whereas the pager is concerned with individual --?-- of a process.
+ the entire process, parts
+ all the pages of a process, segments
+ the entire process, pages
+ none of the mentioned
+---
+the entire process, pages
+===
+Using a pager:
+ increases the swap time
+ decreases the swap time
+ decreases the swap time & amount of physical memory needed
+ increases the amount of physical memory needed
+---
+decreases the swap time & amount of physical memory needed
+===
+The valid – invalid bit, in this case, when valid indicates:
+ the page is not legal
+ the page is illegal
+ the page is in memory
+ the page is not in memory
+---
+the page is in memory
+===
+A page fault occurs when:
+ a page gives inconsistent data
+ a page cannot be accessed due to its absence from memory
+ a page is invisible
+ all of the mentioned
+---
+a page cannot be accessed due to its absence from memory
+===
+When a page fault occurs, the state of the interrupted process is:
+ disrupted
+ invalid
+ saved
+ none of the mentioned
+---
+saved
+===
+When a page is selected for replacement, and its modify bit is set:
+ the page is clean
+ the page has been modified since it was read in from the disk
+ the page is dirty
+ the page has been modified since it was read in from the disk & page is dirty
+---
+the page has been modified since it was read in from the disk & page is dirty
+===
+The aim of creating page replacement algorithms is to:
+ replace pages faster
+ increase the page fault rate
+ decrease the page fault rate
+ to allocate multiple pages to processes
+---
+decrease the page fault rate
+===
+Optimal page – replacement algorithm is difficult to implement, because:
+ it requires a lot of information
+ it requires future knowledge of the reference string
+ it is too complex
+ it is extremely expensive
+---
+it requires future knowledge of the reference string
+===
+The two methods how LRU page replacement policy can be implemented in hardware are:
+ Counters
+ RAM & Registers
+ Stack & Counters
+ Registers
+---
+Stack & Counters
+===
+When using counters to implement LRU, we replace the page with the:
+ smallest time value
+ largest time value
+ greatest size
+ none of the mentioned
+---
+smallest time value
+===
+In the stack implementation of the LRU algorithm, a stack can be maintained in a manner:
+ whenever a page is used, it is removed from the stack and put on bottom
+ the bottom of the stack is the LRU page
+ the top of the stack contains the LRU page and all new pages are added to the top
+ none of the mentioned
+---
+the bottom of the stack is the LRU page
+===
+There is a set of page replacement algorithms that can never exhibit Belady’s Anomaly, called:
+ queue algorithms
+ stack algorithms
+ string algorithms
+ none of the mentioned
+---
+stack algorithms
+===
+Increasing the RAM of a computer typically improves performance because:
+ Virtual memory increases
+ Larger RAMs are faster
+ Fewer page faults occur
+ None of the mentioned
+---
+Fewer page faults occur
+===
+The essential content(s) in each entry of a page table is / are:
+ Virtual page number
+ Page frame number
+ Both virtual page number and page frame number
+ Access right information
+---
+Page frame number
+===
+The minimum number of page frames that must be allocated to a running process in a virtual memory environment is determined by:
+ the instruction set architecture
+ page size
+ physical memory size
+ number of processes in memory
+---
+the instruction set architecture
+===
+The reason for using the LFU page replacement algorithm is:
+ an actively used page should have a large reference count
+ a less used page has more chances to be used again
+ it is extremely efficient and optimal
+ all of the mentioned
+---
+an actively used page should have a large reference count
+===
+The implementation of the LFU and the MFU algorithm is very uncommon because:
+ they are too complicated
+ they are optimal
+ they are expensive
+ all of the mentioned
+---
+they are expensive
+===
+The minimum number of frames to be allocated to a process is decided by the:
+ the amount of available physical memory
+ operating System
+ instruction set architecture
+ none of the mentioned
+---
+instruction set architecture
+===
+When a page fault occurs before an executing instruction is complete:
+ the instruction must be restarted
+ the instruction must be ignored
+ the instruction must be completed ignoring the page fault
+ none of the mentioned
+---
+the instruction must be restarted
+===
+Consider a machine in which all memory reference instructions have only one memory address, for them we need at least --?-- frame(s).
+ one
+ two
+ three
+ none of the mentioned
+---
+two
+===
+The maximum number of frames per process is defined by:
+ the amount of available physical memory
+ operating System
+ instruction set architecture
+ none of the mentioned
+---
+the amount of available physical memory
+===
+--?-- replacement allows a process to select a replacement frame from the set of all frames, even if the frame is currently allocated to some other process.
+ Local
+ Universal
+ Global
+ Public
+---
+Global
+===
+--?-- replacement allows each process to only select from its own set of allocated frames.
+ Local
+ Universal
+ Global
+ Public
+---
+Local
+===
+One problem with the global replacement algorithm is that:
+ it is very expensive
+ many frames can be allocated to a process
+ only a few frames can be allocated to a process
+ a process cannot control its own page – fault rate
+---
+a process cannot control its own page – fault rate
+===
+--?-- replacement generally results in greater system throughput.
+ Local
+ Global
+ Universal
+ Public
+---
+Global
+===
+A process is thrashing if:
+ it spends a lot of time executing, rather than paging
+ it spends a lot of time paging, than executing
+ it has no memory allocated to it
+ none of the mentioned
+---
+it spends a lot of time paging, than executing
+===
+Thrashing --?-- the CPU utilization.
+ increases
+ keeps constant
+ decreases
+ none of the mentioned
+---
+decreases
+===
+A locality is:
+ a set of pages that are actively used together
+ a space in memory
+ an area near a set of processes
+ none of the mentioned
+---
+a set of pages that are actively used together
+===
+When a subroutine is called:
+ it defines a new locality
+ it is in the same locality from where it was called
+ it does not define a new locality
+ none of the mentioned
+---
+it defines a new locality
+===
+A program is generally composed of several different localities, which --?-- overlap.
+ may
+ must
+ do not
+ must not
+---
+may
+===
+The accuracy of the working set depends on the selection of:
+ working set model
+ working set size
+ memory size
+ number of pages in memory
+---
+working set size
+===
+If working set window is too small:
+ it will not encompass entire locality
+ it may overlap several localities
+ it will cause memory problems
+ none of the mentioned
+---
+it will not encompass entire locality
+===
+If working set window is too large:
+ it will not encompass entire locality
+ it may overlap several localities
+ it will cause memory problems
+ none of the mentioned
+---
+it may overlap several localities
+===
+If the sum of the working – set sizes increases, exceeding the total number of available frames:
+ then the process crashes
+ the memory overflows
+ the system crashes
+ the operating system selects a process to suspend
+---
+the operating system selects a process to suspend
+===
+--?-- is a unique tag, usually a number, identifies the file within the file system.
+ File identifier
+ File name
+ File type
+ None of the mentioned
+---
+File identifier
+===
+To create a file:
+ allocate the space in file system
+ make an entry for new file in directory
+ allocate the space in file system & make an entry for new file in directory
+ none of the mentioned
+---
+allocate the space in file system & make an entry for new file in directory
+===
+By using the specific system call, we can:
+ open the file 
+ read the file
+ write into the file
+ all of the mentioned
+---
+all of the mentioned
+===
+File type can be represented by:
+ file name
+ file extension
+ file identifier
+ none of the mentioned
+---
+file extension
+===
+Which file is a sequence of bytes organized into blocks understandable by the system’s linker?
+ object file
+ source file
+ executable file
+ text file
+---
+object file
+===
+What is the mounting of file system?
+ crating of a filesystem
+ deleting a filesystem
+ attaching portion of the file system into a directory structure
+ removing portion of the file system into a directory structure
+---
+attaching portion of the file system into a directory structure
+===
+Mapping of file is managed by:
+ file metadata
+ page table
+ virtual memory
+ file system
+---
+file metadata
+===
+Mapping of network file system protocol to local file system is done by:
+ network file system
+ local file system
+ volume manager
+ remote mirror
+---
+network file system
+===
+Which one of the following explains the sequential file access method?
+ random access according to the given byte number
+ read bytes one at a time, in order
+ read/write sequentially by record
+ read/write randomly by record
+---
+read bytes one at a time, in order
+===
+File system fragmentation occurs when:
+ unused space or single file are not contiguous
+ used space is not contiguous
+ unused space is non-contiguous
+ multiple files are non-contiguous
+---
+unused space or single file are not contiguous
+===
+Management of metadata information is done by:
+ file-organisation module
+ logical file system
+ basic file system
+ application programs
+---
+logical file system
+===
+A file control block contains the information about:
+ file ownership
+ file permissions
+ location of file contents
+ all of the mentioned
+---
+all of the mentioned
+===
+Which table contains the information about each mounted volume?
+ mount table
+ system-wide open-file table
+ per-process open-file table
+ all of the mentioned
+---
+all of the mentioned
+===
+To create a new file application program calls:
+ basic file system
+ logical file system
+ file-organisation module
+ none of the mentioned
+---
+logical file system
+===
+When a process closes the file:
+ per-process table entry is not removed
+ system wide entry’s open count is decremented
+ all of the mentioned
+ none of the mentioned
+---
+system wide entry’s open count is decremented
+===
+What is raw disk?
+ disk without file system
+ empty disk
+ disk lacking logical file system
+ disk having file system
+---
+disk without file system
+===
+The data structure used for file directory is called:
+ mount table
+ hash table
+ file table
+ process table
+---
+hash table
+===
+In which type of allocation method each file occupy a set of contiguous block on the disk?
+ contiguous allocation
+ dynamic-storage allocation
+ linked allocation
+ indexed allocation
+---
+contiguous allocation
+===
+Which protocol establishes the initial logical connection between a server and a client?
+ transmission control protocol
+ user datagram protocol
+ mount protocol
+ datagram congestion control protocol
+---
+mount protocol
+===
+Data cannot be written to secondary storage unless written within a:
+ file
+ swap space
+ directory
+ text format
+---
+file
+===
+File attributes consist of:
+ name
+ type
+ identifier
+ all of the mentioned
+---
+all of the mentioned
+===
+The information about all files is kept in:
+ swap space
+ operating system
+ seperate directory structure
+ none of the mentioned
+---
+seperate directory structure
+===
+A file is a/an --?-- data type.
+ abstract
+ primitive
+ private
+---
+abstract
+===
+The operating system keeps a small table containing information about all open files called:
+ system table
+ open-file table
+ file table
+ directory table
+---
+open-file table
+===
+In UNIX, the open system call returns:
+ pointer to the entry in the open file table
+ pointer to the entry in the system wide table
+ a file to the process calling it
+ none of the mentioned
+---
+pointer to the entry in the open file table
+===
+The open file table has a/an --?-- associated with each file.
+ file content
+ file permission
+ open count
+ close count
+---
+open count
+===
+The file name is generally split into two parts:
+ name & identifier
+ identifier & type
+ extension & name
+ type & extension
+---
+extension & name
+===
+The UNIX sytem uses a/an --?-- stored at the beginning of a some files to indicate roughly the type of file.
+ identifier
+ extension
+ virtual number
+ magic number
+---
+magic number
+===
+The larger the block size, the --?-- the internal fragmentation.
+ greater
+ lesser
+ same
+ none of the mentioned
+---
+greater
+===
+Sequential access method --?-- on random access devices.
+ works well
+ doesnt work well
+ maybe works well and doesnt work well
+ none of the mentioned
+---
+works well
+===
+The direct access method is based on a --?-- model of a file, as --?-- allow random access to any file block.
+ magnetic tape, magnetic tapes
+ tape, tapes
+ disk, disks
+ tape, disks
+---
+disk, disks
+===
+For a direct access file:
+ there are restrictions on the order of reading and writing
+ there are no restrictions on the order of reading and writing
+ access is restricted permission wise
+ access is not restricted permission wise
+---
+there are no restrictions on the order of reading and writing
+===
+A relative block number is an index relative to:
+ the beginning of the file
+ the end of the file
+ the last written position in file
+ none of the mentioned
+---
+the beginning of the file
+===
+The index contains:
+ names of all contents of file
+ pointers to each page
+ pointers to the various blocks
+ all of the mentioned
+---
+pointers to the various blocks
+===
+For large files, when the index itself becomes too large to be kept in memory:
+ index is called
+ an index is created for the index file
+ secondary index files are created
+ all of the mentioned
+---
+an index is created for the index file
+===
+To organise file systems on disk,:
+ they are split into one or more partitions
+ information about files is added to each partition
+ they are made on different storage spaces
+ all of the mentioned
+---
+information about files is added to each partition
+===
+The directory can be viewed as a --?-- that translates file names into their directory entries.
+ symbol table
+ partition
+ swap space
+ cache
+---
+symbol table
+===
+In the single level directory:
+ All files are contained in different directories all at the same level
+ All files are contained in the same directory
+ Depends on the operating system
+ None of the mentioned
+---
+All files are contained in the same directory
+===
+In the single level directory:
+ all directories must have unique names
+ all files must have unique names
+ all files must have unique owners
+ all of the mentioned
+---
+all files must have unique names
+===
+In the two level directory structure:
+ each user has his/her own user file directory
+ the system doesn’t its own master file directory
+ all of the mentioned
+ none of the mentioned
+---
+each user has his/her own user file directory
+===
+When a user job starts in a two level directory system, or a user logs in:
+ the users user file directory is searched
+ the system’s master file directory is not searched
+ the master file directory is indexed by user name or account number, and each entry points to the UFD for that user
+ all of the mentioned
+---
+the master file directory is indexed by user name or account number, and each entry points to the UFD for that user
+===
+The disadvantage of the two level directory structure is that:
+ it does not solve the name collision problem
+ it solves the name collision problem
+ it does not isolate users from one another
+ it isolates users from one another
+---
+it isolates users from one another
+===
+In the tree structured directories:
+ the tree has the stem directory
+ the tree has the leaf directory
+ the tree has the root directory
+ all of the mentioned
+---
+the tree has the root directory
+===
+The current directory contains, most of the files that are:
+ of current interest to the user
+ stored currently in the system
+ not used in the system
+ not of current interest to the system
+---
+of current interest to the user
+===
+Path names can be of two types:
+ absolute & relative
+ local & global
+ global & relative
+ relative & local
+---
+absolute & relative
+===
+An absolute path name begins at the:
+ leaf
+ stem
+ current directory
+ root
+---
+root
+===
+A relative path name begins at the:
+ leaf
+ stem
+ current directory
+ root
+---
+current directory
+===
+In tree structure, when deleting a directory that is not empty:
+ The contents of the directory are safe
+ The contents of the directory are also deleted
+ contents of the directory are not deleted
+ none of the mentioned
+---
+The contents of the directory are also deleted
+===
+When two users keep a subdirectory in their own directories, the structure being referred to is:
+ tree structure
+ cyclic graph directory structure
+ two level directory structure
+ acyclic graph directory
+---
+acyclic graph directory
+===
+A tree structure --?-- the sharing of files and directories.
+ allows
+ may restrict
+ restricts
+ none of the mentioned
+---
+restricts
+===
+With a shared file:
+ actual file exists
+ there are two copies of the file
+ the changes made by one person are not reflected to the other
+ the changes made by one person are reflected to the other
+---
+the changes made by one person are reflected to the other
+===
+In UNIX, a link is:
+ a directory entry
+ a pointer to another file or subdirectory
+ implemented as an absolute or relative path name
+ all of the mentioned
+---
+all of the mentioned
+===
+The operating system --?-- the links when traversing directory trees, to preserve the acyclic structure of the system.
+ considers
+ ignores
+ deletes
+ none of the mentioned
+---
+ignores
+===
+The deletion of a link, --?-- the original file.
+ deletes
+ affects
+ does not affect
+ none of the mentioned
+---
+does not affect
+===
+When keeping a list of all the links/references to a file, and the list is empty, implies that:
+ the file has no copies
+ the file is deleted
+ the file is hidden
+ none of the mentioned
+---
+the file is deleted
+===
+When a cycle exists, the reference count maybe non zero, even when it is no longer possible to refer to a directory or file, due to:
+ the possibility of one hidden reference
+ the possibility of two hidden references
+ the possibility of self referencing
+ none of the mentioned
+---
+the possibility of self referencing
+===
+A mount point is:
+ an empty directory at which the mounted file system will be attached
+ a location where every time file systems are mounted
+ is the time when the mounting is done
+ none of the mentioned
+---
+an empty directory at which the mounted file system will be attached
+===
+When a file system is mounted over a directory that is not empty:
+ the system may not allow the mount
+ the system must allow the mount
+ the system may allow the mount and the directory’s existing files will then be made obscure
+ all of the mentioned
+---
+the system may allow the mount and the directory’s existing files will then be made obscure
+===
+In UNIX, exactly which operations can be executed by group members and other users is definable by:
+ the group’s head
+ the file’s owner
+ the file’s permissions
+ all of the mentioned
+---
+the file’s owner
+===
+A process --?-- lower the priority of another process, if both are owned by the same owner.
+ must
+ can
+ cannot
+ none of the mentioned
+---
+can
+===
+Anonymous access allows a user to transfer files:
+ without having an account on the remote system
+ only if he accesses the system with a guest account
+ only if he has an account on the remote system
+ none of the mentioned
+---
+without having an account on the remote system
+===
+The series of accesses between the open and close operations is a:
+ transaction
+ procedure
+ program
+ file session
+---
+file session
+===
+Reliability of files can be increased by:
+ keeping the files safely in the memory
+ making a different partition for the files
+ by keeping them in external storage
+ by keeping duplicate copies of the file
+---
+by keeping duplicate copies of the file
+===
+Protection is only provided at the --?-- level.
+ lower
+ central
+ higher
+ none of the mentioned
+---
+lower
+===
+The main problem with access control lists is:
+ their maintenance
+ their length
+ their permissions
+ all of the mentioned
+---
+their length
+===
+In UNIX, groups can be created and modified by:
+ superuser
+ any user
+ a programmer only
+ the people in the group only
+---
+superuser
+===
+If each access to a file is controlled by a password, then the disadvantage is that:
+ user will need to remember a lot of passwords
+ it is not reliable
+ it is not efficient
+ all of the mentioned
+---
+user will need to remember a lot of passwords
+===
+In a multi level directory structure:
+ the same previous techniques will be used as in the other structures
+ a mechanism for directory protection will have to applied
+ the subdirectories do not need protection once the directory is protected
+ none of the mentioned
+---
+a mechanism for directory protection will have to applied
+===
+Disks are segmented into one or more partitions, each containing a file system or:
+ left ‘raw’
+ made into swap space
+ made into backup space
+ left ‘ripe’
+---
+left ‘raw’
+===
+In contiguous allocation:
+ each file must occupy a set of contiguous blocks on the disk
+ each file is a linked list of disk blocks
+ all the pointers to scattered blocks are placed together in one location
+ none of the mentioned
+---
+each file must occupy a set of contiguous blocks on the disk
+===
+In linked allocation:
+ each file must occupy a set of contiguous blocks on the disk
+ each file is a linked list of disk blocks
+ all the pointers to scattered blocks are placed together in one location
+ none of the mentioned
+---
+each file is a linked list of disk blocks
+===
+In indexed allocation:
+ each file must occupy a set of contiguous blocks on the disk
+ each file is a linked list of disk blocks
+ all the pointers to scattered blocks are placed together in one location
+ none of the mentioned
+---
+all the pointers to scattered blocks are placed together in one location
+===
+On systems where there are multiple operating system, the decision to load a particular one is done by:
+ boot loader
+ bootstrap
+ process control block
+ file control block
+---
+boot loader
+===
+The VFS (virtual file system) activates file system specific operations to handle local requests according to their:
+ size
+ commands
+ timings
+ file system types
+---
+file system types
+===
+The real disadvantage of a linear list of directory entries is the:
+ size of the linear list in memory
+ linear search to find a file
+ it is not reliable
+ all of the mentioned
+---
+linear search to find a file
+===
+Contiguous allocation of a file is defined by:
+ disk address of the first block & length
+ length & size of the block
+ size of the block
+ total size of the file
+---
+disk address of the first block & length
+===
+One difficulty of contiguous allocation is:
+ finding space for a new file
+ inefficient
+ costly
+ time taking
+---
+finding space for a new file
+===
+The first fit and best fit algorithms suffer from:
+ internal fragmentation
+ external fragmentation
+ starvation
+ all of the mentioned
+---
+external fragmentation
+===
+To solve the problem of external fragmentation, --?-- needs to be done periodically.
+ compaction
+ check
+ formatting
+ replacing memory
+---
+compaction
+===
+If too little space is allocated to a file:
+ the file will not work
+ there will not be any space for the data, as the FCB takes it all
+ the file cannot be extended
+ the file cannot be opened
+---
+the file cannot be extended
+===
+A device driver can be thought of as a translator. Its input consists of --?-- commands and output consists of --?-- instructions.
+ high level, low level
+ low level, high level
+ complex, simple
+ low level, complex
+---
+high level, low level
+===
+Metadata includes:
+ all of the file system structure
+ contents of files
+ both file system structure and contents of files
+ none of the mentioned
+---
+both file system structure and contents of files
+===
+For each file there exists a --?-- that contains information about the file, including ownership, permissions and location of the file contents.
+ metadata
+ file control block
+ process control block
+ all of the mentioned
+---
+file control block
+===
+For processes to request access to file contents, they need to:
+ they need to run a seperate program
+ they need special interrupts
+ implement the open and close system calls
+ none of the mentioned
+---
+implement the open and close system calls
+===
+During compaction time, other normal system operations --?-- be permitted.
+ can
+ cannot
+ is
+ none of the mentioned
+---
+cannot
+===
+When in contiguous allocation the space cannot be extended easily:
+ the contents of the file have to be copied to a new space, a larger hole
+ the file gets destroyed
+ the file will get formatted and lost all its data
+ none of the mentioned
+---
+the contents of the file have to be copied to a new space, a larger hole
+===
+There is no --?-- with linked allocation.
+ internal fragmentation
+ external fragmentation
+ starvation
+ all of the mentioned
+---
+external fragmentation
+===
+The major disadvantage with linked allocation is that:
+ internal fragmentation
+ external fragmentation
+ there is no sequential access
+ there is only sequential access
+---
+there is only sequential access
+===
+If a pointer is lost or damaged in a linked allocation:
+ the entire file could get damaged
+ only a part of the file would be affected
+ there would not be any problems
+ none of the mentioned
+---
+the entire file could get damaged
+===
+By using FAT, random access time is:
+ the same
+ increased
+ decreased
+ not affected
+---
+decreased
+===
+A better way of contiguous allocation to extend the file size is:
+ adding an extent (another chunk of contiguous space)
+ adding an index table to the first contiguous block
+ adding pointers into the first contiguous block
+ none of the mentioned
+---
+adding an extent (another chunk of contiguous space)
+===
+If the extents are too large, then the problem that comes in is:
+ internal fragmentation
+ external fragmentation
+ starvation
+ all of the mentioned
+---
+internal fragmentation
+===
+The FAT is used much as a:
+ stack
+ linked list
+ data
+ pointer
+---
+linked list
+===
+A section of disk at the beginning of each partition is set aside to contain the table in:
+ fat
+ linked allocation
+ hashed allocation
+ indexed allocation
+---
+fat
+===
+Contiguous allocation has two problems --?-- and --?-- that linked allocation solves.
+ external – fragmentation & size – declaration
+ internal – fragmentation & external – fragmentation
+ size – declaration & internal – fragmentation
+ memory – allocation & size – declaration
+---
+external – fragmentation & size – declaration
+===
+Each --?-- has its own index block.
+ partition
+ address
+ file
+ all of the mentioned
+---
+file
+===
+Indexed allocation --?-- direct access.
+ supports
+ does not support
+ is not related to
+ none of the mentioned
+---
+supports
+===
+The pointer overhead of indexed allocation is generally --?-- the pointer overhead of linked allocation.
+ less than
+ equal to
+ greater than
+ keeps varying with
+---
+greater than
+===
+For any type of access, contiguous allocation requires --?-- access to get a disk block.
+ only one
+ at least two
+ exactly two
+ none of the mentioned
+---
+only one
+===
+--?-- tend to represent a major bottleneck in system performance.
+ CPUs
+ Disks
+ Programs
+ I/O
+---
+Disks
+===
+In UNIX, even an ’empty’ disk has a percentage of its space lost to:
+ programs
+ inodes
+ virtual memory
+ stacks
+---
+inodes
+===
+By preallocating the inodes and spreading them across the volume, we --?-- the system performance.
+ improve
+ decrease
+ maintain
+ do not affect
+---
+improve
+===
+--?-- writes occur in the order in which the disk subsystem receives them, and the writes are not buffered.
+ Asynchronous
+ Regular
+ Synchronous
+ Irregular
+---
+Synchronous
+===
+In --?-- writes, the data is stored in the cache.
+ Asynchronous
+ Regular
+ Synchronous
+ Irregular
+---
+Asynchronous
+===
+A file being read or written sequentially should not have its pages replaced in LRU order, because:
+ it is very costly
+ the most recently used page will be used last
+ it is not efficient
+ all of the mentioned
+---
+the most recently used page will be used last
+===
+In the optimized technique for sequential access --?-- removes a page from the buffer as soon as the next page is requested.
+ write ahead
+ read ahead
+ free-behind
+ add-front
+---
+free-behind
+===
+With --?-- a requested page and several subsequent pages are read and cached.
+ write ahead
+ read ahead
+ free-behind
+ add-front
+---
+read ahead
+===
+Some directory information is kept in main memory or cache to:
+ fill up the cache
+ increase free space in secondary storage
+ speed up access
+---
+speed up access
+===
+A consistency checker --?-- and tries to fix any inconsistencies it finds.
+ compares the data in the secondary storage with the data in the cache
+ compares the data in the directory structure with the data blocks on disk
+ compares the system generated output and user required output
+ all of the mentioned
+---
+compares the data in the directory structure with the data blocks on disk
+===
+Each set of operations for performing a specific task is a:
+ program
+ code
+ transaction
+ all of the mentioned
+---
+transaction
+===
+Once the changes are written to the log, they are considered to be:
+ committed
+ aborted
+ completed
+ none of the mentioned
+---
+committed
+===
+When an entire committed transaction is completed:
+ it is stored in the memory
+ it is removed from the log file
+ it is redone
+ none of the mentioned
+---
+it is removed from the log file
+===
+A circular buffer:
+ writes to the end of its space and then continues at the beginning
+ overwrites older values as it goes
+ all of the mentioned
+ none of the mentioned
+---
+writes to the end of its space and then continues at the beginning
+===
+All the changes that were done from a transaction that did not commit before the system crashed, have to be:
+ saved
+ saved and the transaction redone
+ undone
+ none of the mentioned
+---
+undone
+===
+A machine in Network file system (NFS) can be:
+ client
+ server
+ both client and server
+ neither client nor server
+---
+both client and server
+===
+The --?-- becomes the name of the root of the newly mounted directory.
+ root of the previous directory
+ local directory
+ remote directory itself
+ none of the mentioned
+---
+local directory
+===
+--?-- mounts, is when a file system can be mounted over another file system, that is remotely mounted, not local.
+ recursive
+ cascading
+ trivial
+ none of the mentioned
+---
+cascading
+===
+The mount request is mapped to the corresponding --?-- and is forwarded to the mount server running on the specific server machine.
+ IPC
+ System
+ CPU
+ RPC
+---
+System
+===
+The server maintains a/an --?-- that specifies local file systems that it exports for mounting, along with names of machines that are permitted to mount them.
+ export list
+ import list
+ sending list
+ receiving list
+---
+export list
+===
+When a client has a cascading mount, --?-- server(s) is/are involved in a path name traversal.
+ at least one
+ more than one
+ more than two
+ more than three
+---
+more than one
+===
+I/O hardware contains:
+ Bus
+ Controller
+ I/O port and its registers
+ All of the mentioned
+---
+All of the mentioned
+===
+The data-in register of I/O port is:
+ Read by host to get input
+ Read by controller to get input
+ Written by host to send output
+ Written by host to start a command
+---
+Read by host to get input
+===
+The host sets --?-- bit when a command is available for the controller to execute.
+ write
+ status
+ command-ready
+ control
+---
+command-ready
+===
+When hardware is accessed by reading and writing to the specific memory locations, then it is called:
+ port-mapped I/O
+ controller-mapped I/O
+ bus-mapped I/O
+ none of the mentioned
+---
+none of the mentioned
+===
+Which hardware triggers some operation after certain programmed count?
+ programmable interval timer
+ interrupt timer
+ programmable timer
+ none of the mentioned
+---
+programmable interval timer
+===
+The device-status table contains:
+ each I/O device type
+ each I/O device address
+ each I/O device state
+ all of the mentioned
+---
+all of the mentioned
+===
+Which buffer holds the output for a device?
+ spool
+ output
+ status
+ magic
+---
+spool
+===
+Which one of the following connects high-speed high-bandwidth device to memory subsystem and CPU.
+ Expansion bus
+ PCI bus
+ SCSI bus
+ None of the mentioned
+---
+Expansion bus
+===
+A process is moved to wait queue when I/O request is made with:
+ non-blocking I/O
+ blocking I/O
+ asynchronous I/O
+ synchronous I/O
+---
+blocking I/O
+===
+In --?-- information is recorded magnetically on platters.
+ magnetic disks
+ electrical disks
+ assemblies
+ cylinders
+---
+magnetic disks
+===
+The heads of the magnetic disk are attached to a --?-- that moves all the heads as a unit.
+ spindle
+ disk arm
+ track
+ none of the mentioned
+---
+disk arm
+===
+The set of tracks that are at one arm position make up a:
+ magnetic disks
+ electrical disks
+ assemblies
+ cylinders
+---
+cylinders
+===
+The time taken to move the disk arm to the desired cylinder is called the:
+ positioning time
+ random access time
+ seek time
+ rotational latency
+---
+seek time
+===
+The time taken for the desired sector to rotate to the disk head is called:
+ positioning time
+ random access time
+ seek time
+ rotational latency
+---
+rotational latency
+===
+When the head damages the magnetic surface, it is known as:
+ disk crash
+ head crash
+ magnetic damage
+ all of the mentioned
+---
+head crash
+===
+A floppy disk is designed to rotate --?-- as compared to a hard disk drive.
+ faster
+ slower
+ at the same speed
+ none of the mentioned
+---
+slower
+===
+The host controller is:
+ controller built at the end of each disk
+ controller at the computer end of the bus
+ all of the mentioned
+ none of the mentioned
+---
+controller at the computer end of the bus
+===
+--?-- controller sends the command placed into it, via messages to the --?-- controller.
+ host, host
+ disk, disk
+ host, disk
+ disk, host
+---
+host, disk
+===
+The disk bandwidth is:
+ the total number of bytes transferred
+ total time between the first request for service and the completion on the last transfer
+ the total number of bytes transferred divided by the total time between the first request for service and the completion on the last transfer
+ none of the mentioned
+---
+the total number of bytes transferred divided by the total time between the first request for service and the completion on the last transfer
+===
+Whenever a process needs I/O to or from a disk it issues a:
+ system call to the CPU
+ system call to the operating system
+ a special procedure
+ all of the mentioned
+---
+system call to the operating system
+===
+If a process needs I/O to or from a disk, and if the drive or controller is busy then:
+ the request will be placed in the queue of pending requests for that drive
+ the request will not be processed and will be ignored completely
+ the request will be not be placed
+ none of the mentioned
+---
+the request will be placed in the queue of pending requests for that drive
+===
+Random access in magnetic tapes is --?-- compared to magnetic disks.
+ fast
+ very fast
+ slow
+ very slow
+---
+very slow
+===
+Magnetic tape drives can write data at a speed --?-- disk drives.
+ much lesser than
+ comparable to
+ much faster than
+ none of the mentioned
+---
+comparable to
+===
+On media that use constant linear velocity (CLV), the --?-- is uniform.
+ density of bits on the disk
+ density of bits per sector
+ the density of bits per track
+ none of the mentioned
+---
+the density of bits per track
+===
+In the --?-- algorithm, the disk arm starts at one end of the disk and moves toward the other end, servicing requests till the other end of the disk. At the other end, the direction is reversed and servicing continues.
+ LOOK
+ SCAN
+ C-SCAN
+ C-LOOK
+---
+SCAN
+===
+In the --?-- algorithm, the disk head moves from one end to the other , servicing requests along the way. When the head reaches the other end, it immediately returns to the beginning of the disk without servicing any requests on the return trip.
+ LOOK
+ SCAN
+ C-SCAN
+ C-LOOK
+---
+C-SCAN
+===
+In the --?-- algorithm, the disk arm goes as far as the final request in each direction, then reverses direction immediately without going to the end of the disk.
+ LOOK
+ SCAN
+ C-SCAN
+ C-LOOK
+---
+LOOK
+===
+The process of dividing a disk into sectors that the disk controller can read and write, before a disk can store data is known as:
+ partitioning
+ swap space creation
+ low-level formatting
+ none of the mentioned
+---
+low-level formatting
+===
+The data structure for a sector typically contains:
+ header
+ data area
+ trailer
+ all of the mentioned
+---
+all of the mentioned
+===
+The header and trailer of a sector contain information used by the disk controller such as --?-- and --?--
+ main section & disk identifier
+ error correcting codes (ECC) & sector number
+ sector number & main section
+ disk identifier & sector number
+---
+error correcting codes (ECC) & sector number
+===
+The two steps the operating system takes to use a disk to hold its files are --?-- and --?-- .
+ partitioning & logical formatting
+ swap space creation & caching
+ caching & logical formatting
+ logical formatting & swap space creation
+---
+partitioning & logical formatting
+===
+The --?-- program initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system.
+ main
+ bootloader
+ bootstrap
+ rom
+---
+bootstrap
+===
+For most computers, the bootstrap is stored in:
+ RAM
+ ROM
+ Cache
+ Tertiary storage
+---
+ROM
+===
+A disk that has a boot partition is called a:
+ start disk
+ end disk
+ boot disk
+ all of the mentioned
+---
+boot disk
+===
+Defective sectors on disks are often known as:
+ good blocks
+ destroyed blocks
+ bad blocks
+ none of the mentioned
+---
+bad blocks
+===
+In SCSI disks used in high end PCs, the controller maintains a list of --?-- on the disk. The disk is initialized during --?-- formatting which sets aside spare sectors not visible to the operating system.
+ destroyed blocks, high level formatting
+ bad blocks, partitioning
+ bad blocks, low level formatting
+ destroyed blocks, partitioning
+---
+bad blocks, low level formatting
+===
+An unrecoverable error is known as:
+ hard error
+ tough error
+ soft error
+ none of the mentioned
+---
+hard error
+===
+Virtual memory uses disk space as an extension of:
+ secondary storage
+ main memory
+ tertiary storage
+ none of the mentioned
+---
+main memory
+===
+Using swap space significantly --?-- system performance.
+ increases
+ decreases
+ maintains
+ does not affect
+---
+decreases
+===
+A single swap space --?-- reside in two places.
+ can
+ cannot
+ must not
+ none of the mentioned
+---
+can
+===
+If the swap space is simply a large file, within the file system, --?-- used to create it, name it and allocate its space.
+ special routines must be
+ normal file system routines can be
+ normal file system routines cannot be
+ swap space storage manager is
+---
+normal file system routines can be
+===
+For swap space created in a separate disk partition where no file system or directory structure is placed, --?-- used to allocate and deallocate the blocks.
+ special routines must be
+ normal file system routines can be
+ normal file system routines cannot be
+ swap space storage manager is
+---
+swap space storage manager is
+===
+It is __________ to reread a page from the file system than to write it to swap space and then to reread it from there.
+ useless
+ less efficient
+ more efficient
+ none of the mentioned
+---
+more efficient
+===
+A write of a block has to access:
+ the disk on which the block is stored
+ parity disk
+ a parity block
+ all of the mentioned
+---
+all of the mentioned
+===
+A large number of disks in a system improves the rate at which data can be read or written:
+ if the disks are operated on sequentially
+ if the disks are operated on selectively
+ if the disks are operated in parallel
+ all of the mentioned
+---
+if the disks are operated in parallel
+===
+The solution to the problem of reliability is the introduction of:
+ aging
+ scheduling
+ redundancy
+ disks
+---
+redundancy
+===
+The technique of duplicating every disk is known as:
+ mirroring
+ shadowing
+ redundancy
+ all of the mentioned
+---
+mirroring
+===
+A single parity bit can be used for:
+ detection
+ multiple error corrections
+ few error corrections
+ all of the mentioned
+---
+detection
+===
+In domain structure what is Access-right equal to?
+ Access-right = object-name, rights-set
+ Access-right = read-name, write-set
+ Access-right = read-name, execute-set
+ Access-right = object-name, execute-set
+---
+Access-right = object-name, rights-set
+===
+What is meaning of right-set? 
+ It is a subset consist of read and write
+ It is a subset of all valid operations that can be performed on the object
+ It is a subset consist of read,write and execute
+ None of the mentioned
+---
+It is a subset of all valid operations that can be performed on the object
+===
+What is Domain?
+ Set of all objects
+ Collection of protection policies
+ Set of access-rights
+ None of the mentioned
+---
+Set of access-rights
+===
+What does access matrix represent?
+ Rows-Domains, Columns-Objects
+ Rows-Objects, Columns-Domains
+ Rows-Access List, Columns-Domains
+ Rows-Domains, Columns-Access list
+---
+Rows-Domains, Columns-Objects
+===
+Who can add new rights and remove some rights?
+ copy
+ transfer
+ limited copy
+ owner
+---
+owner
+===
+Which two rights allow a process to change the entries in a column?
+ copy and transfer
+ copy and owner
+ owner and transfer
+ deny and copy
+---
+copy and transfer
+===
+Which is an unsolvable problem in access-matrix?
+ Owner override
+ Brute force
+ Access denied
+ Confinement
+---
+Confinement
+===
+Which of the following objects require protection?
+ CPU
+ Printers
+ Motherboard
+ All of the mentioned
+---
+Printers
+===
+What is ‘separation’ in security of Operating systems?
+ To have separate login for different users
+ To have separate Hard disk drive/partition for different users
+ It means keeping one user’s objects separate from other users
+ None of the mentioned
+---
+It means keeping one user’s objects separate from other users
+===
+What are various roles of protection?
+ It is used to detect errors which can prevent contamination of system
+ It is used used to accelerate a process
+ It is used to optimize system downtime
+ None of the mentioned
+---
+It is used to detect errors which can prevent contamination of system
+===
+Which of the following objects require protection?
+ Memory
+ Monitor
+ Power supply unit
+ All of the mentioned
+---
+Memory
+===
+Which principle states that programs, users and even the systems be given just enough privileges to perform their task?
+ principle of operating system
+ principle of least privilege
+ principle of process scheduling
+ none of the mentioned
+---
+principle of least privilege
+===
+______ is an approach to restricting system access to authorized users.
+ Role-based access control
+ Process-based access control
+ Job-based access control
+ None of the mentioned
+---
+Role-based access control
+===
+For system protection, a process should access:
+ all the resources
+ only those resources for which it has authorization
+ few resources but authorization is not required
+ all of the mentioned
+---
+only those resources for which it has authorization
+===
+The protection domain of a process contains:
+ object name
+ rights-set
+ both object name and rights-set
+ none of the mentioned
+---
+both object name and rights-set
+===
+If the set of resources available to the process is fixed throughout the process’s lifetime then its domain is:
+ static
+ dynamic
+ neither static nor dynamic
+ none of the mentioned
+---
+static
+===
+Access matrix model for user authentication contains:
+ a list of objects
+ a list of domains
+ a function which returns an object’s type
+ all of the mentioned
+---
+all of the mentioned
+===
+Global table implementation of matrix table contains:
+ domain
+ object
+ right-set
+ all of the mentioned
+---
+all of the mentioned
+===
+For a domain _______ is a list of objects together with the operation allowed on these objects.
+ capability list
+ access list
+ both capability and access list
+ none of the mentioned
+---
+capability list
+===
+In UNIX, domain switch is accomplished via:
+ file system
+ user
+ superuser
+ none of the mentioned
+---
+file system
+===
+When an attempt is to make a machine or network resource unavailable to its intended users, the attack is called:
+ denial-of-service attack
+ slow read attack
+ spoofed attack
+ tarvation attack
+---
+denial-of-service attack
+===
+The code segment that misuses its environment is called a:
+ internal thief
+ trojan horse
+ code stacker
+ none of the mentioned
+---
+trojan horse
+===
+The internal code of any software that will set of a malicious function when specified conditions are met, is called:
+ logic bomb
+ trap door
+ code stacker
+ none of the mentioned
+---
+logic bomb
+===
+The pattern that can be used to identify a virus is known as:
+ stealth
+ virus signature
+ armoured
+ multipartite
+---
+virus signature
+===
+Which one of the following is a process that uses the spawn mechanism to revage the system performance?
+ worm
+ trojan
+ threat
+ virus
+---
+worm
+===
+Which one of the following is not an attack, but a search for vulnerabilities to attack?
+ denial of service
+ port scanning
+ memory access violation
+ dumpster diving
+---
+port scanning
+===
+File virus attaches itself to the
+ source file
+ object file
+ executable file
+ all of the mentioned
+---
+executable file
+===
+Multipartite viruses attack on:
+ files
+ boot sector
+ memory
+ all of the mentioned
+---
+all of the mentioned
+===
+What is correct regarding ‘relocation’ w.r.t protecting memory?
+ It is a process of taking a program as if it began at address 0
+ It is a process of taking a program as if it began at address 0A
+ Fence cannot be used within relocation process
+ All of the mentioned
+---
+It is a process of taking a program as if it began at address 0
+===
+What is basic need in protecting memory in multi-user environment?
+ We need two registers one ‘start’ and other ‘end’
+ We need a variable register
+ A fence register has to be used known as base register.
+ None of the mentioned
+---
+ fence register has to be used known as base register.
+===
+What is role of base/bound registers?
+ They give starting address to a program
+ Program’s addresses are neatly confined to space between the base and the bound registers
+ They provide encrypted environment
+ This technique doesn’t protects a program’s address from modification by another user
+---
+Program’s addresses are neatly confined to space between the base and the bound registers
+===
+What is all-or-nothing situation for sharing in memory?
+ Program makes all its data available to be accessed
+ It prohibits access to some
+ It creates rules who can access program memory
+ It separates program memory and data memory
+---
+Program makes all its data available to be accessed
+===
+How is disadvantage of all-or-nothing approach overcome?
+ Base/Bound
+ Relocation technique
+ Fence method
+ Tagged architecture
+---
+Tagged architecture
+===
+What is true regarding tagged architecture?
+ Every word of machine memory has one or more extra bits
+ Extra bits are used to do padding
+ Extra bits are not used to identify rights to that word
+ It is very compatible to code upgrades
+---
+Every word of machine memory has one or more extra bits
+===
+What is best solution to have effect of unbounded number if base/bound registers?
+ Tagged architecture
+ Segmentation
+ Fence method
+ None of the mentioned
+---
+Segmentation
+===
+What is major feature of segmentation?
+ Program is divided in data memory and program memory
+ Program is executed in segments
+ Program is divided into pieces having different access rights
+ It has effect of an unbounded architecture
+---
+Program is divided into pieces having different access rights
+===
+What is correct way the segmentation program address is stored?
+ name, offset
+ start, stop
+ access, rights
+ offset, rights
+---
+name, offset
+===
+What is main objective of protection?
+ Ensure all objects are protected individually
+ Objects have different priority and thus different levels of protection
+ Ensure that each object is accessed correctly and only by allowed processes
+ None of the mentioned
+---
+Ensure that each object is accessed correctly and only by allowed processes
+===
+What is principle of least privilege?
+ Less privileges provide difficulty in executing admin tasks
+ Users can get temporary high privilege access
+ Users should be given just enough privileges to perform their tasks
+ None of the mentioned
+---
+Users should be given just enough privileges to perform their tasks
+===
+What is incorrect methods of revocation of access rights?
+ Immediate/Delayed
+ Selective/General
+ Partial/total
+ Crucial
+---
+Crucial
+===
+Why is it difficult to revoke capabilities?
+ They are too many
+ They are not defined precicely
+ They are distributed throughout the system
+ None of the mentioned
+---
+They are distributed throughout the system
+===
+What is the reacquisition scheme to revoke capability?
+ When a process capability is revoked then it won’t be able to reacquire it
+ Pointers are maintained for each object which can be used to revoke
+ Indirect pointing is done to revoke object’s capabilities
+ Master key can be used compare and revoke.
+---
+When a process capability is revoked then it won’t be able to reacquire it
+===
+What is true about Indirection to revoke capability?
+ Capabilities point indirectly to the objects
+ Each capability will not have a unique entry in global
+ Table entries cannot be reused for other capabilities
+ This system was adopted in MULTICS system
+---
+Capabilities point indirectly to the objects
+===
+What is the problem of mutually suspicious subsystem?
+ Service program can steal users data
+ Service program can malfunction and retain some rights of data provided by user
+ Calling program can get access to restricted portion from service program
+ Calling program gets unrestricted access
+---
+Service program can malfunction and retain some rights of data provided by user
+===
+Users and application programmers communicate with hardware through:
+ program instructions
+ a channel
+ the operating system
+ all of the mentioned
+---
+the operating system
+===
+Most modern operating systems include:
+ processor management
+ file management
+ memory management
+ all of the mentioned
+---
+all of the mentioned
+===
+In addition to providing a user interface, the operating system:
+ manages system resources
+ complicates programming
+---
+manages system resources
+===
+The operating system's routines perform key support functions such as:
+ communicating with peripheral devices
+ accepting and carrying out user commands
+ both
+---
+both
+===
+The file management function incorporates routines that allow the user or programmer to:
+ create files by name
+ delete files by name
+ modify files by name
+ all of the mentioned
+---
+all of the mentioned
+===
+The processor fetches and executes one instruction during each:
+ clock pulse
+ execution cycle
+ instruction cycle
+ machine cycle
+---
+machine cycle
+===
+The time that is required to bring a disk drive up to speed and position the access mechanism is called:
+ access time
+ rotational delay
+ seek time
+ execution time
+---
+seek time
+===
+To find a particular file on a disk, refer to the disk's: 
+ table of contents
+ directory
+ buffer
+ control unit
+---
+directory
+===
+Temporary storage called --?-- can be used to adjust for the speed disparity between devices.
+ a buffer
+ an interface
+ a control unit
+ a channel
+---
+a buffer
+===
+On a mainframe, device-dependent I/O functions are assigned to: 
+ a channel
+ a control unit
+ an interface
+ a buffer
+---
+a channel
+===
+Programmers code at the --?-- level.
+ object
+ load
+ machine
+ source
+---
+source
+===
+If key routines are stored --?--, a programmer can incorporate them in his or her program and thus avoid rewriting them.
+ in memory
+ on disk
+ in a library
+ in an object
+---
+in a library
+===
+Given a start of file address, the location of any given record can be computed from its:
+ key
+ relative record number
+ data object
+ source structure
+---
+relative record number
+===
+question
+options
+---
+answer
+===
+On most computer systems, the internal components are designed around a common:
+ interface
+ byte size
+ word size
+ protocol
+---
+word size
+===
+The access method is added to the program load module by the:
+ compiler
+ programmer
+ linkage editor
+ internal component
+---
+linkage editor
+===
+Interfaces and control units execute:
+ machine-level commands
+ object-level commands
+ primitive commands
+ none of the above
+---
+primitive commands
+===
+By --?-- data (storing several logical records in a single block sector), disk space can be better utilized.
+ blocking
+ encoding
+ encrypting
+ compressing
+---
+blocking
+===
+Managing a disk directory is a key function of the:
+ IOCS
+ command processor
+ boot routine
+ file system
+---
+file system
+===
+To create a new file or find an existing file, a program executes:
+ a read instruction
+ a save command
+ a load command
+ an open command
+---
+an open command
+===
+On most computers, a peripheral establishes communication with the opening system by sending:
+ a protocol signal
+ an interrupt
+ a command
+ a request
+---
+an interrupt
+===
+Under --?-- memory management, only active portions of a program are actually stored in main memory.
+ fixed-partition
+ dynamic
+ virtual
+ fragmented
+---
+virtual
+===
+Pages are swapped into and out from the real memory:
+ page pool
+ V-R area
+ paging device
+ partitions
+---
+page pool
+===
+If two routines each control a resource needed by the other and neither is willing to give in, --?-- can occur.
+ an interrupt
+ deadlock
+ a time-slice
+ a race condition
+---
+deadlock
+===
+Copying data to disk for eventual input to an application routine is called:
+ queuing
+ spooling
+ dispatching
+ multiprogramming
+---
+spooling
+===
+Virtual memory is a --?-- of memory contents.
+ physical model
+ duplicate
+ mirror image
+ logical model
+---
+logical model
+===
+Most time-sharing systems rely on --?-- to manage memory space.
+ time-slicing
+ interrupts
+ polling
+ roll-in/roll-out
+---
+time-slicing
+===
+Under --?--, programs are divided into variable length pieces.
+ segmenting
+ paging
+ dynamic memory management
+ fixed partitions
+---
+segmentation
+===
+Under --?--, programs are divided into fixed length pieces.
+ segmenting
+ paging
+ dynamic memory management
+ fixed partitions
+---
+paging
+===
+A synchronious event that is generated when the processor detects a predefined condition is called a(n):
+ interrupt
+ exception
+ page fault
+ the IDT
+---
+exception
+===
+Associated with every interrupt is an identification number called a(n):
+ interrupt ID
+ IDT
+ vector
+ interrupt description number
+---
+vector
+===

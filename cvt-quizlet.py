@@ -1,7 +1,8 @@
 from pprint import pprint
 import json
+import sys
 
-with open('data1.txt','r') as f:
+with open(sys.argv[1],'r') as f:
     state = 0
     questions = []
     for line in f.readlines():
