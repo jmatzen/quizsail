@@ -1464,7 +1464,7 @@
       ]
    },
    {
-      "q": "The two atomic operations permissible on semaphores are:",
+      "q": "The atomic operation permissible on semaphores are:",
       "c": [
          "wait",
          "stop",
@@ -2208,7 +2208,7 @@
       ]
    },
    {
-      "q": "The two ways of aborting processes and eliminating deadlocks are:",
+      "q": "The ways of aborting processes and eliminating deadlocks are:",
       "c": [
          "Abort all deadlocked processes",
          "Abort all processes",
@@ -4176,7 +4176,7 @@
       ]
    },
    {
-      "q": "What are two features of a tripwire file system?",
+      "q": "What are features of a tripwire file system?",
       "c": [
          "It is a tool to monitor file systems",
          "It is used to automatically take corrective action",
@@ -5378,10 +5378,10 @@
    {
       "q": "The two methods how LRU page replacement policy can be implemented in hardware are:",
       "c": [
-         "Counters",
+         "Counters & Registers",
          "RAM & Registers",
          "Stack & Counters",
-         "Registers"
+         "Registers & RAM"
       ],
       "a": [
          "Stack & Counters"
@@ -8383,15 +8383,6 @@
       ]
    },
    {
-      "q": "question",
-      "c": [
-         "options"
-      ],
-      "a": [
-         "answer"
-      ]
-   },
-   {
       "q": "On most computer systems, the internal components are designed around a common:",
       "c": [
          "interface",
@@ -8421,7 +8412,7 @@
          "machine-level commands",
          "object-level commands",
          "primitive commands",
-         "none of the above"
+         "none of the mentioned"
       ],
       "a": [
          "primitive commands"
@@ -8550,7 +8541,7 @@
    {
       "q": "Under --?--, programs are divided into variable length pieces.",
       "c": [
-         "segmenting",
+         "segmentation",
          "paging",
          "dynamic memory management",
          "fixed partitions"

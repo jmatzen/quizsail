@@ -974,7 +974,7 @@ Semaphore is a/an --?-- to solve the critical section problem.
 ---
 integer variable
 ===
-The two atomic operations permissible on semaphores are:
+The atomic operation permissible on semaphores are:
  wait
  stop
  hold
@@ -1470,7 +1470,7 @@ A deadlock can be broken by:
 ---
 abort one or more processes to break the circular wait
 ===
-The two ways of aborting processes and eliminating deadlocks are:
+The ways of aborting processes and eliminating deadlocks are:
  Abort all deadlocked processes
  Abort all processes
  Abort one process at a time until the deadlock cycle is eliminated
@@ -2782,7 +2782,7 @@ Which direction access cannot happen using DMZ zone by default?
 ---
 Internet to company computer
 ===
-What are two features of a tripwire file system?
+What are features of a tripwire file system?
  It is a tool to monitor file systems
  It is used to automatically take corrective action
  It is used to secure UNIX system
@@ -3583,10 +3583,10 @@ Optimal page – replacement algorithm is difficult to implement, because:
 it requires future knowledge of the reference string
 ===
 The two methods how LRU page replacement policy can be implemented in hardware are:
- Counters
+ Counters & Registers
  RAM & Registers
  Stack & Counters
- Registers
+ Registers & RAM
 ---
 Stack & Counters
 ===
@@ -5585,11 +5585,6 @@ Given a start of file address, the location of any given record can be computed 
 ---
 relative record number
 ===
-question
-options
----
-answer
-===
 On most computer systems, the internal components are designed around a common:
  interface
  byte size
@@ -5610,7 +5605,7 @@ Interfaces and control units execute:
  machine-level commands
  object-level commands
  primitive commands
- none of the above
+ none of the mentioned
 ---
 primitive commands
 ===
@@ -5695,7 +5690,7 @@ Most time-sharing systems rely on --?-- to manage memory space.
 time-slicing
 ===
 Under --?--, programs are divided into variable length pieces.
- segmenting
+ segmentation
  paging
  dynamic memory management
  fixed partitions
