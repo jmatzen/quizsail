@@ -8058,7 +8058,7 @@
          "None of the mentioned"
       ],
       "a": [
-         "fence register has to be used known as base register."
+         "A fence register has to be used known as base register."
       ]
    },
    {
