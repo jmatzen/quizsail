@@ -1656,18 +1656,6 @@
       ]
    },
    {
-      "q": "In this situation:",
-      "c": [
-         "a deadlock will occur",
-         "processes will starve to enter critical section",
-         "several processes maybe executing in their critical section",
-         "all of the mentioned"
-      ],
-      "a": [
-         "several processes maybe executing in their critical section"
-      ]
-   },
-   {
       "q": "A monitor is a type of:",
       "c": [
          "semaphore",
