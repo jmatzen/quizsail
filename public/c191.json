@@ -1853,7 +1853,7 @@
          "A transaction may obtain locks, but does not release any",
          "A transaction may obtain locks, and releases a few or all of them",
          "A transaction may release locks, but does not obtain any new locks",
-         "A transaction may release locks, and does obtain new locks"
+         "A transaction may release locks, and obtains new locks"
       ],
       "a": [
          "A transaction may release locks, but does not obtain any new locks"
