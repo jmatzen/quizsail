@@ -1,6 +1,6 @@
 # QuizSail
 
-Test Prep Engine—Run a live version [here](https://www.quizsail.com/).
+Test Prep Engine—Run a live version at [www.quizsail.com](https://www.quizsail.com/).
 
 ### QuizSail contains a 240+ bank of questions for WGU C857 Software QA and a 700+ bank for WGU C191 Operating Systems.
 
