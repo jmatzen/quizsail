@@ -2,7 +2,7 @@
 
 Test Prep Engine—Run a live version [here](https://www.quizsail.com/).
 
-### QuizSail contains a 240+ bank of questions for WGU C857 Software QA.
+### QuizSail contains a 240+ bank of questions for WGU C857 Software QA and a 700+ bank for WGU C191 Operating Systems.
 
 The test prep engine uses a technique called *assumed competency*.  This technique assumes that if you answer the question correctly the first time that you already know the answer. Because of this, it's running on sort of an honor system, so if the user is not sure what the answer is they should not enter any answer at all instead of guessing.
 
