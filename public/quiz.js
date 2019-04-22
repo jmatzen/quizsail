@@ -217,7 +217,7 @@ function submitAnswer() {
     console.log(`answer is ${correct}`)
     E("result").text = correct ? "CORRECT!" : `Wrong. The correct answer is ${answers}`;
     var newClass = correct ? "correct" : "incorrect";
-    E("result").e.addClass(newClass);
+    E("result").e.classList.add(newClass);
 
     E("submitbtn").attr("onclick", 'show()').value = "Next Question";
     if (!('tries' in currentItem.ref)) {
