@@ -216,6 +216,8 @@ function submitAnswer() {
     }
     console.log(`answer is ${correct}`)
     E("result").text = correct ? "CORRECT!" : `Wrong. The correct answer is ${answers}`;
+    //remove classes, then add new class based on correct/incorrect answer
+    E("result").e.className = "";
     var newClass = correct ? "correct" : "incorrect";
     E("result").e.classList.add(newClass);
 
