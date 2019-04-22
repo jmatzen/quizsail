@@ -1077,9 +1077,8 @@
       ]
    },
    {
-      "q": "Indicate if the given statements about error-locating principles is true or false.",
+      "q": "Indicate if the given statements about error-locating principles is true or false.<BR>Involve a mental analysis of the information associated with the error's symptoms.",
       "c": [
-         "Involve a mental analysis of the information associated with the error's symptoms.",
          "True",
          "False"
       ],
