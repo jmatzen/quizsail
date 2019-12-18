@@ -23,8 +23,6 @@
         padding: 5vh 5vw;
       }
       form {
-        background-color: rgba(238, 238, 238, 0.2);
-        border: 1px dotted #eee;
         margin: 0 auto;
         max-width: 80vw;
         padding: 5vh 5vw;
@@ -42,15 +40,33 @@
         background-color: green;
         filter: brightness(150%);
       }
-    </style>
-    <script>
-      const start = ()=>{
-        const src = document.getElementById("quiz").value;
-        const quick = document.getElementById("fastmode").checked ? 1 : 0;
-        const url = `quiz-engine.html?src=${src}&quick=${quick}`;
-        window.location = url;
+      .block {
+        background-color: rgba(238, 238, 238, 0.2);
+        border: 1px dotted #eee;
       }
-    </script>
+      #resumeTitle {
+        width: 100vw;
+        text-align: center;
+      }
+      #savedSessions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .savedSession {
+        padding: 2vh 2vw;
+        margin: 1vh 1vw;
+        width: 100vw;
+        max-width: 400px;
+        transition: opacity 1s ease;
+      }
+      .savedSession[hidden] {
+        display: block;
+        opacity: 0;
+      }
+    </style>
+    <script src="common.js"></script>
+    <script src="index.js"></script>
   </head>
 
   <body>
@@ -62,7 +78,7 @@
       </p>
     </div>
     <div>
-      <form>
+      <form class="block">
         <select id="quiz" size=2>
           <option value="c857">C857 - 248 Questions</option>
           <option value="c191">C191 - 717 Questions</option>
@@ -71,9 +87,10 @@
           <input type="checkbox" id="fastmode"/> Fast Mode (don't ask question again if correct answer first time)
         </p>
         <p>
-          <input type="button" value="Start" onclick="start()"/>
+          <input type="button" value="Start" id="startButton" />
         </p>
       </form>
     </div>
+    <section id="savedSessions"></section>
   </body>
 </html>

@@ -7,8 +7,25 @@ var content = null;
 
 const source=getParam('src') || 'c857';
 const allowQuickComplete = parseInt(getParam('quick')||0);
+const storageSessions = getStorageSessions();
 
 const MAX_WORKING = 10;
+
+const updateSessions = (url, course) => {
+    const d = new Date();
+    const date = d.toLocaleString();
+    if (storageSessions[url]) {
+        storageSessions[url].lastAccess = date;
+    }
+    else {
+        storageSessions[url] = {
+            course,
+            lastAccess: date,
+            startedOn: date
+        }
+    }
+    localStorage.setItem(SAVED_SESSIONS, JSON.stringify(storageSessions));
+}
 
 function start() {
     console.log("starting!", getParam('session'));
@@ -20,6 +37,7 @@ function start() {
         document.location=document.location+`&session=${session}`;
         return;
     }
+    updateSessions(document.location, source);
 
     fetch(`${source}.json`)
         .then((res)=>res.json())
@@ -313,12 +331,12 @@ function shuffle(a) {
     return a;
 }
 
-function getParam(name){
-    if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
-       return decodeURIComponent(name[1]);
- }
+function getParam(name) {
+    const searchParams = new URLSearchParams(location.search);
+    return searchParams.get(name);
+}
 
- function saveState(callback) {
+function saveState(callback) {
     const session = getParam('session');
     fetch(`state/${session}`, {
         method: 'POST',
@@ -331,14 +349,16 @@ function getParam(name){
             callback();
         }
     });
- }
+}
 
- function makeid(length) {
+function makeid(length) {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  
+
     for (var i = 0; i < length; i++)
-      text += possible.charAt(Math.floor(Math.random() * possible.length));
-  
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
     return text;
-  }
+}
+
+document.addEventListener("DOMContentLoaded", start);
