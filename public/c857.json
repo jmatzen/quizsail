@@ -838,13 +838,13 @@
          "User authentication",
          "Data verification",
          "Transaction processing",
-         "User authorizing",
+         "User authorization",
          "Application logging",
          "Data validation"
       ],
       "a": [
          "Transaction processing",
-         "User authorizing",
+         "User authentication",
          "Application logging",
          "Data validation"
       ]
