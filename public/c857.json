@@ -1361,8 +1361,7 @@
       "q": "True or False: A bug model is based on historical data and planned activities and predicts how many bugs will be found during the project.",
       "c": [
          "True",
-         "False",
-         "Who knows?"
+         "False"
       ],
       "a": [
          "False"
