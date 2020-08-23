@@ -1867,9 +1867,9 @@
       ]
    },
    {
-      "q": "Select the descriptions that match Incremental testing",
+      "q": "Select the descriptions that match Incremental testing (choose two)",
       "c": [
-         "Less machine time is involved (choose two)",
+         "Less machine time is involved",
          "Incorrect assumption error among modules is detected earlier",
          "Every new module is first combined with already tested module sets",
          "Modules are tested independently and then combined to form a program"
