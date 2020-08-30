@@ -299,7 +299,7 @@
     ]
   },
   {
-    "q": "Consider the following statements:\ni.100% statement coverage guarantees 100% branch coverage.\nii.100% branch coverage guarantees 100% statement coverage.\niii.100% branch coverage guarantees 100% decision coverage.\niv.100% decision coverage guarantees 100% branch coverage.\nv.100% statement coverage guarantees 100% decision coverage.",
+    "q": "Consider the following statements:<br>i.100% statement coverage guarantees 100% branch coverage.<br>ii.100% branch coverage guarantees 100% statement coverage.<br>iii.100% branch coverage guarantees 100% decision coverage.<br>iv.100% decision coverage guarantees 100% branch coverage.<br>v.100% statement coverage guarantees 100% decision coverage.",
     "c": [
       "ii is True; i, iii, iv & v are False",
       "i & v are True; ii, iii & iv are False",
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "q": "This part of a program is given:\nWHILE (condition A) Do B\nEND WHILE\nHow many decisions should be tested in this code in order to achieve 100% decision coverage?",
+    "q": "This part of a program is given:<br>WHILE (condition A) Do B<br>END WHILE<br>How many decisions should be tested in this code in order to achieve 100% decision coverage?",
     "c": [
       "2",
       "Indefinite",
@@ -359,7 +359,7 @@
     ]
   },
   {
-    "q": "Deciding How much testing is enough should take into account:\ni. Level of Risk including Technical and Business product and project risk\nii. Project constraints such as time and budget\niii. Size of Testing Team\niv. Size of the Development Team",
+    "q": "Deciding How much testing is enough should take into account:<br>i. Level of Risk including Technical and Business product and project risk<br>ii. Project constraints such as time and budget<br>iii. Size of Testing Team<br>iv. Size of the Development Team",
     "c": [
       "i,ii,iii are true and iv is false",
       "i,,iv are true and ii is false",
@@ -371,7 +371,7 @@
     ]
   },
   {
-    "q": "Which expression best matches the following characteristics or review processes:\n1. Led by author\n2. Undocumented\n3. No management participation\n4. Led by a trained moderator or leader\n5. Uses entry exit criteria\ns) Inspection\nt) Peer review\nu) Informal review\nv) Walkthrough",
+    "q": "Which expression best matches the following characteristics or review processes:<br>1. Led by author<br>2. Undocumented<br>3. No management participation<br>4. Led by a trained moderator or leader<br>5. Uses entry exit criteria<br>s) Inspection<br>t) Peer review<br>u) Informal review<br>v) Walkthrough",
     "c": [
       "s = 4, t = 3, u = 2 and 5, v = 1",
       "s = 4 and 5, t = 3, u = 2, v = 1",
@@ -421,7 +421,7 @@
     ]
   },
   {
-    "q": "Which of the following is true about Formal Review or Inspection:-\ni. Led by Trained Moderator (not the author).\nii. No Pre Meeting Preparations\niii. Formal Follow up process.\niv. Main Objective is to find defects",
+    "q": "Which of the following is true about Formal Review or Inspection:-<br>i. Led by Trained Moderator (not the author).<br>ii. No Pre Meeting Preparations<br>iii. Formal Follow up process.<br>iv. Main Objective is to find defects",
     "c": [
       "ii is true and i,iii,iv are false",
       "i,iii,iv are true and ii is false",
@@ -505,7 +505,7 @@
     ]
   },
   {
-    "q": "Who are the persons involved in a Formal Review:\ni. Manager\nii. Moderator\niii. Scribe / Recorder\niv. Assistant Manager",
+    "q": "Who are the persons involved in a Formal Review:<br>i. Manager<br>ii. Moderator<br>iii. Scribe / Recorder<br>iv. Assistant Manager",
     "c": [
       "i,ii,iii,iv are true",
       "i,ii,iii are true and iv is false.",
@@ -566,7 +566,7 @@
     ]
   },
   {
-    "q": "Component Testing is also called:\ni. Unit Testing\nii. Program Testing\niii. Module Testing\niv. System Component Testing",
+    "q": "Component Testing is also called:<br>i. Unit Testing<br>ii. Program Testing<br>iii. Module Testing<br>iv. System Component Testing",
     "c": [
       "i,ii,iii are true and iv is false",
       "i,ii,iii,iv are false",
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "q": "Which of the following combinations correctly describes a valid approach to component testing:\ni. Functional testing of the component in isolation.\nii. Structure-based testing of the code without recording incidents.\niii. Automated tests that are run until the component passes.\niv. Functional testing of the interfaces between modules.",
+    "q": "Which of the following combinations correctly describes a valid approach to component testing:<br>i. Functional testing of the component in isolation.<br>ii. Structure-based testing of the code without recording incidents.<br>iii. Automated tests that are run until the component passes.<br>iv. Functional testing of the interfaces between modules.",
     "c": [
       "i and ii",
       "i, ii and iii",
@@ -777,7 +777,7 @@
     ]
   },
   {
-    "q": "Match every stage of the software Development Life cycle with the Testing Life cycle:\ni. Hi-level design\nii. Code\niii. Low-level design\niv. Business requirements\na. Unit tests\nb. Acceptance tests\nc. System tests\nd. Integration tests",
+    "q": "Match every stage of the software Development Life cycle with the Testing Life cycle:<br>i. Hi-level design<br>ii. Code<br>iii. Low-level design<br>iv. Business requirements<br>a. Unit tests<br>b. Acceptance tests<br>c. System tests<br>d. Integration tests",
     "c": [
       "i-d , ii-a , iii-c , iv-b",
       "i-c , ii-d , iii-a , iv-b",
@@ -1053,7 +1053,7 @@
     ]
   },
   {
-    "q": "Regression testing should be performed:\nv. Every week\nw. After the software has changed\nx. As often as possible\ny. When the environment has changed\nz. When the project manager says",
+    "q": "Regression testing should be performed:<br>v. Every week<br>w. After the software has changed<br>x. As often as possible<br>y. When the environment has changed<br>z. When the project manager says",
     "c": [
       "v & w are true, x – z are false",
       "w, x & y are true, v & z are false",
@@ -1078,7 +1078,7 @@
     ]
   },
   {
-    "q": "Which of the following are characteristic of regression testing?\ni. Regression testing is run ONLY once\nii. Regression testing is used after fixes have been made\niii. Regression testing is often automated\niv. Regression tests need not be maintained",
+    "q": "Which of the following are characteristic of regression testing?<br>i. Regression testing is run ONLY once<br>ii. Regression testing is used after fixes have been made<br>iii. Regression testing is often automated<br>iv. Regression tests need not be maintained",
     "c": [
       "ii, iv",
       "ii, iii",
@@ -1115,7 +1115,7 @@
     ]
   },
   {
-    "q": "The process of designing test cases consists of the following activities:\ni. Elaborate and describe test cases in detail by using test design techniques.\nii. Specify the order of test case execution.\niii. Analyze requirements and specifications to determine test conditions.\niv. Specify expected results.\nAccording to the process of identifying and designing tests, what is the correct order ofthese activities?",
+    "q": "The process of designing test cases consists of the following activities:<br>i. Elaborate and describe test cases in detail by using test design techniques.<br>ii. Specify the order of test case execution.<br>iii. Analyze requirements and specifications to determine test conditions.<br>iv. Specify expected results.<br>According to the process of identifying and designing tests, what is the correct order ofthese activities?",
     "c": [
       "iii, i, iv, ii",
       "iii, iv, i, ii",
@@ -1299,7 +1299,7 @@
     ]
   },
   {
-    "q": "What form of test coverage should be implemented for the following code?\nif (condition1 && (condition2 function1()))\nstatement1;\nelse\nstatement2;",
+    "q": "What form of test coverage should be implemented for the following code?<br>if (condition1 && (condition2 function1()))<br>statement1;<br>else<br>statement2;",
     "c": [
       "Decision coverage",
       "Condition coverage",
@@ -1335,7 +1335,7 @@
     ]
   },
   {
-    "q": "Given the following code, what are the minimum tests required for statement and branch coverage?\nRead P\nRead Q\nIf p+q > 100 then\nPrint 'Large'\nEnd if\nIf p > 50 then\nPrint 'pLarge'",
+    "q": "Given the following code, what are the minimum tests required for statement and branch coverage?<br>Read P<br>Read Q<br>If p+q > 100 then<br>Print 'Large'<br>End if<br>If p > 50 then<br>Print 'pLarge'",
     "c": [
       "Statement coverage is 2, Branch Coverage is 2",
       "Statement coverage is 3 and branch coverage is 2",
@@ -1347,7 +1347,7 @@
     ]
   },
   {
-    "q": "Given the following code, which is true about the minimum number of test cases required for full statement and branch coverage?\nRead P\nRead Q\nIF P+Q > 100 THEN\nPrint 'Large'\nENDIF\nIf P > 50 THEN\nPrint 'P Large'\nENDIF",
+    "q": "Given the following code, which is true about the minimum number of test cases required for full statement and branch coverage?<br>Read P<br>Read Q<br>IF P+Q > 100 THEN<br>Print 'Large'<br>ENDIF<br>If P > 50 THEN<br>Print 'P Large'<br>ENDIF",
     "c": [
       "1 test for statement coverage, 3 for branch coverage",
       "1 test for statement coverage, 2 for branch coverage",
@@ -1408,7 +1408,7 @@
     ]
   },
   {
-    "q": "Consider the following statements:\ni. 100% statement coverage guarantees 100% branch coverage.\nii. 100% branch coverage guarantees 100% statement coverage.\niii. 100% branch coverage guarantees 100% decision coverage.\niv. 100% decision coverage guarantees 100% branch coverage.\nv. 100% statement coverage guarantees 100% decision coverage.",
+    "q": "Consider the following statements:<br>i. 100% statement coverage guarantees 100% branch coverage.<br>ii. 100% branch coverage guarantees 100% statement coverage.<br>iii. 100% branch coverage guarantees 100% decision coverage.<br>iv. 100% decision coverage guarantees 100% branch coverage.<br>v. 100% statement coverage guarantees 100% decision coverage.",
     "c": [
       "ii is True; i, iii, iv & v are False",
       "i & v are True; ii, iii & iv are False",
