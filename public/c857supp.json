@@ -1,0 +1,1558 @@
+[
+  {
+    "q": "Which of the following describes an inspection?",
+    "c": [
+      "It is a formal verification technique",
+      "It is a formal validification technique",
+      "Led by a moderator, facilitator, or inspection leader.",
+      "The author is the moderator",
+      "Identifies real or potential deviations from standards and specifications",
+      "Examine alternative or stylistic issues.",
+      "Verifies that the life-cycle work product conforms to applicable standards.",
+      "Written action on all major defects is mandatory."
+    ],
+    "a": [
+      "It is a formal verification technique",
+      "Led by a moderator, facilitator, or inspection leader.",
+      "Identifies real or potential deviations from standards and specifications",
+      "Verifies that the life-cycle work product conforms to applicable standards.",
+      "Written action on all major defects is mandatory."
+    ]
+  },
+  {
+    "q": "Which of the following describe the responsibilities of the moderator?",
+    "c": [
+      "Identify and describe the major and minor defects found in the product or product component (checking).",
+      "Provide different points of view (requirements, design, development test, independent test, project management, quality management, and so on)",
+      "Be an integral part of the development team.",
+      "Check for overall coherence."
+    ],
+    "a": [
+      "Identify and describe the major and minor defects found in the product or product component (checking).",
+      "Provide different points of view (requirements, design, development test, independent test, project management, quality management, and so on)",
+      "Check for overall coherence."
+    ]
+  },
+  {
+    "q": "While testing whether the objectives are met, the program is subjected to a heavy amount of data or activity. Which test is being conducted?",
+    "c": [
+      "Volume test",
+      "Stress test",
+      "Black box test",
+      "System test",
+      "Acceptance test"
+    ],
+    "a": [
+      "Volume test"
+    ]
+  },
+  {
+    "q": "While testing whether the objectives are met, the program is subjected to a peak volume of data, or activity, encountered over a short span of time. Which test is being conducted?",
+    "c": [
+      "Volume test",
+      "Stress test",
+      "Black box test",
+      "System test",
+      "Acceptance test"
+    ],
+    "a": [
+      "Stress test"
+    ]
+  },
+  {
+    "q": "While testing whether the objectives or requirements are met, the ultimate end user of an application tests the software in a real world environment. Which test is being conducted?",
+    "c": [
+      "functional testing",
+      "Usability testing",
+      "Black box test",
+      "System test",
+      "Acceptance test"
+    ],
+    "a": [
+      "Usability testing"
+    ]
+  },
+  {
+    "q": "After discovering an error during an inspection, the moderator should do which of the following:",
+    "c": [
+      "Fix the error.",
+      "Have the defect list reviewed with the team to ensure it completeness and accuracy.",
+      "Record the defects on a list.",
+      "Answer specific questions and contribute personally to the defect detection process."
+    ],
+    "a": [
+      "Have the defect list reviewed with the team to ensure it completeness and accuracy."
+    ]
+  },
+  {
+    "q": "Which of the following describes a walkthrough.",
+    "c": [
+      "It is an informal validification technique",
+      "It is an informal verification technique",
+      "The author is the moderator",
+      "the product is examined by a group of peers for the purpose of finding defects, omissions, and contradictions.",
+      "Led by a moderator, facilitator, or inspection leader.",
+      "Errors, suggested changes, and improvement suggestions are taken by the author for review and revision as the author sees fit.",
+      "Examine alternative or stylistic issues.",
+      "Identifies real or potential deviations from standards and specifications.",
+      "Exchange techniques and style variations; familiarize peers with the author’s work."
+    ],
+    "a": [
+      "It is an informal verification technique",
+      "The author is the moderator",
+      "the product is examined by a group of peers for the purpose of finding defects, omissions, and contradictions.",
+      "Errors, suggested changes, and improvement suggestions are taken by the author for review and revision as the author sees fit.",
+      "Examine alternative or stylistic issues."
+    ]
+  },
+  {
+    "q": "Which of the following are good psychological practices when debugging practices?",
+    "c": [
+      "Develop a mental analysis of the information associated with the error’s symptoms. So a programmer can pinpoint most errors without looking at code.",
+      "Use experimentation.",
+      "Start by using debugger tool.",
+      "If you get stuck on it, drop it and think about or do something else. Rely on the subconscious mind.",
+      "Describe the problem to some else.",
+      "Listen to someone unfamiliar with the problem."
+    ],
+    "a": [
+      "Develop a mental analysis of the information associated with the error’s symptoms. So a programmer can pinpoint most errors without looking at code.",
+      "If you get stuck on it, drop it and think about or do something else. Rely on the subconscious mind.",
+      "Describe the problem to some else."
+    ]
+  },
+  {
+    "q": "Which method promotes communication and competition when working to resolve software defects?",
+    "c": [
+      "Buddy check",
+      "Desk Check",
+      "Email circulation",
+      "Walkthrough"
+    ],
+    "a": [
+      "Walkthrough"
+    ]
+  },
+  {
+    "q": "Identify the principal process for progress check or evaluation:",
+    "c": [
+      "Management or technical review",
+      "Inspection or walkthrough",
+      "Test, simulation and emulation.",
+      "Audit/Objective evaluation."
+    ],
+    "a": [
+      "Management or technical review"
+    ]
+  },
+  {
+    "q": "Identify the principal process for validation.",
+    "c": [
+      "Management or technical review",
+      "Inspection or walkthrough",
+      "Test, simulation and emulation.",
+      "Audit/Objective evaluation."
+    ],
+    "a": [
+      "Test, simulation and emulation."
+    ]
+  },
+  {
+    "q": "Identify the principal process for verification:",
+    "c": [
+      "Management or technical review",
+      "Inspection or walkthrough",
+      "Test, simulation and emulation.",
+      "Audit/Objective evaluation."
+    ],
+    "a": [
+      "Inspection or walkthrough"
+    ]
+  },
+  {
+    "q": "Identify the principal process for compliance confirmation:",
+    "c": [
+      "Management or technical review",
+      "Inspection or walkthrough",
+      "Test, simulation and emulation.",
+      "Audit/Objective evaluation."
+    ],
+    "a": [
+      "Audit/Objective evaluation."
+    ]
+  },
+  {
+    "q": "Brute-force methods can be partitioned into which of the following:",
+    "c": [
+      "Debugging with a storage dump.",
+      "Debugging according to the common suggestion to ‘‘scatter print statements throughout your program.’’",
+      "Debugging with automated debugging tools.",
+      "Debugging according to the error finding principles."
+    ],
+    "a": [
+      "Debugging with a storage dump.",
+      "Debugging according to the common suggestion to ‘‘scatter print statements throughout your program.’’",
+      "Debugging with automated debugging tools."
+    ]
+  },
+  {
+    "q": "Which of the following are reasons that a storage dump is the least efficient of the brute-force methods?",
+    "c": [
+      "It is difficult to establish a correspondence between memory locations and the variables in a source program.",
+      "With any program of reasonable complexity, such a memory dump will produce a massive amount of data, most of which is irrelevant.",
+      "A memory dump is a static picture of the program, showing the state of the program at only one instant in time; to find errors, you have to study the dynamics of a program (state  changes over time).",
+      "A memory dump is rarely produced at the exact point of the error, so it doesn’t show the program’s state at the point of the error.",
+      "Adequate methodologies don’t exist for finding errors by analyzing a memory dump."
+    ],
+    "a": [
+      "It is difficult to establish a correspondence between memory locations and the variables in a source program.",
+      "With any program of reasonable complexity, such a memory dump will produce a massive amount of data, most of which is irrelevant.",
+      "A memory dump is a static picture of the program, showing the state of the program at only one instant in time; to find errors, you have to study the dynamics of a program (state changes over time).",
+      "A memory dump is rarely produced at the exact point of the error, so it doesn’t show the program’s state at the point of the error.",
+      "Adequate methodologies don’t exist for finding errors by analyzing a memory dump."
+    ]
+  },
+  {
+    "q": "A bug was discovered by a user and reported. The developer applies a fix. Which type of test should be conducted next?",
+    "c": [
+      "White box",
+      "Black box",
+      "Regression",
+      "Retest",
+      "Usability",
+      "Acceptance"
+    ],
+    "a": [
+      "Retest"
+    ]
+  },
+  {
+    "q": "The person who leads the review of the document(s), planning the review, running the meeting and follow-up after the meeting",
+    "c": [
+      "Reviewer",
+      "Author",
+      "Moderator",
+      "Auditor"
+    ],
+    "a": [
+      "Moderator"
+    ]
+  },
+  {
+    "q": "Performs sufficient testing to evaluate every possible path and condition in the application system. The only test method that guarantees the proper functioning of the application system is called what?",
+    "c": [
+      "Regression Testing",
+      "Exhaustive Testing",
+      "Basic Path Testing",
+      "Branch Testing"
+    ],
+    "a": [
+      "Basic Path Testing"
+    ]
+  },
+  {
+    "q": "Why is regression testing important?",
+    "c": [
+      "Because it tests the entire application",
+      "To make sure that the new bug fixes did not cause any issues",
+      "To make sure that the new implementation did not cause any issues",
+      "To test the application before the production release."
+    ],
+    "a": [
+      "To make sure that the new implementation did not cause any issues"
+    ]
+  },
+  {
+    "q": "Which of the following is a valid collection of equivalence classes for the following problem?\nAn integer field shall contain values from and including 1 to and including 15",
+    "c": [
+      "Less than 1, 1 through 15, more than 15",
+      "Negative numbers, 1 through 15, above 15",
+      "Less than 1, 1 through 14, more than 15",
+      "Less than 0, 1 through 14, 15 and more"
+    ],
+    "a": [
+      "Less than 1, 1 through 15, more than 15"
+    ]
+  },
+  {
+    "q": "Statement Coverage will not check for the following.",
+    "c": [
+      "Missing Statements",
+      "Unused Branches",
+      "Dead Code",
+      "Unused Statement"
+    ],
+    "a": [
+      "Missing Statements"
+    ]
+  },
+  {
+    "q": "Which of the following techniques is NOT a White box technique?",
+    "c": [
+      "Statement Testing and coverage",
+      "Decision Testing and coverage",
+      "Condition Coverage",
+      "Boundary value analysis"
+    ],
+    "a": [
+      "Boundary value analysis"
+    ]
+  },
+  {
+    "q": "Consider the following statements:\ni.100% statement coverage guarantees 100% branch coverage.\nii.100% branch coverage guarantees 100% statement coverage.\niii.100% branch coverage guarantees 100% decision coverage.\niv.100% decision coverage guarantees 100% branch coverage.\nv.100% statement coverage guarantees 100% decision coverage.",
+    "c": [
+      "ii is True; i, iii, iv & v are False",
+      "i & v are True; ii, iii & iv are False",
+      "ii & iii are True; i, iv & v are False",
+      "ii, iii & iv are True; i & v are False"
+    ],
+    "a": [
+      "ii, iii & iv are True; i & v are False"
+    ]
+  },
+  {
+    "q": "Branch Coverage is...",
+    "c": [
+      "Another name for decision coverage",
+      "Another name for all-edges coverage",
+      "Another name for basic path coverage",
+      "All of these are true"
+    ],
+    "a": [
+      "Another name for decision coverage"
+    ]
+  },
+  {
+    "q": "This part of a program is given:\nWHILE (condition A) Do B\nEND WHILE\nHow many decisions should be tested in this code in order to achieve 100% decision coverage?",
+    "c": [
+      "2",
+      "Indefinite",
+      "1",
+      "4"
+    ],
+    "a": [
+      "2"
+    ]
+  },
+  {
+    "q": "How would you estimate the amount of re-testing likely to be required?",
+    "c": [
+      "Metrics from previous similar projects",
+      "Discussions with the development team",
+      "Time allocated for regression testing"
+    ],
+    "a": [
+      "Metrics from previous similar projects",
+      "Discussions with the development team"
+    ]
+  },
+  {
+    "q": "Which of the following is a characteristic of good testing in any life cycle model?",
+    "c": [
+      "All document reviews involve the development team.",
+      "Some, but not all, development activities have corresponding test activities.",
+      "Each test level has test objectives specific to that level.",
+      "Analysis and design of tests begins as soon as development is complete."
+    ],
+    "a": [
+      "Each test level has test objectives specific to that level."
+    ]
+  },
+  {
+    "q": "Deciding How much testing is enough should take into account:\ni. Level of Risk including Technical and Business product and project risk\nii. Project constraints such as time and budget\niii. Size of Testing Team\niv. Size of the Development Team",
+    "c": [
+      "i,ii,iii are true and iv is false",
+      "i,,iv are true and ii is false",
+      "i,ii are true and iii,iv are false",
+      "ii,iii,iv are true and i is false"
+    ],
+    "a": [
+      "i,ii are true and iii,iv are false"
+    ]
+  },
+  {
+    "q": "Which expression best matches the following characteristics or review processes:\n1. Led by author\n2. Undocumented\n3. No management participation\n4. Led by a trained moderator or leader\n5. Uses entry exit criteria\ns) Inspection\nt) Peer review\nu) Informal review\nv) Walkthrough",
+    "c": [
+      "s = 4, t = 3, u = 2 and 5, v = 1",
+      "s = 4 and 5, t = 3, u = 2, v = 1",
+      "s = 1 and 5, t = 3, u = 2, v = 4",
+      "s = 5, t = 4, u = 3, v = 1 and 2",
+      "s = 4 and 5, t = 1, u = 2, v = 3"
+    ],
+    "a": [
+      "s = 4 and 5, t = 3, u = 2, v = 1"
+    ]
+  },
+  {
+    "q": "Unreachable code would best be found using:",
+    "c": [
+      "Code reviews",
+      "Code inspections",
+      "A coverage tool",
+      "A test management tool",
+      "A static analysis tool"
+    ],
+    "a": [
+      "Code reviews"
+    ]
+  },
+  {
+    "q": "Which of the following BEST describes the difference between an inspection and a walkthrough?",
+    "c": [
+      "Both inspections and walkthroughs are led by the author.",
+      "An inspection is led by a moderator and a walkthrough is led by the author.",
+      "Both inspections and walkthroughs are led by a trained moderator.",
+      "A walkthrough is led by the author. The author is not present during inspections."
+    ],
+    "a": [
+      "An inspection is led by a moderator and a walkthrough is led by the author."
+    ]
+  },
+  {
+    "q": "Peer Reviews are also called:",
+    "c": [
+      "Inspection",
+      "Walkthrough",
+      "Technical Review",
+      "Formal Review"
+    ],
+    "a": [
+      "Technical Review"
+    ]
+  },
+  {
+    "q": "Which of the following is true about Formal Review or Inspection:-\ni. Led by Trained Moderator (not the author).\nii. No Pre Meeting Preparations\niii. Formal Follow up process.\niv. Main Objective is to find defects",
+    "c": [
+      "ii is true and i,iii,iv are false",
+      "i,iii,iv are true and ii is false",
+      "i,iii,iv are false and ii is true",
+      "iii is true and I,ii,iv are false"
+    ],
+    "a": [
+      "i,iii,iv are true and ii is false"
+    ]
+  },
+  {
+    "q": "What makes an inspection different from other review types?",
+    "c": [
+      "It is led by a trained leader, uses formal entry and exit criteria and checklists",
+      "It is led by the author of the document to be inspected",
+      "It can only be used for reviewing design and code",
+      "It is led by the author, uses checklists, and collects data for improvement"
+    ],
+    "a": [
+      "It is led by a trained leader, uses formal entry and exit criteria and checklists"
+    ]
+  },
+  {
+    "q": "Why is testing necessary?",
+    "c": [
+      "Because testing is good method to make there are not defects in the software",
+      "Because verification and validation are not enough to get to know the quality of the software",
+      "Because testing measures the quality of the software system and helps to increase the quality",
+      "Because testing finds more defects than reviews and inspections."
+    ],
+    "a": [
+      "Because testing measures the quality of the software system and helps to increase the quality"
+    ]
+  },
+  {
+    "q": "Inspections can find all the following except:",
+    "c": [
+      "Variables not defined in the code",
+      "Spelling and grammar faults in the documents",
+      "Requirements that have been omitted from the design documents",
+      "How much of the code has been covered"
+    ],
+    "a": [
+      "How much of the code has been covered"
+    ]
+  },
+  {
+    "q": "What is the main difference between a walkthrough and an inspection?",
+    "c": [
+      "An inspection is lead by the author, whilst a walkthrough is lead by a trained moderator.",
+      "An inspection has a trained leader, whilst a walkthrough has no leader.",
+      "Authors are not present during inspections, whilst they are during walkthroughs.",
+      "A walkthrough is lead by the author, whilst an inspection is lead by a trained moderator."
+    ],
+    "a": [
+      "A walkthrough is lead by the author, whilst an inspection is lead by a trained moderator."
+    ]
+  },
+  {
+    "q": "An important benefit of code inspections is that they:",
+    "c": [
+      "Enable the code to be tested before the execution environment is ready.",
+      "Can be performed by the person who wrote the code.",
+      "Can be performed by inexperienced staff.",
+      "Are cheap to perform."
+    ],
+    "a": [
+      "Enable the code to be tested before the execution environment is ready."
+    ]
+  },
+  {
+    "q": "Which of the following statements is not true?",
+    "c": [
+      "Performance testing can be done during unit testing as well as during the testing of whole system",
+      "The acceptance test does not necessarily include a regression test",
+      "Verification activities should not involve testers (reviews, inspections etc)",
+      "Test environments should be as similar to production environments as possible"
+    ],
+    "a": [
+      "Verification activities should not involve testers (reviews, inspections etc)"
+    ]
+  },
+  {
+    "q": "Who are the persons involved in a Formal Review:\ni. Manager\nii. Moderator\niii. Scribe / Recorder\niv. Assistant Manager",
+    "c": [
+      "i,ii,iii,iv are true",
+      "i,ii,iii are true and iv is false.",
+      "ii,iii,iv are true and i is false.",
+      "i,iv are true and ii, iii are false."
+    ],
+    "a": [
+      "i,ii,iii are true and iv is false."
+    ]
+  },
+  {
+    "q": "A Person who documents all the issues, problems and open points that were identified during a formal review.",
+    "c": [
+      "Moderator.",
+      "Scribe",
+      "Author",
+      "Manager"
+    ],
+    "a": [
+      "Scribe"
+    ]
+  },
+  {
+    "q": "Which of the following is a Key Characteristics of Walk Through",
+    "c": [
+      "Scenario, Dry Run, Peer Group",
+      "Pre Meeting Preparations",
+      "Formal Follow Up Process",
+      "Includes Metrics"
+    ],
+    "a": [
+      "Scenario, Dry Run, Peer Group"
+    ]
+  },
+  {
+    "q": "The Planning phase of a formal review includes the following:",
+    "c": [
+      "Explaining the objectives",
+      "Selecting the personnel, allocating roles.",
+      "Follow up",
+      "Individual Meeting preparations"
+    ],
+    "a": [
+      "Selecting the personnel, allocating roles."
+    ]
+  },
+  {
+    "q": "Which of the following is the main purpose of the integration strategy for integration testing in the small?",
+    "c": [
+      "To ensure that all of the small modules are tested adequately",
+      "To ensure that the system interfaces to other systems and networks",
+      "To specify which modules to combine when and how many at once",
+      "To ensure that the integration testing can be performed by a small team",
+      "To specify how the software should be divided into modules"
+    ],
+    "a": [
+      "To specify which modules to combine when and how many at once"
+    ]
+  },
+  {
+    "q": "Component Testing is also called:\ni. Unit Testing\nii. Program Testing\niii. Module Testing\niv. System Component Testing",
+    "c": [
+      "i,ii,iii are true and iv is false",
+      "i,ii,iii,iv are false",
+      "i,ii,iv are true and iii is false",
+      "All of these are true"
+    ],
+    "a": [
+      "i,ii,iii are true and iv is false"
+    ]
+  },
+  {
+    "q": "Acceptance testing means",
+    "c": [
+      "Testing performed on a single stand – alone module or unit of code",
+      "Testing after changes have been made to ensure that no unwanted changes were introduced",
+      "Testing to ensure that the system meets the needs of the organization and end user.",
+      "Users test the application in the developers environment"
+    ],
+    "a": [
+      "Testing to ensure that the system meets the needs of the organization and end user."
+    ]
+  },
+  {
+    "q": "Which of the following combinations correctly describes a valid approach to component testing:\ni. Functional testing of the component in isolation.\nii. Structure-based testing of the code without recording incidents.\niii. Automated tests that are run until the component passes.\niv. Functional testing of the interfaces between modules.",
+    "c": [
+      "i and ii",
+      "i, ii and iii",
+      "iii",
+      "ii and iv"
+    ],
+    "a": [
+      "i, ii and iii"
+    ]
+  },
+  {
+    "q": "Which of the following is true of the V-model?",
+    "c": [
+      "It states that modules are tested against user requirements.",
+      "It only models the testing phase.",
+      "It specifies the test techniques to be used.",
+      "It includes the verification of designs."
+    ],
+    "a": [
+      "It includes the verification of designs."
+    ]
+  },
+  {
+    "q": "Integration testing in the small:",
+    "c": [
+      "Tests the individual components that have been developed.",
+      "Tests interactions between modules or subsystems.",
+      "Only uses components that form part of the live system.",
+      "Tests interfaces to other systems."
+    ],
+    "a": [
+      "Tests interactions between modules or subsystems."
+    ]
+  },
+  {
+    "q": "Which of these are objectives for software testing?",
+    "c": [
+      "Determine the productivity of programmers",
+      "Eliminate the need for future program maintenance",
+      "Eliminate every error prior to release",
+      "Uncover software errors"
+    ],
+    "a": [
+      "Uncover software errors"
+    ]
+  },
+  {
+    "q": "Failure is:",
+    "c": [
+      "Incorrect program behavior due to a fault in the program",
+      "Bug found before product Release",
+      "Bug found after product Release",
+      "Bug found during Design phase"
+    ],
+    "a": [
+      "Incorrect program behavior due to a fault in the program"
+    ]
+  },
+  {
+    "q": "During the software development process, at what point can the test process start?",
+    "c": [
+      "When the code is complete.",
+      "When the design is complete.",
+      "When the software requirements have been approved.",
+      "When the first code module is ready for unit testing"
+    ],
+    "a": [
+      "When the software requirements have been approved."
+    ]
+  },
+  {
+    "q": "How much testing is enough?",
+    "c": [
+      "This question is impossible to answer",
+      "This question is easy to answer",
+      "The answer depends on the risk for your industry, contract and special requirements",
+      "This answer depends on the maturity of your developers"
+    ],
+    "a": [
+      "The answer depends on the risk for your industry, contract and special requirements"
+    ]
+  },
+  {
+    "q": "Which programming practice involves real-time code review?",
+    "c": [
+      "Pair programming",
+      "Refactoring",
+      "Continuous testing",
+      "Continuous integration"
+    ],
+    "a": [
+      "Pair programming"
+    ]
+  },
+  {
+    "q": "Which error locating principle (see Debugging Principles) relies on the subconscious mind?",
+    "c": [
+      "Think",
+      "If you reach an impasse, sleep on it.",
+      "If you reach an impasse, describe the problem to someone else.",
+      "Use debugging tools only as a second resort.",
+      "Use experimentation as a last resort."
+    ],
+    "a": [
+      "If you reach an impasse, sleep on it."
+    ]
+  },
+  {
+    "q": "When should you stop testing?",
+    "c": [
+      "You run out of time for testing",
+      "Scheduled time for testing expires",
+      "The test completion criteria have been met",
+      "75% of the pre-defined number of errors is detected",
+      "All the test cases execute with detecting few errors",
+      "All high and medium priority tests are complete",
+      "All statements have been executed",
+      "No faults have been found by the tests run",
+      "All planned tests have been run"
+    ],
+    "a": [
+      "Scheduled time for testing expires",
+      "The test completion criteria have been met"
+    ]
+  },
+  {
+    "q": "The majority of system errors occur in what phase?",
+    "c": [
+      "Requirements Phase.",
+      "Analysis and Design Phase",
+      "Development Phase",
+      "Testing Phase"
+    ],
+    "a": [
+      "Requirements Phase."
+    ]
+  },
+  {
+    "q": "A number of critical bugs are fixed in software. All the bugs are in one module, related to reports. The test manager decides to do regression testing only on the reports module.",
+    "c": [
+      "The test manager should do only automated regression testing.",
+      "The test manager is justified in her decision because no bug has been fixed in other modules",
+      "The test manager should only do confirmation testing. There is no need to do regression testing",
+      "Regression testing should be done on other modules as well because fixing one module may affect other modules"
+    ],
+    "a": [
+      "Regression testing should be done on other modules as well because fixing one module may affect other modules"
+    ]
+  },
+  {
+    "q": "When reporting faults found to developers, testers should be:",
+    "c": [
+      "As polite, constructive and helpful as possible",
+      "Firm about insisting that a bug is not a 'feature' if it should be fixed",
+      "Diplomatic, sensitive to the way they may react to criticism",
+      "All of these answers are correct"
+    ],
+    "a": [
+      "All of these answers are correct"
+    ]
+  },
+  {
+    "q": "The later in the development life cycle a fault is discovered, the more expensive it is to fix. Why?",
+    "c": [
+      "The documentation is poor, so it takes longer to find out what the software is doing.",
+      "Wages are rising",
+      "The fault has been built into more documentation,code,tests, etc",
+      "None of these answers."
+    ],
+    "a": [
+      "The fault has been built into more documentation,code,tests, etc"
+    ]
+  },
+  {
+    "q": "Which of the following characterizes the cost of faults?",
+    "c": [
+      "They are cheapest to find in the early development phases and the most expensive to fix in the latest test phases.",
+      "They are easiest to find during system and acceptance testing but the most expensive to fix then.",
+      "Faults are cheapest to find in the early development phases but the most expensive to fix then.",
+      "Although faults are most expensive to find during early development phases, they are cheapest to fix then."
+    ],
+    "a": [
+      "They are easiest to find during system and acceptance testing but the most expensive to fix then."
+    ]
+  },
+  {
+    "q": "Match every stage of the software Development Life cycle with the Testing Life cycle:\ni. Hi-level design\nii. Code\niii. Low-level design\niv. Business requirements\na. Unit tests\nb. Acceptance tests\nc. System tests\nd. Integration tests",
+    "c": [
+      "i-d , ii-a , iii-c , iv-b",
+      "i-c , ii-d , iii-a , iv-b",
+      "i-b , ii-a , iii-d , iv-c",
+      "i-c , ii-a , iii-d , iv-b"
+    ],
+    "a": [
+      "i-c , ii-a , iii-d , iv-b"
+    ]
+  },
+  {
+    "q": "Which of the following is a form of functional testing?",
+    "c": [
+      "Boundary value analysis",
+      "Usability testing",
+      "Performance testing",
+      "Security testing"
+    ],
+    "a": [
+      "Boundary value analysis"
+    ]
+  },
+  {
+    "q": "Which of the following is a black box design technique?",
+    "c": [
+      "Statement testing",
+      "Equivalence partitioning",
+      "Error- guessing",
+      "Usability testing"
+    ],
+    "a": [
+      "Equivalence partitioning"
+    ]
+  },
+  {
+    "q": "Which of the following is NOT a type of non-functional test?",
+    "c": [
+      "State-Transition",
+      "Usability",
+      "Performance",
+      "Security"
+    ],
+    "a": [
+      "Security"
+    ]
+  },
+  {
+    "q": "Which of the following is NOT part of system testing:",
+  "c": [
+      "Business process-based testing",
+      "Performance, load and stress testing",
+      "Requirements-based testing",
+      "Usability testing",
+      "Top-down integration testing"
+    ],
+    "a": [
+      "Top-down integration testing"
+    ]
+  },
+  {
+    "q": "Testing where in we subject the target of the test to varying workloads to measure and evaluate the performance behaviors and ability of the target and of the test to continue to function properly under these different workloads.",
+    "c": [
+      "Load Testing",
+      "Integration Testing",
+      "System Testing",
+      "Usability Testing"
+    ],
+    "a": [
+      "Load Testing"
+    ]
+  },
+  {
+    "q": "Which one of the following are non-functional testing methods?",
+    "c": [
+      "System testing",
+      "Usability testing",
+      "Performance testing",
+      "Both B & C"
+    ],
+    "a": [
+      "Usability testing",
+      "Performance testing"
+    ]
+  },
+  {
+    "q": "Which is NOT true: The black box tester...",
+    "c": [
+      "Should be able to understand a functional specification or requirements document",
+      "Should be able to understand the source code.",
+      "Is highly motivated to find faults",
+      "Is creative to find the system’s weaknesses"
+    ],
+    "a": [
+      "Should be able to understand the source code."
+    ]
+  },
+  {
+    "q": "During this event the entire system is tested to verify that all functional, information, structural, and quality requirements have been met. A predetermined combination of tests is designed that, when executed successfully, can satisfy management that the system meets specifications:",
+    "c": [
+      "Validation Testing",
+      "Integration Testing",
+      "User Acceptance Testing",
+      "System Testing"
+    ],
+    "a": [
+      "User Acceptance Testing"
+    ]
+  },
+  {
+    "q": "What is the normal order of activities in which software testing is organized?",
+    "c": [
+      "Unit, integration, system, validation",
+      "System, integration, unit, validation",
+      "Unit, integration, validation, system",
+      "None of these answers is correct"
+    ],
+    "a": [
+      "Unit, integration, system, validation"
+    ]
+  },
+  {
+    "q": "Which of the following statements are true?",
+    "c": [
+      "Faults in program specifications are the most expensive to fix.",
+      "Faults in code are the most expensive to fix.",
+      "Faults in requirements are the most expensive to fix",
+      "Faults in designs are the most expensive to fix."
+    ],
+    "a": [
+      "Faults in requirements are the most expensive to fix"
+    ]
+  },
+  {
+    "q": "Testing with out a real plan and test cases is called:",
+    "c": [
+      "Gorilla testing",
+      "Monkey testing",
+      "Ad hoc testing",
+      "All of these"
+    ],
+    "a": [
+      "All of these"
+    ]
+  },
+  {
+    "q": "Which test should be used during the external specification phase?",
+    "c": [
+      "Acceptance",
+      "System",
+      "Module",
+      "Function"
+    ],
+    "a": [
+      "Function"
+    ]
+  },
+  {
+    "q": "Which test should be used during the Requirement phase?",
+    "c": [
+      "Acceptance",
+      "System",
+      "Module",
+      "Function"
+    ],
+    "a": [
+      "Acceptance"
+    ]
+  },
+  {
+    "q": "Which test should be used during the Objective phase?",
+    "c": [
+      "Acceptance",
+      "System",
+      "Module",
+      "Function"
+    ],
+    "a": [
+      "System"
+    ]
+  },
+  {
+    "q": "What is the important criterion in deciding what testing technique to use?",
+    "c": [
+      "How well you know a particular technique",
+      "The objective of the test",
+      "How appropriate the technique is for testing the application",
+      "Whether there is a tool to support the technique"
+    ],
+    "a": [
+      "The objective of the test"
+    ]
+  },
+  {
+    "q": "Which of the following is a characteristic of good testing in any life cycle model?",
+    "c": [
+      "All document reviews involve the development team.",
+      "Some, but not all, development activities have corresponding test activities.",
+      "Each test level has test objectives specific to that level.",
+      "Analysis and design of tests begins as soon as development is complete."
+    ],
+    "a": [
+      "Each test level has test objectives specific to that level."
+    ]
+  },
+  {
+    "q": "With thorough testing, it is possible to remove all defects from a program prior to delivery to the customer.",
+    "c": [
+      "True",
+      "False"
+    ],
+    "a": [
+      "False"
+    ]
+  },
+  {
+    "q": "System Integration testing should be done after",
+    "c": [
+      "Integration testing",
+      "System testing",
+      "Unit testing",
+      "Component integration testing"
+    ],
+    "a": [
+      "Unit testing"
+    ]
+  },
+  {
+    "q": "Enough testing has been performed when:",
+    "c": [
+      "Time runs out.",
+      "The required level of confidence has been achieved.",
+      "No more faults are found.",
+      "The users won’t find any serious faults."
+    ],
+    "a": [
+      "The required level of confidence has been achieved."
+    ]
+  },
+  {
+    "q": "Which of the following is a type of non-functional testing?",
+    "c": [
+      "Usability testing.",
+      "Statement Coverage.",
+      "Dataflow testing.",
+      "Cause-effect graphing."
+    ],
+    "a": [
+      "Usability testing."
+    ]
+  },
+  {
+    "q": "Which of the following sentences describes one of the basic principles of testing?",
+    "c": [
+      "Complete testing of software is attainable if you have enough resources and test tools",
+      "With automated testing you can make statements with more confidence about the quality of a product than with manual testing",
+      "For a software system, it is not possible, under normal conditions, to test all input and output combinations.",
+      "A goal of testing is to show that the software is defect free."
+    ],
+    "a": [
+      "For a software system, it is not possible, under normal conditions, to test all input and output combinations."
+    ]
+  },
+  {
+    "q": "Which of the following will be the best definition for Testing:",
+    "c": [
+      "The goal / purpose of testing is to demonstrate that the program works.",
+      "The purpose of testing is to demonstrate that the program is defect free.",
+      "The purpose of testing is to demonstrate that the program does what it is supposed todo.",
+      "Testing is executing Software for the purpose of finding defects."
+    ],
+    "a": [
+      "Testing is executing Software for the purpose of finding defects."
+    ]
+  },
+  {
+    "q": "Regression testing should be performed:\nv. Every week\nw. After the software has changed\nx. As often as possible\ny. When the environment has changed\nz. When the project manager says",
+    "c": [
+      "v & w are true, x – z are false",
+      "w, x & y are true, v & z are false",
+      "w & y are true, v, x & z are false",
+      "w is true, v, x y and z are false",
+      "All of the above are true"
+    ],
+    "a": [
+      "w & y are true, v, x & z are false"
+    ]
+  },
+  {
+    "q": "Regression testing always involves",
+    "c": [
+      "Testing whether a known software fault been fixed.",
+      "Executing a large number of different tests.",
+      "Testing whether modifications have introduced adverse side effects.",
+      "Using a test automation tool."
+    ],
+    "a": [
+      "Testing whether modifications have introduced adverse side effects."
+    ]
+  },
+  {
+    "q": "Which of the following are characteristic of regression testing?\ni. Regression testing is run ONLY once\nii. Regression testing is used after fixes have been made\niii. Regression testing is often automated\niv. Regression tests need not be maintained",
+    "c": [
+      "ii, iv",
+      "ii, iii",
+      "i, iii, iv",
+      "iii"
+    ],
+    "a": [
+      "ii, iii"
+    ]
+  },
+  {
+    "q": "The difference between re-testing and regression testing is",
+    "c": [
+      "Re-testing is running a test again; regression testing looks for unexpected side effects",
+      "Re-testing looks for unexpected side effects; regression testing is repeating those tests",
+      "Re-testing is done after faults are fixed; regression testing is done earlier",
+      "Re-testing uses different environments, regression testing uses the same environment",
+      "Re-testing is done by developers, regression testing is done by independent testers"
+    ],
+    "a": [
+      "Re-testing is running a test again; regression testing looks for unexpected side effects"
+    ]
+  },
+  {
+    "q": "Repeated Testing of an already tested program, after modification, to discover any defects introduced or uncovered as a result of the changes in the software being tested or in another related or unrelated software component:",
+    "c": [
+      "Re-Testing",
+      "Confirmation Testing",
+      "Regression Testing",
+      "Negative Testing"
+    ],
+    "a": [
+      "Regression Testing"
+    ]
+  },
+  {
+    "q": "The process of designing test cases consists of the following activities:\ni. Elaborate and describe test cases in detail by using test design techniques.\nii. Specify the order of test case execution.\niii. Analyze requirements and specifications to determine test conditions.\niv. Specify expected results.\nAccording to the process of identifying and designing tests, what is the correct order ofthese activities?",
+    "c": [
+      "iii, i, iv, ii",
+      "iii, iv, i, ii",
+      "iii, ii, i, iv",
+      "ii, iii, i, iv"
+    ],
+    "a": [
+      "iii, i, iv, ii"
+    ]
+  },
+  {
+    "q": "A test plan defines",
+    "c": [
+      "What is selected for testing",
+      "Objectives and results",
+      "Expected results",
+      "Targets and misses"
+    ],
+    "a": [
+      "Objectives and results"
+    ]
+  },
+  {
+    "q": "Which of the following would you NOT usually find on a software incident report?",
+    "c": [
+      "The name and/or organizational position of the person raising the problem.",
+      "Version of the Software Under Test.",
+      "Suggestions as to how to fix the problem.",
+      "Actual and expected results."
+    ],
+    "a": [
+      "Suggestions as to how to fix the problem."
+    ]
+  },
+  {
+    "q": "Which of the following defines the expected results of a test?",
+    "c": [
+      "Test case specification.",
+      "Test design specification.",
+      "Test procedure specification.",
+      "Test results."
+    ],
+    "a": [
+      "Test case specification."
+    ]
+  },
+  {
+    "q": "Expected results are:",
+    "c": [
+      "Only important in system testing",
+      "Only used in component testing",
+      "Never specified in advance",
+      "Most useful when specified in advance",
+      "Derived from the code"
+    ],
+    "a": [
+      "Most useful when specified in advance"
+    ]
+  },
+  {
+    "q": "What is failure?",
+    "c": [
+      "Deviation from expected result to actual result",
+      "Defect in the software.",
+      "Error in the program code.",
+      "Fault in the system."
+    ],
+    "a": [
+      "Deviation from expected result to actual result"
+    ]
+  },
+  {
+    "q": "Which of the following is NOT included in the Test Plan document of the Test Documentation Standard:",
+    "c": [
+      "Test items (i.e. software versions)",
+      "What is not to be tested",
+      "Test environments",
+      "Quality plans",
+      "Schedules and deadlines"
+    ],
+    "a": [
+      "Quality plans"
+    ]
+  },
+  {
+    "q": "What is the purpose of test completion criteria in a test plan:",
+    "c": [
+      "To know when a specific test has finished its execution",
+      "To ensure that the test case specification is complete",
+      "To set the criteria used in generating test inputs",
+      "To know when test planning is complete",
+      "To plan when to stop testing"
+    ],
+    "a": [
+      "To plan when to stop testing"
+    ]
+  },
+  {
+    "q": "Test plan documentation standard contains all of the following except:",
+    "c": [
+      "Test items",
+      "Test deliverables",
+      "Test tasks",
+      "Test environment",
+      "Test specification"
+    ],
+    "a": [
+      "Test specification"
+    ]
+  },
+  {
+    "q": "Which of the following is a MAJOR task of test planning?",
+    "c": [
+      "Scheduling test analysis and design tasks.",
+      "Initiating corrective actions.",
+      "Monitoring progress and test coverage.",
+      "Measuring and analyzing results."
+    ],
+    "a": [
+      "Scheduling test analysis and design tasks."
+    ]
+  },
+  {
+    "q": "As part of which test process do you determine the exit criteria?",
+    "c": [
+      "Test planning",
+      "Evaluating exit criteria and reporting",
+      "Test closure",
+      "Test control"
+    ],
+    "a": [
+      "Test planning"
+    ]
+  },
+  {
+    "q": "Which of the following would NOT normally form part of a test plan?",
+    "c": [
+      "Features to be tested",
+      "Incident reports",
+      "Risks",
+      "Schedule"
+    ],
+    "a": [
+      "Incident reports"
+    ]
+  },
+  {
+    "q": "Test cases are designed during:",
+    "c": [
+      "Test recording",
+      "Test planning",
+      "Test configuration",
+      "Test specification"
+    ],
+    "a": [
+      "Test specification"
+    ]
+  },
+  {
+    "q": "A test design technique is",
+    "c": [
+      "A process for selecting test cases",
+      "A process for determining expected outputs",
+      "A way to measure the quality of software",
+      "A way to measure in a test plan what has to be done"
+    ],
+    "a": [
+      "A process for selecting test cases"
+    ]
+  },
+  {
+    "q": "A white box testing technique that measures the number of or percentage of decision directions executed by the test case designed is called",
+    "c": [
+      "Condition coverage",
+      "Decision/Condition coverage",
+      "Decision Coverage",
+      "Branch coverage"
+    ],
+    "a": [
+      "Decision/Condition coverage"
+    ]
+  },
+  {
+    "q": "What form of test coverage should be implemented for the following code?\nif (condition1 && (condition2 function1()))\nstatement1;\nelse\nstatement2;",
+    "c": [
+      "Decision coverage",
+      "Condition coverage",
+      "Statement coverage",
+      "Path Coverage"
+    ],
+    "a": [
+      "Condition coverage"
+    ]
+  },
+  {
+    "q": "If a program is tested and 100% condition coverage is achieved, which of the following coverage criteria is then guaranteed to be achieved?",
+    "c": [
+      "100% branch coverage",
+      "100% Condition coverage and 100% Statement coverage",
+      "Equivalence class and boundary value coverage",
+      "No other white box coverage criterion is guaranteed to be fulfilled 100%"
+    ],
+    "a": [
+      "100% Condition coverage and 100% Statement coverage"
+    ]
+  },
+  {
+    "q": "If a program is tested and 100% branch coverage is achieved, which of the following coverage criteria is then guaranteed to be achieved?",
+    "c": [
+      "100% Equivalence class coverage",
+      "100% Condition coverage and 100% Statement coverage",
+      "100% Statement coverage",
+      "100% Multiple condition coverage"
+    ],
+    "a": [
+      "100% Condition coverage and 100% Statement coverage"
+    ]
+  },
+  {
+    "q": "Given the following code, what are the minimum tests required for statement and branch coverage?\nRead P\nRead Q\nIf p+q > 100 then\nPrint 'Large'\nEnd if\nIf p > 50 then\nPrint 'pLarge'",
+    "c": [
+      "Statement coverage is 2, Branch Coverage is 2",
+      "Statement coverage is 3 and branch coverage is 2",
+      "Statement coverage is 1 and branch coverage is 2",
+      "Statement Coverage is 4 and Branch coverage is 2"
+    ],
+    "a": [
+      "Statement coverage is 1 and branch coverage is 2"
+    ]
+  },
+  {
+    "q": "Given the following code, which is true about the minimum number of test cases required for full statement and branch coverage?\nRead P\nRead Q\nIF P+Q > 100 THEN\nPrint 'Large'\nENDIF\nIf P > 50 THEN\nPrint 'P Large'\nENDIF",
+    "c": [
+      "1 test for statement coverage, 3 for branch coverage",
+      "1 test for statement coverage, 2 for branch coverage",
+      "1 test for statement coverage, 1 for branch coverage",
+      "2 tests for statement coverage, 3 for branch coverage",
+      "2 tests for statement coverage, 2 for branch coverage"
+    ],
+    "a": [
+      "1 test for statement coverage, 2 for branch coverage"
+    ]
+  },
+  {
+    "q": "We can achieve complete statement coverage but still miss bugs because:",
+    "c": [
+      "The failure occurs only if you reach a statement taking the TRUE branch of an IF statement, and you got to the statement with a test that passed through the FALSE branch.",
+      "The failure depends on the program's inability to handle specific data values, rather than on the program's flow of control.",
+      "We are not required to test code that customers are unlikely to execute.",
+      "All of these answers is correct"
+    ],
+    "a": [
+      "The failure depends on the program's inability to handle specific data values, rather than on the program's flow of control."
+    ]
+  },
+  {
+    "q": "Branch Coverage is:",
+    "c": [
+      "Another name for decision coverage",
+      "Another name for all-edges coverage",
+      "Another name for basic path coverage",
+      "All of these answers is correct"
+    ],
+    "a": [
+      "Another name for decision coverage"
+    ]
+  },
+  {
+    "q": "Complete statement and branch coverage means:",
+    "c": [
+      "That you have tested every statement in the program.",
+      "That you have tested every statement and every branch in the program.",
+      "That you have tested every IF statement in the program.",
+      "That you have tested every combination of values of IF statements in the program"
+    ],
+    "a": [
+      "That you have tested every statement and every branch in the program."
+    ]
+  },
+  {
+    "q": "Which of the following statements is NOT correct?",
+    "c": [
+      "A minimal test set that achieves 100% LCSAJ coverage will also achieve 100% branch coverage.",
+      "A minimal test set that achieves 100% path coverage will also achieve 100% statement coverage.",
+      "A minimal test set that achieves 100% path coverage will generally detect more faults than one that achieves 100% statement coverage.",
+      "A minimal test set that achieves 100% statement coverage will generally detect more faults than one that achieves 100% branch coverage."
+    ],
+    "a": [
+      "A minimal test set that achieves 100% statement coverage will generally detect more faults than one that achieves 100% branch coverage."
+    ]
+  },
+  {
+    "q": "Consider the following statements:\ni. 100% statement coverage guarantees 100% branch coverage.\nii. 100% branch coverage guarantees 100% statement coverage.\niii. 100% branch coverage guarantees 100% decision coverage.\niv. 100% decision coverage guarantees 100% branch coverage.\nv. 100% statement coverage guarantees 100% decision coverage.",
+    "c": [
+      "ii is True; i, iii, iv & v are False",
+      "i & v are True; ii, iii & iv are False",
+      "ii & iii are True; i, iv & v are False",
+      "ii, iii & iv are True; i & v are False"
+    ],
+    "a": [
+      "ii, iii & iv are True; i & v are False"
+    ]
+  },
+  {
+    "q": "Which type of test is created during the design and planning stages?",
+    "c": [
+      "Acceptance.",
+      "System",
+      "Function",
+      "Unit"
+    ],
+    "a": [
+      "Acceptance."
+    ]
+  },
+  {
+    "q": "During which development process should QA develop tests that will expose errors?",
+    "c": [
+      "Acceptance.",
+      "System",
+      "Function",
+      "Unit"
+    ],
+    "a": [
+      "Unit"
+    ]
+  },
+  {
+    "q": "What is a principal process for compliance confirmation?",
+    "c": [
+      "Management Review, Technical Review",
+      "Inspection/Walkthrough Test",
+      "Test-Simulation-Emulation",
+      "Audit/Objective Evaluation"
+    ],
+    "a": [
+      "Audit/Objective Evaluation"
+    ]
+  },
+  {
+    "q": "What is a principal process for verification?",
+    "c": [
+      "Management Review, Technical Review",
+      "Inspection/Walkthrough Test",
+      "Test-Simulation-Emulation",
+      "Audit/Objective Evaluation"
+    ],
+    "a": [
+      "Inspection/Walkthrough Test"
+    ]
+  },
+  {
+    "q": "What is a principal process for validation?",
+    "c": [
+      "Management Review, Technical Review",
+      "Inspection/Walkthrough Test",
+      "Test-Simulation-Emulation",
+      "Audit/Objective Evaluation"
+    ],
+    "a": [
+      "Test-Simulation-Emulation"
+    ]
+  },
+  {
+    "q": "What is a principal process for evaluation?",
+    "c": [
+      "Management Review, Technical Review",
+      "Inspection/Walkthrough Test",
+      "Test-Simulation-Emulation",
+      "Audit/Objective Evaluation"
+    ],
+    "a": [
+      "Management Review, Technical Review"
+    ]
+  },
+  {
+    "q": "Given a phase in the software development cycle System Testing, what test should be conducted to to test the ability to handle a peak volume of data, or activity, encountered over a short span of time?",
+    "c": [
+      "Stress Test",
+      "Volume Test",
+      "Facility test",
+      "Usability testing",
+      "Security testing"
+    ],
+    "a": [
+      "Stress Test"
+    ]
+  },
+  {
+    "q": "Given a phase in the software development cycle System testing, what testing method is used in usability testing?",
+    "c": [
+      "Asking the ultimate end user of an application with testing the software in a real-world environment",
+      "Automated testing",
+      "Subjecting the program to heavy volumes of data.",
+      "comparison of the objectives with the user documentation"
+    ],
+    "a": [
+      "Asking the ultimate end user of an application with testing the software in a real-world environment"
+    ]
+  },
+  {
+    "q": "What is the main reason for testing software before releasing it?",
+    "c": [
+      "To show that system will work after release",
+      "To decide when the software is of sufficient quality to release",
+      "To find as many bugs as possible before release",
+      "To give information for a risk based decision about release"
+    ],
+    "a": [
+      "To give information for a risk based decision about release"
+    ]
+  },
+  {
+    "q": "Which assertion can be made based on software testing principles?",
+    "c": [
+      "A necessary part of a test case is a definition of the expected output or result.",
+      "A programmer should avoid attempting to test his or her own program.",
+      "A programming organization should not test its own programs.",
+      "Any testing process should include a thorough inspection of the results of each test.",
+      "Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.",
+      "Examining a program to see if it does not do what it is supposed to do is only half the battle; the other half is seeing whether the program does what it is not supposed to do.",
+      "Avoid throwaway test cases unless the program is truly a  throwaway program.",
+      "Do not plan a testing effort under the tacit assumption that no errors will be found.",
+      "The probability of the existence of more errors in a section of a program is proportional to the number of errors already found in that section.",
+      "Testing is an extremely creative and intellectually challenging task."
+    ],
+    "a": [
+      "A necessary part of a test case is a definition of the expected output or result.",
+      "A programmer should avoid attempting to test his or her own program.",
+      "A programming organization should not test its own programs.",
+      "Any testing process should include a thorough inspection of the results of each test.",
+      "Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.",
+      "Examining a program to see if it does not do what it is supposed to do is only half the battle; the other half is seeing whether the program does what it is not supposed to do.",
+      "Avoid throwaway test cases unless the program is truly a  throwaway program.",
+      "Do not plan a testing effort under the tacit assumption that no errors will be found.",
+      "The probability of the existence of more errors in a section of a program is proportional to the number of errors already found in that section.",
+      "Testing is an extremely creative and intellectually challenging task."
+    ]
+  }
+]
