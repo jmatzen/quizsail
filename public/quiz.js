@@ -72,6 +72,8 @@ function start() {
 
 }
 
+const choiceLetters = "ABCDEFGHIJ";
+
 function show() {
     // if the working set is at max, grab a question from the working set
     if (state.working.length==MAX_WORKING) {
@@ -111,10 +113,11 @@ function show() {
 
         const numChoices = currentItem.item.c.length;
         const numAnswers = currentItem.item.a.length;
-
+        
         currentItem.item.c.forEach((val,index)=>{
             const div = New("DIV");
             div.attr("class", "input")
+            const choiceLetter = choiceLetters[index];
             if (numAnswers>1) {
                 const input = New("INPUT")
                     .attr("type", "checkbox")
@@ -124,7 +127,7 @@ function show() {
                 inputs[val] = input;
                 const label = New("LABEL")
                     .attr("for", `radio_${index}`);
-                label.text = val;
+                label.text = `${choiceLetter}: ${val}`;
                 labels[val] = label;
                 div.append(input);
                 div.append(label);
@@ -137,7 +140,7 @@ function show() {
                         .attr("name", `answer`);
                     const label = New("LABEL")
                         .attr("for", `radio_${index}`);
-                    label.text = val;
+                    label.text = `${choiceLetter}: ${val}`;
                     div.append(input);
                     div.append(label);
                     labels[val] = label;
@@ -152,8 +155,7 @@ function show() {
                     label.text = currentItem.item.c;
                     div.append(label);
                     div.append(inputs);
-                }
-                
+                }                
             }
             E("choice_form").append(div);
         });
@@ -362,3 +364,23 @@ function makeid(length) {
 }
 
 document.addEventListener("DOMContentLoaded", start);
+
+document.addEventListener("keyup", e => {
+    let key = null;
+    if (e.key >= "a" && e.key <= "j") {
+        key = e.key.toUpperCase();
+    }
+
+    if (key && choiceLetters.indexOf(key) >= 0) {
+        const el = document.getElementById(`radio_${choiceLetters.indexOf(key)}`);
+        if (el) {
+            el.checked = !el.checked;
+        }
+    } else if (e.key === "Enter") {
+        const el = document.getElementById("submitbtn");
+        if (el) {
+            el.click();
+        }
+    }
+
+});
